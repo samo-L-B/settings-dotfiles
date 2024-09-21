@@ -6,7 +6,7 @@
 ############                                                                                                         ############
 ############                DO NOT MODIFY THIS FILE. THIS FILE IS HASHED AND UPDATED AUTOMATICALLY.                  ############
 ############                    ANY CHANGES MADE TO THIS FILE WILL BE OVERWRITTEN BY COMMITS TO                      ############
-############                       https://github.com/samo-L-B/settings/powershell-profile.git.                      ############
+############                       https://github.com/samo-L-B/settings/powershell.git.                      ############
 ############                                                                                                         ############
 #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#
 ############                                                                                                         ############
@@ -41,7 +41,7 @@ function Update-Profile {
     }
 
     try {
-        $url = "https://raw.githubusercontent.com/samo-L-B/settings/powershell-main/main/Microsoft.PowerShell_profile.ps1"
+        $url = "https://raw.githubusercontent.com/samo-L-B/settings/powershell/main/Microsoft.PowerShell_profile.ps1"
         Write-Host "Checking URL: $url"
         
         $oldhash = Get-FileHash $PROFILE
@@ -360,7 +360,7 @@ Register-ArgumentCompleter -Native -CommandName dotnet -ScriptBlock $scriptblock
 Set-PsFzfOption -PSReadlineChordProvider 'Ctrl+g' -PSReadlineChordReverseHistory 'Ctrl+b'
 
 # Get theme from profile.ps1 or use a default theme
-$omp_config = Join-Path $PSScriptRoot "https://raw.githubusercontent.com/samo-L-B/settings/powershell-profile/main/LAX.omp.json"
+$omp_config = Join-Path $PSScriptRoot "https://raw.githubusercontent.com/samo-L-B/settings/powershell/main/LAX.omp.json"
 oh-my-posh --init --shell pwsh --config $omp_config | Invoke-Expression
 
 function Get-Theme {
