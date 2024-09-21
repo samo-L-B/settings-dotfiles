@@ -10,7 +10,7 @@
           "type": "shell",
           "style": "diamond",
           "leading_diamond": "\u256d\u2500\ue0b6",
-          "template": " {{ .Name }} ",
+          "template": " LAX's {{ .Name }} ",
           "background": "#0077c2",
           "foreground": "#ffffff"
         },
