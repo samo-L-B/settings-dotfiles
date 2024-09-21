@@ -1,6 +1,6 @@
 <h1> LAX settings - readme </h1>
 
-![BenvenidoBenny](https://i.imgur.com/27bUq.jpeg). “BenvenidoBenny” 
+![BenvenidoBenny](https://i.imgur.com/27bUq.jpeg)
 
 ----
 
