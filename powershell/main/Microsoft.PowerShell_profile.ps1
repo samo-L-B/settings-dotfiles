@@ -34,41 +34,6 @@ if (Test-Path($ChocolateyProfile)) {
     Import-Module "$ChocolateyProfile"
 }
 
-function Update-Profile {
-    if (-not $global:canConnectToGitHub) {
-        Write-Host "Skipping profile update check due to GitHub.com not responding within 1 second." -ForegroundColor Yellow
-        return
-    }
-
-    try {
-        $url = "https://raw.githubusercontent.com/samo-L-B/settings/powershell/main/Microsoft.PowerShell_profile.ps1"
-        Write-Host "Checking URL: $url"
-        
-        $oldhash = Get-FileHash $PROFILE
-        Write-Host "Old Hash: $($oldhash.Hash)"
-        
-        Invoke-RestMethod $url -OutFile "$env:temp/Microsoft.PowerShell_profile.ps1"
-        Write-Host "Downloaded new profile to $env:temp/Microsoft.PowerShell_profile.ps1"
-        
-        $newhash = Get-FileHash "$env:temp/Microsoft.PowerShell_profile.ps1"
-        Write-Host "New Hash: $($newhash.Hash)"
-        
-        if ($newhash.Hash -ne $oldhash.Hash) {
-            Copy-Item -Path "$env:temp/Microsoft.PowerShell_profile.ps1" -Destination $PROFILE -Force
-            Write-Host "Profile has been updated. Please restart your shell to reflect changes" -ForegroundColor Magenta
-        } else {
-            Write-Host "Profile is already up to date." -ForegroundColor Green
-        }
-    } catch {
-        Write-Error "Unable to check for `$profile updates: $_"
-    } finally {
-        Remove-Item "$env:temp/Microsoft.PowerShell_profile.ps1" -ErrorAction SilentlyContinue
-    }
-}
-
-Update-Profile
-
-
 
 function Update-PowerShell {
     if (-not $global:canConnectToGitHub) {
@@ -77,7 +42,7 @@ function Update-PowerShell {
     }
 
     try {
-        Write-Host "Checking for PowerShell updates..." -ForegroundColor Cyan
+        Write-Host "ayo dipshit ... checking for PowerShell updates..." -ForegroundColor Cyan
         $updateNeeded = $false
         $currentVersion = $PSVersionTable.PSVersion.ToString()
         $gitHubApiUrl = "https://api.github.com/repos/PowerShell/PowerShell/releases/latest"
@@ -360,20 +325,14 @@ Register-ArgumentCompleter -Native -CommandName dotnet -ScriptBlock $scriptblock
 Set-PsFzfOption -PSReadlineChordProvider 'Ctrl+g' -PSReadlineChordReverseHistory 'Ctrl+b'
 
 # Get theme from profile.ps1 or use a default theme
-$omp_config = Join-Path $PSScriptRoot "https://raw.githubusercontent.com/samo-L-B/settings/powershell/main/LAX.omp.json"
+$omp_config = Join-Path $PSScriptRoot "LAX.omp.json"
 oh-my-posh --init --shell pwsh --config $omp_config | Invoke-Expression
+# alternative
+# oh-my-posh init pwsh --config https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/cobalt2.omp.json | Invoke-Expression
 
-function Get-Theme {
-    if (Test-Path -Path $PROFILE.CurrentUserAllHosts -PathType leaf) {
-        $existingTheme = Select-String -Raw -Path $PROFILE.CurrentUserAllHosts -Pattern "oh-my-posh init pwsh --config"
-        if ($null -ne $existingTheme) {
-            Invoke-Expression $existingTheme
-            return
-        }
-    } else {
-        oh-my-posh init pwsh --config https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/cobalt2.omp.json | Invoke-Expression
-    }
-}
+
+# Neofetch configs
+neofetch
 
 ## LAX Command-line Web Searches
 function google {
@@ -452,7 +411,6 @@ function Show-Help {
 PowerShell Profile Help
 =======================
 
-Update-Profile - Checks for profile updates from a remote repository and updates if necessary.
 
 Update-PowerShell - Checks for the latest PowerShell release and updates if a new version is available.
 
@@ -570,3 +528,4 @@ Use 'Show-Help' to display this help message.
 "@
 }
 Write-Host "Use 'Show-Help' to display help"
+
