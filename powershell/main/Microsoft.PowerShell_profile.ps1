@@ -1,5 +1,4 @@
-### PowerShell Profile Refactor LAX
-### Version 1.00 - LAX
+### PowerShell Profile LAX version 1.00 - LAX dipshit modifications
 
 #################################################################################################################################
 ############                                                                                                         ############
