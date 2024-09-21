@@ -1,9 +1,20 @@
-<h1> LAX settings - readme </h1>
+<h1> LAX settings - README </h1>
 
 ![BenvenidoBenny](https://i.imgur.com/27bUq.jpeg)
 
 ----
+In general this file summarizes the most import settings when starting a new device/etc.
 
+1. LAX settings - PowerShell
+2. LAX settings - Firefox
+3. LAX settings - Windows
+
+----
+
+<h2> LAX settings - PowerShell  </h2>
+
+![Powershell]([https://i.imgur.com/27bUq.jpeg](https://cdn.icon-icons.com/icons2/2248/PNG/512/powershell_icon_136294.png
+)
 # Contents
 - [Contents](#contents)
 - [LAX Personal PowerShell Configuration 🖥️](#personal-powershell-configuration-️)
@@ -142,6 +153,66 @@ PowerShell setup (Windows) included installition of
     PSReadLine - Cmdlets for customizing the editing environment, used for autocompletion
     z - Directory jumper
     PSFzf - Fuzzy finder
+
+## License 📜
+This project is licensed under the [MIT License](LICENSE).
+
+----
+
+----
+
+<h2> LAX settings - Firefox  </h2>
+
+![Firefox]([https://i.imgur.com/27bUq.jpeg](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRzwexAU2kRlg1oqzxtyBLc6-B8Bjhj-Ej9Q&s
+))
+
+# Contents
+- [Contents](#contents)
+- [LAX Personal Firefox Configuration 🖥️](#personal-firefox-configuration)
+  - [TL:DR](#tldr)
+  - [Features 🌟](#features-)
+  - [Components Installed 🛠️](#components-installed-️)
+  - [Configuration 📁](#configuration-)
+  - [Usage 🚀](#usage-)
+  - [Contributing 🤝](#contributing-)
+  - [Personalization 🎨](#personalization-)
+  - [License 📜](#license-)
+
+----
+
+# Personal Firefox Configuration 🖥️
+
+Welcome to my personal Firefox profile settings! 🎉 This collection of Firefox scripts respectively Add-Ons, Designs, Themes, etc are designed to bring your personaltouch to the Mozilla Firefox.
+
+Feel free to use, fork, and customize these scripts to enhance your own command-line experience. 🔧
+
+## Features 🌟
+- **Bash-like Shell Experience**: Mimics Unix shell functionality, bringing familiarity to Windows PowerShell. 🐧
+
+## Components Installed 🛠️
+Add-Ons:
+- **A**: Enhances the user interface with stylish prompts and Git status indicators. ⚡
+- **A**: Improves function loading time for a smoother experience. 🕒
+- **A**: The scripts automatically install necessary modules and components on first execution. 🛠️
+ 
+## Configuration 📁
+- Check Add-Ons and enable respectively disable features you like or dislike.
+  
+## Usage 🚀
+- Save those Files as described in Configuration
+- Next try to adjust respectively tweak the appearance of your terminal/powershell and install all necessary packages.
+- 
+
+
+After finishing this process you can open a new powershell instance and enjoy the enhanced PowerShell experience! 🎉
+
+## Contributing 🤝
+- Feel free to fork, modify, and contribute improvements or additional features.
+- For any issues, questions, or help, please create an issue in the repository. 💬
+
+## Personalization 🎨
+- Customize the scripts according to personal preferences or specific system requirements.
+- To insert your own OhMyPosh config, just fork the repo and change the URL in the main file to your own.
 
 ## License 📜
 This project is licensed under the [MIT License](LICENSE).
