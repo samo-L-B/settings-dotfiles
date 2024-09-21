@@ -25,13 +25,11 @@ Feel free to use, fork, and customize these scripts to enhance your own command-
 - **Oh My Posh Integration**: Enhances the user interface with stylish prompts and Git status indicators. ⚡
 - **Deferred Loading**: Improves function loading time for a smoother experience. 🕒
 - **Automatic Installation**: The scripts automatically install necessary modules and components on first execution. 🛠️
-- **Automatic Updates**: This projects updates itself in the background, just make sure to merge changes if you forked my repository.
  
 ## Components Installed 🛠️
 - **Terminal-Icons Module**: Enhances terminal UI with icons. 🎨
 - **PoshFunctions**: Essential functions for PowerShell. ⚙️
-- **Hacker Nerd Font Mono**: Installs a stylish font for code readability. 🅰️
-- **Oh My Posh**: Provides customizable prompt themes. 🎨
+- **Oh My Posh**: Provides customizable prompt themes and init my personal start theme. 🎨
 - **PSReadLine**: Cmdlets for customizing the editing environment, used for autocompletion
 - **z**: Directory jumper
 - **PSFzf**: Fuzzy finder
@@ -47,14 +45,15 @@ Feel free to use, fork, and customize these scripts to enhance your own command-
 - 
 More in detail:
 - Configure Windows Terminal
+- Install Font *Hacker Nerd Font Mono* (Installs a stylish font for code readability)
 - Install PowerShell
 - Change the default shell
 - Change the terminal background color
-- Install Scoop (Comamnd-line installer)
+- Install Scoop (Comamnd-line installer) iwr -useb get.scoop.sh | iex (in commandline)
 - Install Git for Windows
 - Install Neovim
 - Make a user profile link it to a .config file folder which is in your User directory ()
-- Install Oh My Posh (Prompt theme engine)
+- Install Oh My Posh (Prompt theme engine) (Install-Module posh-git -Scope CurrentUser -Force and Install-Module oh-my-posh -Scope CurrentUser -Force in .conf\powershell\ directory)
 - Install Terminal Icons
 - Install z - Directory jumper
 - Install PSReadLine - Autocompletion
