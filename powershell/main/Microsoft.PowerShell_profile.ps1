@@ -1,20 +1,5 @@
 ### PowerShell Profile LAX version 1.00 - LAX dipshit modifications
 
-#################################################################################################################################
-############                                                                                                         ############
-############                                          !!!   WARNING:   !!!                                           ############
-############                                                                                                         ############
-############                DO NOT MODIFY THIS FILE. THIS FILE IS HASHED AND UPDATED AUTOMATICALLY.                  ############
-############                    ANY CHANGES MADE TO THIS FILE WILL BE OVERWRITTEN BY COMMITS TO                      ############
-############                       https://github.com/samo-L-B/settings/powershell.git.                      ############
-############                                                                                                         ############
-#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#
-############                                                                                                         ############
-############                      IF YOU WANT TO MAKE CHANGES, USE THE Edit-Profile FUNCTION                         ############
-############                              AND SAVE YOUR CHANGES IN THE FILE CREATED.                                 ############
-############                                                                                                         ############
-#################################################################################################################################
-
 #opt-out of telemetry before doing anything, only if PowerShell is run as admin
 if ([bool]([System.Security.Principal.WindowsIdentity]::GetCurrent()).IsSystem) {
     [System.Environment]::SetEnvironmentVariable('POWERSHELL_TELEMETRY_OPTOUT', 'true', [System.EnvironmentVariableTarget]::Machine)
@@ -28,12 +13,6 @@ $canConnectToGitHub = Test-Connection github.com -Count 1 -Quiet -TimeoutSeconds
 if (-not (Get-Module -ListAvailable -Name Terminal-Icons)) {
     Install-Module -Name Terminal-Icons -Scope CurrentUser -Force -SkipPublisherCheck
 }
-Import-Module -Name Terminal-Icons
-$ChocolateyProfile = "$env:ChocolateyInstall\helpers\chocolateyProfile.psm1"
-if (Test-Path($ChocolateyProfile)) {
-    Import-Module "$ChocolateyProfile"
-}
-
 
 function Update-PowerShell {
     if (-not $global:canConnectToGitHub) {
@@ -42,7 +21,7 @@ function Update-PowerShell {
     }
 
     try {
-        Write-Host "ayo dipshit ... great to see ur lazy a$$! one sec...checking for PowerShell updates..." -ForegroundColor Cyan
+        Write-Host "olâ beleza ... great to see ur lazy ass! one sec...checking for PowerShell updates..." -ForegroundColor Cyan
         $updateNeeded = $false
         $currentVersion = $PSVersionTable.PSVersion.ToString()
         $gitHubApiUrl = "https://api.github.com/repos/PowerShell/PowerShell/releases/latest"
@@ -57,7 +36,7 @@ function Update-PowerShell {
             winget upgrade "Microsoft.PowerShell" --accept-source-agreements --accept-package-agreements
             Write-Host "PowerShell has been updated. Please restart your shell to reflect changes" -ForegroundColor Magenta
         } else {
-            Write-Host "Your PowerShell is up to date." -ForegroundColor Green
+            Write-Host "your PowerShell is up to date - vamos" -ForegroundColor Green
         }
     } catch {
         Write-Error "Failed to update PowerShell. Error: $_"
@@ -211,7 +190,6 @@ function mkcd { param($dir) mkdir $dir -Force; Set-Location $dir }
 
 # Navigation Shortcuts
 function docs { Set-Location -Path $HOME\Documents }
-
 function dtop { Set-Location -Path $HOME\Desktop }
 
 # Quick Access to Editing the Profile
@@ -229,17 +207,10 @@ function sysinfo { Get-ComputerInfo }
 
 # Git Shortcuts
 function gs { git status }
-
 function ga { git add . }
-
 function gc { param($m) git commit -m "$m" }
-
 function gp { git push }
-
-function g { __zoxide_z github }
-
 function gcl { git clone "$args" }
-
 function gcom {
     git add .
     git commit -m "$args"
@@ -248,6 +219,20 @@ function lazyg {
     git add .
     git commit -m "$args"
     git push
+}
+function goodmorning-eva {
+    cd C:\Users\andre\project-eva\
+    git fetch upstream
+    git merge upstream/main
+    git push origin main    
+}
+
+function goodnighteva {
+    cd C:\Users\andre\project-eva\
+    git status
+    git add .
+    git commit -m "$args"
+    git push 
 }
 
 # Quick Access to System Information
@@ -263,22 +248,16 @@ function flushdns {
 function cpy { Set-Clipboard $args[0] }
 function pst { Get-Clipboard }
 
-
-
-
-
-
-
-
 # set PowerShell to UTF-8
 [console]::InputEncoding = [console]::OutputEncoding = New-Object System.Text.UTF8Encoding
-
-
 
 # import modules
 Import-Module posh-git
 Import-Module -Name z
-Import-Module PSFzf
+if (-not (Get-Module -ListAvailable -Name PSFzf)) {
+    Install-Module -Name PSFzf -Scope CurrentUser -Force -SkipPublisherCheck
+}
+Import-Module -Name PSFzf
 
 
 ## Ensure PSReadLine is loaded
@@ -327,6 +306,9 @@ Set-PsFzfOption -PSReadlineChordProvider 'Ctrl+g' -PSReadlineChordReverseHistory
 # Get theme from profile.ps1 or use a default theme
 $omp_config = Join-Path $PSScriptRoot "LAX.omp.json"
 oh-my-posh --init --shell pwsh --config $omp_config | Invoke-Expression
+#oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\.config\powershell\LAX.omp.json" | Invoke-Expression
+
+#oh-my-posh --init --shell pwsh --config "$env:POSH_THEMES_PATH\.config\powershell\LAX.omp.json" | Invoke-Expression
 # alternative
 # oh-my-posh init pwsh --config https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/cobalt2.omp.json | Invoke-Expression
 
@@ -527,5 +509,4 @@ twitter - Opens X (Twitter) login page.
 Use 'Show-Help' to display this help message.
 "@
 }
-Write-Host "Use 'Show-Help' to display help"
-
+Write-Host "enjoy ur day - use 'Show-Help' to display help for personal prompts or search for PowerShell commands (cheetsheets)"
