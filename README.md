@@ -42,8 +42,26 @@ Feel free to use, fork, and customize these scripts to enhance your own command-
 - Additionally, you should store the JSON file as well as the Microsoft.Powershell_profile.ps1 (located at: `~/powershell/ Microsoft.Powershell_profile.ps1) in your respective Powershell folder within the Documents folder (subfolder Powershell).
 
 ## Usage 🚀
-- Save those Files as described in Configuration and open a new powershell instance.
-- Enjoy the enhanced PowerShell experience! 🎉
+- Save those Files as described in Configuration
+- Next try to adjust respectively tweak the appearance of your terminal/powershell and install all necessary packages.
+- 
+More in detail:
+- Configure Windows Terminal
+- Install PowerShell
+- Change the default shell
+- Change the terminal background color
+- Install Scoop (Comamnd-line installer)
+- Install Git for Windows
+- Install Neovim
+- Make a user profile link it to a .config file folder which is in your User directory ()
+- Install Oh My Posh (Prompt theme engine)
+- Install Terminal Icons
+- Install z - Directory jumper
+- Install PSReadLine - Autocompletion
+- Install Fzf - Fuzzy finder
+
+After finishing this process you can open a new powershell instance and enjoy the enhanced PowerShell experience! 🎉
+
 
 ## Web Search Commands ⭐
 The PowerShell profile includes aliases and functions that mimic everyday workflow of LAX: (Start Process or)
@@ -109,6 +127,16 @@ The PowerShell profile includes aliases and functions that mimic common Linux co
 - Customize the scripts according to personal preferences or specific system requirements.
 - To use a forked version, update the `githubUser` variable to point to your own forked repository.
 - To insert your own OhMyPosh config, just fork the repo and change the URL in the main file to your own.
+
+PowerShell setup (Windows) included installition of
+
+    Scoop - A command-line installer
+    Git for Windows
+    Oh My Posh - Prompt theme engine
+    Terminal Icons - Folder and file icons
+    PSReadLine - Cmdlets for customizing the editing environment, used for autocompletion
+    z - Directory jumper
+    PSFzf - Fuzzy finder
 
 ## License 📜
 This project is licensed under the [MIT License](LICENSE).
