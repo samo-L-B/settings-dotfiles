@@ -9,10 +9,10 @@ if ([bool]([System.Security.Principal.WindowsIdentity]::GetCurrent()).IsSystem) 
 $canConnectToGitHub = Test-Connection github.com -Count 1 -Quiet -TimeoutSeconds 1
 
 # Import Modules and External Profiles
-# Ensure Terminal-Icons module is installed before importing
 if (-not (Get-Module -ListAvailable -Name Terminal-Icons)) {
     Install-Module -Name Terminal-Icons -Scope CurrentUser -Force -SkipPublisherCheck
 }
+Import-Module Terminal-Icons
 
 function Update-PowerShell {
     if (-not $global:canConnectToGitHub) {
@@ -387,6 +387,14 @@ function reddit {
 function twitter {
     Start-Process "https://www.x.com/"}
 
+function twitter {
+    param([string]$query)
+    Start-Process "https://www.x.com/search?q=$query"}
+
+function github {
+    Start-Process "https://www.github.com/"}
+
+
 # Help Function
 function Show-Help {
 @"
@@ -504,7 +512,9 @@ calendar - Opens Google Calendar.
 
 reddit - Opens Reddit homepage.
 
-twitter - Opens X (Twitter) login page.
+twitter - Opens X (Twitter) login page (and searches for query if existing)
+
+github - Opens GitHub.
 
 Use 'Show-Help' to display this help message.
 "@
