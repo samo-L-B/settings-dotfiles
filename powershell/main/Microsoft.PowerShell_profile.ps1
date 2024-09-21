@@ -42,7 +42,7 @@ function Update-PowerShell {
     }
 
     try {
-        Write-Host "ayo dipshit ... checking for PowerShell updates..." -ForegroundColor Cyan
+        Write-Host "ayo dipshit ... great to see ur lazy a$$! one sec...checking for PowerShell updates..." -ForegroundColor Cyan
         $updateNeeded = $false
         $currentVersion = $PSVersionTable.PSVersion.ToString()
         $gitHubApiUrl = "https://api.github.com/repos/PowerShell/PowerShell/releases/latest"
@@ -53,7 +53,7 @@ function Update-PowerShell {
         }
 
         if ($updateNeeded) {
-            Write-Host "Updating PowerShell..." -ForegroundColor Yellow
+            Write-Host "alrighty, let's start updating PowerShell..." -ForegroundColor Yellow
             winget upgrade "Microsoft.PowerShell" --accept-source-agreements --accept-package-agreements
             Write-Host "PowerShell has been updated. Please restart your shell to reflect changes" -ForegroundColor Magenta
         } else {
