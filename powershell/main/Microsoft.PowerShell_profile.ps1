@@ -341,11 +341,77 @@ function yf {
     param([string]$query)
     Start-Process "https://finance.yahoo.com/quote/$query"}
 
+function spy {
+    Start-Process "https://finance.yahoo.com/quote/SPY"}
+
+function dax {
+    Start-Process "https://finance.yahoo.com/quote/^GDAX"}
+
+function eurostox {
+    Start-Process "https://finance.yahoo.com/quote/^STOXX50E"}
+
+function btc {
+    Start-Process "https://finance.yahoo.com/quote/BTC-EUR"}
+
+function dji {
+    Start-Process "https://finance.yahoo.com/quote/^DJI"}
+
+function oil {
+    Start-Process "https://finance.yahoo.com/quote/CL%3DF"}
+
+function nikkei {
+    Start-Process "https://finance.yahoo.com/quote/^N225"}
+
+function nasdaq {
+    Start-Process "https://finance.yahoo.com/quote/^IXIC"}
+
+function cac {
+    Start-Process "https://finance.yahoo.com/quote/^FCHI"}
+
+function sdax {
+    Start-Process "https://finance.yahoo.com/quote/^SDAXI"}
+
+function tecdax {
+    Start-Process "https://finance.yahoo.com/quote/^TECDAX"}
+
+function mdax {
+    Start-Process "https://finance.yahoo.com/quote/^MDAXI"}
+
+function eurusd {
+    Start-Process "https://finance.yahoo.com/quote/EURUSD%3DX"}
+
+function euryen {
+    Start-Process "https://finance.yahoo.com/quote/EURJPY%3DX"}
+
+function eth {
+    Start-Process "https://finance.yahoo.com/quote/ETH-USD"}
+
+function gold {
+    Start-Process "https://finance.yahoo.com/quote/GC%3DF"}
+
+function yf {
+    param([string]$query)
+    Start-Process "https://finance.yahoo.com/quote/$query"}
+
+
+function yf {
+    param([string]$query)
+    Start-Process "https://finance.yahoo.com/quote/$query"}
+
+
+function yf {
+    param([string]$query)
+    Start-Process "https://finance.yahoo.com/quote/$query"}
+
 
 function amazon {
     param([string]$query)
     Start-Process "https://www.amazon.com/s?k=$query"}
 
+function ebay {
+    param([string]$query)
+    Start-Process "https://www.ebay.com/search?q=$query"}
+    
 function bing {
     param([string]$query)
     Start-Process "https://www.bing.com/search?q=$query"}
@@ -374,6 +440,18 @@ function whalewisdom {
 function seekingalpha {
     param([string]$query)
     Start-Process "https://seekingalpha.com/search?query=$query"}
+
+function earningswhispers {
+    param([string]$query)
+    Start-Process "https://www.earningswhispers.com/stocks/$query"}
+
+function optionchain {
+    param([string]$query)
+    Start-Process "https://unusualwhales.com/stock/$query/option-chains?"}
+
+function maxpain {
+    param([string]$query)
+    Start-Process "https://maximum-pain.com/options/	$query"}
 
 function gmail {
     Start-Process "https://mail.google.com/mail/u/0/"}
