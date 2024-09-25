@@ -76,6 +76,7 @@ $EDITOR = if (Test-CommandExists nvim) { 'nvim' }
           else { 'notepad' }
 Set-Alias -Name vim -Value $EDITOR
 
+
 function Edit-Profile {
     vim $PROFILE.CurrentUserAllHosts
 }
@@ -469,6 +470,50 @@ function twitter {
 function github {
     Start-Process "https://www.github.com/"}
 
+function extract_text($url) {
+    try {
+        # Download the HTML content from the URL
+        $response = Invoke-WebRequest -Uri $url -UseBasicParsing -ErrorVariable webRequestError
+        Write-Verbose "Web request status code: $($response.StatusCode)"
+
+        if ($webRequestError) {
+            Write-Warning "Web request failed: $($webRequestError.Exception.Message)"
+            return $null
+        }
+
+        if ($response.StatusCode -eq 200) {
+            # Extract the raw HTML content
+            $html = $response.Content
+
+            # Remove HTML tags to get plain text
+            $text = $html -replace '<[^>]*>', ''
+
+            # Remove extra whitespace and line breaks
+            $text = $text.Trim().Replace('`r`n', "`n").Replace('`t', ' ')
+
+            # Return the extracted text
+            return $text
+        } else {
+            Write-Warning "Web request failed with status code $($response.StatusCode)"
+            return $null
+        }
+    } catch {
+        Write-Warning "Error extracting text from URL: $_"
+        return $null
+    }
+}
+
+function extract_output {
+    $historyCmd = Get-History -Count 1
+
+    if ($historyCmd) {
+        Invoke-Expression -Command $historyCmd.CommandLine | Set-Clipboard
+        Write-Host "output of last command succesfully copied to clipboard dipshit."
+    } else {
+        Write-Host "no recent commands found dippie."
+    }
+}
+
 
 # Help Function
 function Show-Help {
@@ -591,7 +636,13 @@ twitter - Opens X (Twitter) login page (and searches for query if existing)
 
 github - Opens GitHub.
 
+extract_text - extracts all text from html
+
+extract_output - extracts respectively copies last output to clipboard so you can use it in other programs
+
+
 Use 'Show-Help' to display this help message.
 "@
 }
 Write-Host "enjoy ur day - use 'Show-Help' to display help for personal prompts or search for PowerShell commands (cheetsheets)"
+

@@ -1,0 +1,223 @@
+1. Software: 
+
+run the following code (from Administrator Terminal (Powershell)) to install a bunch of software at a time:
+
+irm christitus.com/win | iex 
+
+Software:
+	• 7zip
+	• Adobe Acrobat
+	• Anaconda 3
+	• Anki
+	• aText
+	• Audacity
+	• BitWarden
+	• Calibre
+	• Cursor
+	• DeepL
+	• Discord
+	• Eartrumpet
+	• Firefox
+	• GIMP
+	• Git
+	• Grammarly
+	• Ink Handwriting
+	• Logitech Options
+	• Microsoft 365
+	• Microsoft OneDrive
+	• Microsoft Teams
+	• Microsoft Visual Studio Code
+	• Neofetch win
+	• Netflix
+	• Notepad ++ 
+	• Notion???
+	• OBS Studio
+	• Oh My Posh version
+	• Opera
+	• Powerautomate
+	• Powershell 7
+	• Powertoys
+	• Prime
+	• Proton VPN
+	• Prusa Slicer
+	• Putty
+	• Python
+	• Python launcher
+	• Quicklook
+	• Raspberry pi imager
+	• Remote desktoo co nnection
+	• Reoundedtb
+	• Rufus
+	• Soulseek (P)
+	• Spacedesk
+	• Speech pack english /portugues/ spanish /german
+	• Spotify
+	• Start experiences app
+	• Sublime text
+	• Syncbackfree
+	• Tradingview
+	• Translucent tb
+	• Vim
+	• Vlc
+	• Windirstat
+	• Winrar
+	• Zoom
+	• zoxide
+	
+2. Browser-Apps (no Applications yet for WIN):
+
+Download them as and save them as Apps in Edge (or find an alternative way to use them)
+	• OpenAi
+	• ClaudeAI
+
+3. Mozilla Firefox Browser-Extensions:
+	• AdBlock
+	• Add custom search engine
+	• Add-ons Search Detection
+	• Auto Tab Discard
+	• Auto Text Expander
+	• Bing
+	• Bitwarden - Kostenloser Passwortmanager
+	• CanvasBlocker
+	• ClearURLs
+	• ColorZilla
+	• Consent-O-Matic
+	• Context Search
+	• Cookie AutoDelete
+	• Copy PlainText
+	• CORS Everywhere
+	• Decentraleyes
+	• Disconnect
+	• DuckDuckGo
+	• eBay
+	• Enhancer for YouTube™
+	• Firefox Multi-Account Containers
+	• Geschlossenen Tab wiederherstellen
+	• GIPHY for Firefox
+	• Google
+	• I don't care about cookies
+	• Image to Text
+	• LEO Eng-Deu
+	• LocalCDN
+	• Multi engine search
+	• OneTab
+	• Page Translator Revised
+	• Privacy-Oriented Origin Policy
+	• Read Aloud: A Text to Speech Voice Reader
+	• Search by Image
+	• SingleFile
+	• Skip Redirect
+	• SponsorBlock für YouTube – Überspringe gesponserte Videosegmente
+	• Swift Selection Search
+	• Tabliss
+	• Tampermonkey
+	• Tranquility Reader
+	• Überall scrollen
+	• uBlock Origin
+	• Unhook - Remove YouTube Recommended & Shorts
+	• Urban VPN proxy
+	• Wikipedia (de)
+	• Wikiwand - knowledge, with context
+	• YouTube High Definition
+	• Youtube Playback Speed Control
+
+4. Mozilla Firefox custom searches in browser:
+	• @google
+	• @ebay
+	• @deutsch
+	• wiki
+	• wikide
+	• yt
+	• oi
+	• yf
+	• stockartsold
+	• gold
+	• dja
+	• dax
+	• nas(daq)
+	• usd 
+	• oil
+	• @amazon
+	• @reddit
+	• @twitter
+	• @wolfram
+	• gpt 
+	• alpha
+	• moody
+	• gemini
+	• phind
+	• stockcharts2
+	• stockcharts
+	• earningsw
+
+5. Visual Studio Code 
+
+Extensions: 
+
+	• gitlens
+	• typescript
+	• code runner
+	• path intelligence
+	• github authetication
+	• prettier
+	• code spell checker
+	• git
+	• todo tree
+	• npm suppoert?
+	• extensopn authoring
+	• better comments
+	• json langauage features
+	• emmet
+	• gitbase
+	• github
+	• todo
+	• merge conflct
+	• peacock
+	• configartion digtiing
+	• error lens
+	• bookmarks
+	• indent-rainbow
+	• multiple cursor case perserve
+	• node debug
+	• tabnine
+	• codium
+
+Sublime:
+packages:
+	• A File Icon
+	• AdvancedNewFile
+	• Compare Side-By-Side
+	• LSP
+	• LSP-copilot
+	• LSP-json
+	• LSP-pyright
+	• Materialize
+	• Origami
+	• Package Control
+	• PackageDev
+	• PackagesUI
+	• RemoteSubl
+	• Review Myself
+	• SideBarTools
+	• SublimeLinter
+	• Tabnine
+	• Terminus
+	• TodoReview
+	• Transparency
+
+
+ 	• preferences.sublime-settings
+{
+	"ignored_packages":
+	[
+		"LSP-copilot",
+		"LSP-pyright",
+		"RemoteSubl",
+		"Terminus",
+		"Vintage",
+	],
+	"color_scheme": "Packages/Materialize/schemes/Material Dracula.tmTheme",
+	"font_size": 13,
+	"index_files": false,
+	"auto_complete": true,
+}
