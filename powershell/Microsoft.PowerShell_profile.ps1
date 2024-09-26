@@ -319,6 +319,14 @@ function google {
     param([string]$query)
     Start-Process "https://www.google.com/search?q=$query"}
 
+function gif {
+    param([string]$query)
+    Start-Process "https://giphy.com/search/$query"}
+
+function gif_t {
+    param([string]$query)
+    Start-Process "https://tenor.com/search/$query-gifs"}
+
 function wolframalpha {
     param([string]$query)
     Start-Process "https://www.wolframalpha.com/input?i=$query"}
