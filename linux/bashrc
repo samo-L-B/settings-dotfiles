@@ -1,0 +1,117 @@
+function google() {
+    xdg-open 
+https://www.google.com/search?q=$* 2>/dev/null
+}
+
+function gif() {
+    xdg-open https://giphy.com/search/$* 2>/dev/null
+}
+
+function gif_t() {
+    xdg-open https://tenor.com/search/$*-gifs 2>/dev/null
+}
+
+function wolframalpha() {
+    xdg-open https://www.wolframalpha.com/input?i=$* 2>/dev/null
+}
+
+function wiki() {
+    xdg-open https://en.wikipedia.org/wiki/Special:Search?search=$* 2>/dev/null
+}
+
+function wiki_de() {
+    xdg-open https://de.wikipedia.org/wiki/Special:Search?search=$* 2>/dev/null
+}
+
+function yt() {
+    xdg-open https://www.youtube.com/results?search_query=$* 2>/dev/null
+}
+
+# Financial markets
+function hood() {
+    xdg-open https://robinhood.com/us/en/stocks/$* 2>/dev/null
+}
+
+function yf() {
+    xdg-open https://finance.yahoo.com/quote/$* 2>/dev/null
+}
+
+# Market indices shortcuts
+alias spy='xdg-open https://finance.yahoo.com/quote/SPY 2>/dev/null'
+alias dax='xdg-open https://finance.yahoo.com/quote/^GDAX 2>/dev/null'
+alias eurostox='xdg-open https://finance.yahoo.com/quote/^STOXX50E 2>/dev/null'
+alias btc='xdg-open https://finance.yahoo.com/quote/BTC-EUR 2>/dev/null'
+alias dji='xdg-open https://finance.yahoo.com/quote/^DJI 2>/dev/null'
+alias oil='xdg-open https://finance.yahoo.com/quote/CL%3DF 2>/dev/null'
+alias nikkei='xdg-open https://finance.yahoo.com/quote/^N225 2>/dev/null'
+alias nasdaq='xdg-open https://finance.yahoo.com/quote/^IXIC 2>/dev/null'
+alias cac='xdg-open https://finance.yahoo.com/quote/^FCHI 2>/dev/null'
+alias sdax='xdg-open https://finance.yahoo.com/quote/^SDAXI 2>/dev/null'
+alias tecdax='xdg-open https://finance.yahoo.com/quote/^TECDAX 2>/dev/null'
+alias mdax='xdg-open https://finance.yahoo.com/quote/^MDAXI 2>/dev/null'
+alias eurusd='xdg-open https://finance.yahoo.com/quote/EURUSD%3DX 2>/dev/null'
+alias euryen='xdg-open https://finance.yahoo.com/quote/EURJPY%3DX 2>/dev/null'
+alias eth='xdg-open https://finance.yahoo.com/quote/ETH-USD 2>/dev/null'
+alias gold='xdg-open https://finance.yahoo.com/quote/GC%3DF 2>/dev/null'
+
+# E-commerce
+function amazon() {
+    xdg-open https://www.amazon.com/s?k=$* 2>/dev/null
+}
+
+function ebay() {
+    xdg-open https://www.ebay.com/search?q=$* 2>/dev/null
+}
+
+function bing() {
+    xdg-open https://www.bing.com/search?q=$* 2>/dev/null
+}
+
+# Financial research
+function gemini() {
+    xdg-open https://www.gemini.com/search?q=$* 2>/dev/null
+}
+
+function openinsider() {
+    xdg-open https://www.openinsider.com/search?q=$* 2>/dev/null
+}
+
+function stockcharts() {
+    xdg-open https://stockcharts.com/search/?q=$* 2>/dev/null
+}
+
+function sec() {
+    xdg-open https://www.sec.gov/edgar/searchedgar/companysearch.html?query=$* 2>/dev/null
+}
+
+function whalewisdom() {
+    xdg-open https://whalewisdom.com/stock/$* 2>/dev/null
+}
+
+function seekingalpha() {
+    xdg-open https://seekingalpha.com/search?query=$* 2>/dev/null
+}
+
+function earningswhispers() {
+    xdg-open https://www.earningswhispers.com/stocks/$* 2>/dev/null
+}
+
+function optionchain() {
+    xdg-open https://unusualwhales.com/stock/$*/option-chains? 2>/dev/null
+}
+
+function maxpain() {
+    xdg-open https://maximum-pain.com/options/$* 2>/dev/null
+}
+
+# Quick access websites
+alias gmail='xdg-open https://mail.google.com/mail/u/0/ 2>/dev/null'
+alias calendar='xdg-open https://calendar.google.com/calendar/u/0/r 2>/dev/null'
+alias reddit='xdg-open https://www.reddit.com/ 2>/dev/null'
+alias twitter='xdg-open https://www.x.com/ 2>/dev/null'
+alias github='xdg-open https://www.github.com/ 2>/dev/null'
+
+# Twitter search function
+function twitter_search() {
+    xdg-open https://www.x.com/search?q=$* 2>/dev/null
+}
