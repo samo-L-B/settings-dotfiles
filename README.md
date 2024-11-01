@@ -2,20 +2,24 @@
 
 ![BenvenidoBenny](https://i.imgur.com/27bUq.jpeg)
 
-----
+---
+
 In general this file summarizes the most import settings when starting a new device/etc.
 
 1. LAX settings - PowerShell
 2. LAX settings - Firefox
 3. LAX settings - Windows
+4. LAX settings - Linux
+5. LAX settings - nvim/vim/lazyvim
 
-----
+---
 
 <h2> LAX settings - PowerShell  </h2>
 
-![Powershell]([https://i.imgur.com/27bUq.jpeg](https://cdn.icon-icons.com/icons2/2248/PNG/512/powershell_icon_136294.png
-)
+![Powershell]([https://i.imgur.com/27bUq.jpeg](https://cdn.icon-icons.com/icons2/2248/PNG/512/powershell_icon_136294.png)
+
 # Contents
+
 - [Contents](#contents)
 - [LAX Personal PowerShell Configuration 🖥️](#personal-powershell-configuration-️)
   - [TL:DR](#tldr)
@@ -29,7 +33,7 @@ In general this file summarizes the most import settings when starting a new dev
   - [Personalization 🎨](#personalization-)
   - [License 📜](#license-)
 
-----
+---
 
 # Personal PowerShell Configuration 🖥️
 
@@ -38,12 +42,14 @@ Welcome to my personal PowerShell profile repository! 🎉 This collection of Po
 Feel free to use, fork, and customize these scripts to enhance your own command-line experience. 🔧
 
 ## Features 🌟
+
 - **Bash-like Shell Experience**: Mimics Unix shell functionality, bringing familiarity to Windows PowerShell. 🐧
 - **Oh My Posh Integration**: Enhances the user interface with stylish prompts and Git status indicators. ⚡
 - **Deferred Loading**: Improves function loading time for a smoother experience. 🕒
 - **Automatic Installation**: The scripts automatically install necessary modules and components on first execution. 🛠️
- 
+
 ## Components Installed 🛠️
+
 - **Terminal-Icons Module**: Enhances terminal UI with icons. 🎨
 - **PoshFunctions**: Essential functions for PowerShell. ⚙️
 - **Oh My Posh**: Provides customizable prompt themes and init my personal start theme. 🎨
@@ -52,17 +58,18 @@ Feel free to use, fork, and customize these scripts to enhance your own command-
 - **PSFzf**: Fuzzy finder
 
 ## Configuration 📁
+
 - The configuration file is located at: `~/powershell/usr_profile.ps1 and the oh-my-posh JSON file is located at `~/powershell/andresen.omp.json.
 - Both files should be stored in your .config folder.
 - Additionally, you should store the JSON file as well as the Microsoft.Powershell_profile.ps1 (located at: `~/powershell/ Microsoft.Powershell_profile.ps1) in your respective Powershell folder within the Documents folder (subfolder Powershell).
 
 ## Usage 🚀
+
 - Save those Files as described in Configuration
 - Next try to adjust respectively tweak the appearance of your terminal/powershell and install all necessary packages.
-- 
-More in detail:
+- More in detail:
 - Configure Windows Terminal
-- Install Font *Hacker Nerd Font Mono* (Installs a stylish font for code readability)
+- Install Font _Hacker Nerd Font Mono_ (Installs a stylish font for code readability)
 - Install PowerShell
 - Change the default shell
 - Change the terminal background color
@@ -78,9 +85,10 @@ More in detail:
 
 After finishing this process you can open a new powershell instance and enjoy the enhanced PowerShell experience! 🎉
 
-
 ## Web Search Commands ⭐
+
 The PowerShell profile includes aliases and functions that mimic everyday workflow of LAX: (Start Process or)
+
 - `google`: googles "search term".
 - `wolframalpha`: direct access wolframalpha and search "equation/searchterm"
 - `wiki`: wiki "search term".
@@ -91,16 +99,16 @@ The PowerShell profile includes aliases and functions that mimic everyday workfl
 - `gemini`: starts google gemini
 - `yf`: YahooFinance "search term". (search for Stock Tickers)
 - `openinsider`: openinsider "search term". (search for Stock Tickers)
-- `stockcharts`: stockcharts  "search term". (search for Stock Tickers)
+- `stockcharts`: stockcharts "search term". (search for Stock Tickers)
 - `sec`: serches for SEC filings respectively insider transaactions "search term". (search for Stock Tickers)
 - `seekingalpha`: seekingalpha "search term". (search for Stock Tickers)
-  
 - `gmail`: open googlemail
 - `calendar`: open calendar
 - `reddit`: open reddit
 - `twitter`: open twitter
 
 ## Supported Linux Commands 🐧
+
 The PowerShell profile includes aliases and functions that mimic common Linux commands, providing a familiar environment for users accustomed to Linux shell environments. Here are some of the supported Linux commands:
 
 - `cd`: Changes the current directory. PowerShell equivalent: `Set-Location`.
@@ -113,13 +121,13 @@ The PowerShell profile includes aliases and functions that mimic common Linux co
 - `grep`: Searches for patterns in files.
 - `pkill`: Terminates processes by name.
 - `head`: Displays the beginning of a file.
-- `tail`: Displays the end of a file. 
+- `tail`: Displays the end of a file.
 - `unzip`: Extracts files from a zip archive. PowerShell equivalent: function `expand-archive`.
 - `du`: Displays disk usage statistics.
 - `ll`: Lists files in a directory.
 - `df`: Displays disk space usage. PowerShell equivalent: `Get-Volume`.
-- `reboot`: Reboots the system. 
-- `poweroff`: Shuts down the system. 
+- `reboot`: Reboots the system.
+- `poweroff`: Shuts down the system.
 - `cd...`: Changes the directory to the parent's parent directory.
 - `cd....`: Changes the directory to the parent's parent's parent directory.
 - `md5`: Computes the MD5 hash of a file.
@@ -135,11 +143,13 @@ The PowerShell profile includes aliases and functions that mimic common Linux co
 - `ptw`: Send text/files pipe output to a wastebin server, important: contact me via issue for this.
 
 ## Contributing 🤝
+
 - Feel free to fork, modify, and contribute improvements or additional features.
 - For any issues, questions, or help, please create an issue in the repository. 💬
 - These videos helped me to deepen my skills regarding the setting up of my config files (https://www.youtube.com/watch?v=5-aK2_WwrmM AND https://christitus.com/pretty-powershell/)
 
 ## Personalization 🎨
+
 - Customize the scripts according to personal preferences or specific system requirements.
 - To use a forked version, update the `githubUser` variable to point to your own forked repository.
 - To insert your own OhMyPosh config, just fork the repo and change the URL in the main file to your own.
@@ -154,19 +164,16 @@ PowerShell setup (Windows) included installition of
     z - Directory jumper
     PSFzf - Fuzzy finder
 
-## License 📜
-This project is licensed under the [MIT License](LICENSE).
+---
 
-----
-
-----
+---
 
 <h2> LAX settings - Firefox  </h2>
 
-![Firefox]([https://i.imgur.com/27bUq.jpeg](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRzwexAU2kRlg1oqzxtyBLc6-B8Bjhj-Ej9Q&s
-))
+![Firefox](<[https://i.imgur.com/27bUq.jpeg](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRzwexAU2kRlg1oqzxtyBLc6-B8Bjhj-Ej9Q&s)>)
 
 # Contents
+
 - [Contents](#contents)
 - [LAX Personal Firefox Configuration 🖥️](#personal-firefox-configuration)
   - [TL:DR](#tldr)
@@ -178,7 +185,7 @@ This project is licensed under the [MIT License](LICENSE).
   - [Personalization 🎨](#personalization-)
   - [License 📜](#license-)
 
-----
+---
 
 # Personal Firefox Configuration 🖥️
 
@@ -187,37 +194,108 @@ Welcome to my personal Firefox profile settings! 🎉 This collection of Firefox
 Feel free to use, fork, and customize these scripts to enhance your own command-line experience. 🔧
 
 ## Features 🌟
+
 - **Bash-like Shell Experience**: Mimics Unix shell functionality, bringing familiarity to Windows PowerShell. 🐧
 
 ## Components Installed 🛠️
+
 Add-Ons:
+
 - **A**: Enhances the user interface with stylish prompts and Git status indicators. ⚡
 - **A**: Improves function loading time for a smoother experience. 🕒
 - **A**: The scripts automatically install necessary modules and components on first execution. 🛠️
- 
+
 ## Configuration 📁
+
 - Check Add-Ons and enable respectively disable features you like or dislike.
-  
+
 ## Usage 🚀
+
 - Save those Files as described in Configuration
 - Next try to adjust respectively tweak the appearance of your terminal/powershell and install all necessary packages.
-- 
-
+-
 
 After finishing this process you can open a new powershell instance and enjoy the enhanced PowerShell experience! 🎉
 
 ## Contributing 🤝
+
 - Feel free to fork, modify, and contribute improvements or additional features.
 - For any issues, questions, or help, please create an issue in the repository. 💬
 
 ## Personalization 🎨
+
+- Customize the scripts according to personal preferences or specific system requirements.
+- To insert your own OhMyPosh config, just fork the repo and change the URL in the main file to your own.
+
+---
+
+---
+
+---
+
+<h2> LAX settings - nvim  </h2>
+
+![NVIM](<[https://i.imgur.com/27bUq.jpeg](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRzwexAU2kRlg1oqzxtyBLc6-B8Bjhj-Ej9Q&s)>)
+
+# Contents
+
+- [Contents](#contents)
+- [LAX Personal Nvim Configuration 🖥️](#personal-firefox-configuration)
+  - [TL:DR](#tldr)
+  - [Features 🌟](#features-)
+  - [Components Installed 🛠️](#components-installed-️)
+  - [Configuration 📁](#configuration-)
+  - [Usage 🚀](#usage-)
+  - [Contributing 🤝](#contributing-)
+  - [Personalization 🎨](#personalization-)
+  - [License 📜](#license-)
+
+---
+
+# Personal NVIM Configuration 🖥️
+
+Welcome to my personal NVIM profile settings! 🎉 This collection of NVIM scripts respectively Plugins, Themes, etc are designed to bring your personaltouch to the NVIM text editor. There is still a lot of room for improvement.
+
+Feel free to use, fork, and customize these scripts to enhance your own command-line experience. 🔧
+
+## Features 🌟
+
+- **Bash-like Shell Experience**: Mimics Unix shell functionality, bringing familiarity to Windows PowerShell. 🐧
+
+## Components Installed 🛠️
+
+Add-Ons:
+
+- **A**: Enhances the user interface with stylish prompts and Git status indicators. ⚡
+- **A**: Improves function loading time for a smoother experience. 🕒
+- **A**: The scripts automatically install necessary modules and components on first execution. 🛠️
+
+## Configuration 📁
+
+- Check Add-Ons and enable respectively disable features you like or dislike.
+
+## Usage 🚀
+
+- Save those Files as described in Configuration
+- Next try to adjust respectively tweak the appearance of your terminal/powershell and install all necessary packages.
+-
+
+After finishing this process you can open a new powershell instance and enjoy the enhanced PowerShell experience! 🎉
+
+## Contributing 🤝
+
+- Feel free to fork, modify, and contribute improvements or additional features.
+- For any issues, questions, or help, please create an issue in the repository. 💬
+
+## Personalization 🎨
+
 - Customize the scripts according to personal preferences or specific system requirements.
 - To insert your own OhMyPosh config, just fork the repo and change the URL in the main file to your own.
 
 ## License 📜
-This project is licensed under the [MIT License](LICENSE).
 
+This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-*Developed by samo-L-B with ❤️*
+_Developed by samo-L-B with ❤️_

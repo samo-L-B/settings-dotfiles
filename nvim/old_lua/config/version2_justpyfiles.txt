@@ -1,0 +1,169 @@
+-- LazyNvim setup
+local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
+if not (vim.uv or vim.loop).fs_stat(lazypath) then
+  local lazyrepo = "https://github.com/folke/lazy.nvim.git"
+  local out = vim.fn.system({ "git", "clone", "--filter=blob:none", "--branch=stable", lazyrepo, lazypath })
+  if vim.v.shell_error ~= 0 then
+    vim.api.nvim_echo({
+      { "Failed to clone lazy.nvim:\n", "ErrorMsg" },
+      { out, "WarningMsg" },
+      { "\nPress any key to exit..." },
+    }, true, {})
+    vim.fn.getchar()
+    os.exit(1)
+  end
+end
+vim.opt.rtp:prepend(lazypath)
+
+require("lazy").setup({
+  spec = {
+    -- LazyVim configuration
+    {
+      "LazyVim/LazyVim",
+      import = "lazyvim.plugins",
+      opts = {
+        colorscheme = "solarized-osaka",
+      },
+    },
+
+    -- nvim-tree configuration
+    {
+      "nvim-tree/nvim-tree.lua",
+      dependencies = {
+        "nvim-tree/nvim-web-devicons",
+      },
+      config = function()
+        require("nvim-tree").setup({
+          sort_by = "case_sensitive",
+          view = {
+            width = 30,
+            side = "left",
+            mappings = {
+              list = {
+                { key = "u", action = "dir_up" },
+              },
+            },
+          },
+          renderer = {
+            group_empty = true,
+          },
+          filters = {
+            dotfiles = false,
+          },
+        })
+      end,
+    },
+
+    -- Treesitter configuration for Python support
+    {
+      "nvim-treesitter/nvim-treesitter",
+      opts = {
+        ensure_installed = { "python" },
+        sync_install = false,
+        auto_install = true,
+        highlight = {
+          enable = true,
+          use_languagetree = true,
+          additional_vim_regex_highlighting = false,
+        },
+        indent = {
+          enable = true,
+          disable = { "javascript" }, -- Disable for other languages as needed
+        },
+      },
+    },
+
+    -- nvim-lint configuration
+    {
+      "nvim-lint",
+      opts = {
+        linters = {
+          python = {
+            enabled = true,
+            command = "flake8",
+          },
+        },
+      },
+    },
+
+    -- Telescope configuration
+    {
+      "nvim-telescope/telescope.nvim",
+    },
+
+    -- nvim-cmp configuration
+    {
+      "nvim-cmp/nvim-cmp",
+      dependencies = {
+        "hrsh7th/nvim-cmp-buffer",
+        "hrsh7th/nvim-cmp-path",
+        "hrsh7th/nvim-cmp-cmdline",
+        "saadparwaiz1/cmp_luasnip",
+        "L3MON4D3/LuaSnip",
+        "rafamadriz/friendly-snippets",
+      },
+    },
+
+    -- LSP configuration
+    {
+      "neovim/nvim-lspconfig",
+      opts = {
+        servers = {
+          python = {
+            cmd = {"python-language-server"},
+            filetypes = {"python", "py"},
+            root_dir = function(_, bufnr)
+              return vim.fn.getcwd()
+            end,
+          },
+        },
+      },
+    },
+
+    -- Other useful plugins
+    "nvim-web-devicons",
+    "nvim-lualine/lualine.nvim",
+  },
+
+  defaults = {
+    lazy = false,
+    version = false, -- always use the latest git commit
+  },
+
+  install = { colorscheme = { "tokyonight", "habamax" } },
+
+  checker = {
+    enabled = true, -- check for plugin updates periodically
+    notify = false, -- notify on update
+  },
+
+  performance = {
+    rtp = {
+      -- disable some rtp plugins
+      disabled_plugins = {
+        "gzip",
+        "tarPlugin",
+        "tohtml",
+        "tutor",
+        "zipPlugin",
+      },
+    },
+  },
+})
+
+-- Additional configurations for Python files
+vim.api.nvim_create_autocmd("FileType", {
+  pattern = "python",
+  callback = function()
+    -- You can add any Python-specific settings here
+    -- For example, set key mappings specific to Python files
+    vim.api.nvim_set_keymap("n", "<leader>p", ":!python %<CR>", { noremap = true, silent = true }) -- Run Python script
+  end,
+})
+
+-- General settings
+vim.o.termguicolors = true
+vim.wo.number = true
+vim.wo.relativenumber = true
+
+
