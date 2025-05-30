@@ -20,12 +20,12 @@ In general this file summarizes the most import settings when starting a new dev
 
 1 key togo where you want to be mentally:
 
-[  ] alt-one: powershell
-[  ] alt-two: browser
-[  ] alt-three: programming
-[  ] alt-four: trading
-[  ] alt-five: reading
-[  ] alt-six: gimp
+- **alt-one**: powershell
+- **alt-two**: browser
+- **alt-three**: programming
+- **alt-four**: trading
+- **alt-five**: reading
+- **alt-six**: gimp
 
 
 
