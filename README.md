@@ -6,6 +6,7 @@
 
 In general this file summarizes the most import settings when starting a new device/etc.
 
+0. LAX settings - Keyboard config
 1. LAX settings - PowerShell
 2. LAX settings - Firefox
 3. LAX settings - Windows
@@ -13,6 +14,20 @@ In general this file summarizes the most import settings when starting a new dev
 5. LAX settings - nvim/vim/lazyvim
 
 ---
+
+
+<h2> LAX settings - Keyboard config  </h2>
+
+1 key togo where you want to be mentally:
+
+[  ] alt-one: powershell
+[  ] alt-two: browser
+[  ] alt-three: programming
+[  ] alt-four: trading
+[  ] alt-five: reading
+[  ] alt-six: gimp
+
+
 
 <h2> LAX settings - PowerShell  </h2>
 
