@@ -6,6 +6,9 @@
 
 In general this file summarizes the most import settings when starting a new device/etc.
 
+
+---
+
 0. LAX settings - Keyboard config
 1. LAX settings - PowerShell
 2. LAX settings - Firefox
@@ -15,10 +18,41 @@ In general this file summarizes the most import settings when starting a new dev
 
 ---
 
+Currently you are using the following hardware/devices (actively):
 
-<h2> LAX settings - Keyboard config  </h2>
+Phone: 
 
-1 key togo where you want to be mentally:
+📞 main: Samsung A35 5G
+📞 emergency: Samsung Galaxy Note 10
+📞 broken: Samsung Galaxy 13
+
+---
+
+PC:
+
+💻 laptop: HP Spectre 13
+💻 desktop: -
+💻 emergency: -
+💻 broken: HP Spectre 13 (motherboard smoked)
+
+🖥️ monitor: Dell UD27
+⌨️ Keyboard: Glove80 (Future)
+⌨️ emergency:  
+🖱️ Mouse: Logitech MX Master 3
+🖲️ Trackpad:
+
+---
+
+headphones:
+
+🎧 main: Samsung GalaxyProBuds 2 
+🎧 single: Samsung GalaxyBuds (40B8)
+
+---
+
+<h2> 0. LAX settings - Keyboard config  </h2>
+
+1 key to go/be mentally:
 
 - **alt-one**: powershell
 - **alt-two**: browser
@@ -27,6 +61,7 @@ In general this file summarizes the most import settings when starting a new dev
 - **alt-five**: reading
 - **alt-six**: gimp
 
+---
 
 
 <h2> LAX settings - PowerShell  </h2>
