@@ -12,12 +12,27 @@ In general this file summarizes the most import settings when starting a new dev
 
 1 key to go/be mentally:
 
-- **alt-one**: powershell
-- **alt-two**: browser
-- **alt-three**: programming
+- **alt-one**: search (powershell)
+        - google/gemini
+        - chatGPT
+        - claude
+        - perplexity
+        - deepseek
+        - phind.com
+- **alt-two**: browse
+        - firefox
+        - oracle
+        - calendar
+        - explorer
+- **alt-three**: create/programming
+        - vim
+        - visual studio code
+        - trello
 - **alt-four**: trading
-- **alt-five**: reading
-- **alt-six**: gimp
+        - tradingview
+- **alt-five**: media
+        - reading
+        - gimp
 
 ---
 
@@ -302,7 +317,7 @@ After finishing this process you can open a new powershell instance and enjoy th
 
 ## License 📜
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the LAX licence. DO NOT FUCK WITH THE LAX!
 
 ---
 
