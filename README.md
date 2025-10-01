@@ -1,14 +1,14 @@
-# LAX settings - README 📚
+# LAX settings - README 
 
 ![BenvenidoBenny](https://i.imgur.com/27bUq.jpeg)
 
 ---
 
-In general, this file summarizes LAX digital approach respectively displays the most important settings when starting a new device. This includes the keyboard settings but also more in detail the setup of a proper PowerShell in order to facilitate quick access to do proper research. Additionally, the browser settings as well as the nvim settings are being displayed/explained.
+📚 In general, this file summarizes LAX digital approach respectively displays the most important settings when starting a new device. This includes the keyboard settings but also more in detail the setup of a proper PowerShell in order to facilitate quick access to do proper research. Additionally, the browser settings as well as the nvim settings are being displayed/explained. README was initialized 2022.
 
 ---
 
-## Table of Contents 📖
+## Table of Contents
 
 - [Keyboard Configuration 🎹](#keyboard-configuration)
 - [PowerShell settings 🖥️](#powershell-settings)
@@ -30,11 +30,11 @@ In general, this file summarizes LAX digital approach respectively displays the 
 
 ---
 
-## Keyboard Configuration 🎹
+## Keyboard Configuration
 
-The ultimate goal of taking control via **1 key to go/be mentally:**
+🎹 The ultimate goal of taking control via **1 key to go/be mentally**. It can be applied to any computer and/or mobile device. At the moment we focus on a laptop as well as a mobile device.
 
-### **alt-one**: *search*
+### **alt-1**: *search*
 - Google/Gemini
 - ChatGPT
 - Claude
@@ -42,27 +42,28 @@ The ultimate goal of taking control via **1 key to go/be mentally:**
 - DeepSeek
 - Phind.com
 
-### **alt-two**: *browse*
+### **alt-2**: *browse*
 - Firefox
 - Oracle
 - Calendar
 - Explorer
 
-### **alt-three**: *create/programming*
+### **alt-3**: *create/programming*
 - Vim
 - Visual Studio Code
 - Trello
 
-### **alt-four**: *trading*
+### **alt-4**: *trading*
 - TradingView
 
-### **alt-five**: *media*
+### **alt-5**: *media*
 - Reading (Calibre)
 - Watching (VLC)
 - Photoshop (GIMP)
 
 
-[⬆️ Back to Top](#table-of-contents)
+[⬆️ Back to Table of Contents](#table-of-contents)
+
 ---
 
 ## 1. PowerShell settings
