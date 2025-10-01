@@ -48,32 +48,77 @@
 ### Search
 
 > ⛏️**alt-1**
-- Google/Gemini
+- Google/Gemini/Lens/Maps
 - ChatGPT
+- Grok
 - Claude
 - Perplexity
 - DeepSeek
 - Phind.com
+- Wikipedia
+- Giphy
+- (Alexa/G-Assistant/Translate)
+
+> powershell (laptop)
+> (mobile)
 
 ### Browse
 
 > ⛏️**alt-2** 
 - Firefox
-- Oracle
+- Chrome
+- Opera
 - Calendar
 - Explorer
+- Gallery/Secure Folder
+- One Drive
+- Google Drive
+- Google Photos
+- Google Tasks
+- Dropbox
+- Google Play Store
+- Research Gate
+
+> Firefox (laptop)
+> (mobile)
 
 ### Create
 
 > ⛏️**alt-3**
 - Vim
-- Visual Studio Code
+- GitHub
 - Trello
+- Visual Studio Code
+- Ipynb Viewer
+- Pydroid 3
+- Samsung Notes
+- Obsidian
+- OneNote
+- Excel
+- Powerpoint
+- Woprd
+- Google Slides
+- Google Docs
+- Google Sheets
+- QuickEdit
+- Adobe Acrobat
+  
+> Vim (laptop)
+> (mobile)
 
 ### Trading
 
 > ⛏️**alt-4**
 - TradingView
+- Kind regards,aken
+- Stocktwits
+- PayPal
+- comdirect/photoTAN
+- Sparkasse/S-pushTAN
+- yahoofinance
+
+> TradingView (laptop)
+> (mobile)
 
 ### Media
 
@@ -81,7 +126,36 @@
 - Reading (Calibre)
 - Watching (VLC)
 - Photoshop (GIMP)
+- AnkiDroid
+- - X
+- Reddit
+- Substack
+- YT
+- ESPN
+- Netflix
+- PrimeVideo
+- kicker
+- ARD/ZDF
+- WOW
+- SkyGo
+- Spotify
+- Phonograph
+- SoundCloud
+- Genius
+- radio.net
+- Datpiff
+- Yacht Cabin
+- FB Messenger
+- SeaPeople
+- LinkedIn/Learning
+- Audible
+- Kindle
+- GoogleTV
+- Imgur
+- Librera
 
+> Calibre (laptop)
+> (mobile)
 
 [⬆️ Back to Table of Contents](#table-of-contents)
 
