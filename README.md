@@ -53,8 +53,7 @@
 
 ### Search
 
-1️⃣
-
+> 1️⃣
 > ⛏️**alt-1**
 
 **PowerShell** (laptop)
@@ -75,9 +74,8 @@
 
 ### Browse
 
+> 2️⃣
 > ⛏️**alt-2**
-
-2️⃣
 
 **Firefox** (laptop)
 
@@ -100,9 +98,8 @@
 
 ### Create
 
+>3️⃣
 > ⛏️**alt-3**
-
-3️⃣
 
 **VIM/NVIM** (laptop)
 
@@ -128,9 +125,8 @@
 
 ### Trading
 
+>4️⃣
 > ⛏️**alt-4**
-
-4️⃣
 
 **TradingView** (laptop)
 
@@ -146,9 +142,10 @@
 
 ### Media
 
+>5️⃣
 > ⛏️***alt-5***
 
-5️⃣
+
 
 ***Calibre*** (laptop)
 
@@ -192,7 +189,7 @@
 ## PowerShell settings
 ![Powershell](https://cdn.icon-icons.com/icons2/2248/PNG/512/powershell_icon_136294.png)
 
-Welcome to my personal PowerShell profile repository! 🎉 This collection of PowerShell scripts is designed to bring LAX personaltouch to the Powershell and enable quick access to the most important features of the Internet.
+Welcome to the underlying personal PowerShell profile repository for all LAX devices! This collection of PowerShell scripts is designed to bring personaltouch to the Powershell and enable quick access to the most important features of the Internet. Most importantly, it helps us to go mentally to the first SEARCH respectively RESEARCH function.
 
 
 ### Features
@@ -203,22 +200,24 @@ Welcome to my personal PowerShell profile repository! 🎉 This collection of Po
 - **Automatic Installation**: The scripts automatically install necessary modules and components on first execution. 🛠️
 - **Terminal-Icons Module**: Enhances terminal UI with icons. 🎨
 - **PoshFunctions**: Essential functions for PowerShell. ⚙️
-- **PSReadLine**: Cmdlets for customizing the editing environment, used for autocompletion
-- **z**: Directory jumper
-- **PSFzf**: Fuzzy finder
+- **PSReadLine**: Cmdlets for customizing the editing environment, used for autocompletion 🏋️
+- **z**: Directory jumper 🏄‍♂️
+- **PSFzf**: Fuzzy finder 🕵️
+- **set-alias**: quick search & functional shortcuts ⏩
 
 ### Configuration
 
-- The configuration file is located at: `~/powershell/usr_profile.ps1 and the oh-my-posh JSON file is located at `~/powershell/andresen.omp.json.
-- Both files should be stored in your .config folder.
+- The configuration file is located at: `~/powershell/user_profile.ps1' (functionality). 
+- The oh-my-posh customization JSON file is located at `~/powershell/LAX.omp.json' (style/appearance)
+- Both files should be stored in your '~/.config' folder. 
 - Additionally, you should store the JSON file as well as the Microsoft.Powershell_profile.ps1 (located at: `~/powershell/ Microsoft.Powershell_profile.ps1) in your respective Powershell folder within the Documents folder (subfolder Powershell).
 
 ### Setup
 
-- Save those Files as described in Configuration
-- Next try to adjust respectively tweak the appearance of your terminal/powershell and install all necessary packages.
-- More in detail:
-- Configure Windows Terminal
+1. 
+2.
+3.
+4. - Configure Windows Terminal
 - Install Font _Hacker Nerd Font Mono_ (Installs a stylish font for code readability)
 - Install PowerShell
 - Change the default shell
@@ -232,6 +231,10 @@ Welcome to my personal PowerShell profile repository! 🎉 This collection of Po
 - Install z - Directory jumper
 - Install PSReadLine - Autocompletion
 - Install Fzf - Fuzzy finder
+
+
+- Save the files downloaded as described in the configuration section.
+- Next try to adjust respectively tweak the appearance of your terminal/powershell and install all necessary packages.
 
 After finishing this process you can open a new powershell instance and enjoy the enhanced PowerShell experience! 🎉
 
