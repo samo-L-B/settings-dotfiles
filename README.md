@@ -11,11 +11,11 @@
 ## Table of Contents
 
 - [Keyboard Configuration 🎹](#keyboard-configuration)
-  - [search 🧐](#alt-1:-search)
-  - [browse 📁](#alt-2:-browse)
-  - [create/programming 🧮](#alt-3:-create/programming)
-  - [trading 💸](#alt-4:-trading)
-  - [media 🎬](#alt-5:-media)
+  - [Search 🧐](#alt-1:-search)
+  - [Browse 📁](#alt-2:-browse)
+  - [Create 🧮](#alt-3:-create)
+  - [Trading 💸](#alt-4:-trading)
+  - [Media 🎬](#alt-5:-media)
 - [PowerShell settings 🖥️](#powershell-settings)
   - [Features 🌟](#features)
   - [Configuration 📁](#configuration)
@@ -53,7 +53,7 @@
 
 🎹 The ultimate goal of taking control via **1 key to go/be mentally**. It can be applied to any computer and/or mobile device. 
 
-### alt-1: Search
+### alt-1: search
 - Google/Gemini
 - ChatGPT
 - Claude
@@ -61,21 +61,21 @@
 - DeepSeek
 - Phind.com
 
-### alt-2: Browse
+### alt-2: browse
 - Firefox
 - Oracle
 - Calendar
 - Explorer
 
-### alt-3: Create
+### alt-3: create
 - Vim
 - Visual Studio Code
 - Trello
 
-### alt-4: Trading
+### alt-4: trading
 - TradingView
 
-### alt-5: Media
+### alt-5: media
 - Reading (Calibre)
 - Watching (VLC)
 - Photoshop (GIMP)
