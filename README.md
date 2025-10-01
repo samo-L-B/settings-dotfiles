@@ -48,6 +48,12 @@
 ### Search
 
 > ⛏️**alt-1**
+
+> powershell (laptop)
+
+---
+
+> (mobile)
 - Google/Gemini/Lens/Maps
 - ChatGPT
 - Grok
@@ -59,12 +65,14 @@
 - Giphy
 - (Alexa/G-Assistant/Translate)
 
-> powershell (laptop)
-> (mobile)
-
 ### Browse
 
 > ⛏️**alt-2** 
+> Firefox (laptop)
+
+---
+
+> (mobile)
 - Firefox
 - Chrome
 - Opera
@@ -78,14 +86,16 @@
 - Dropbox
 - Google Play Store
 - Research Gate
-
-> Firefox (laptop)
-> (mobile)
-
+  
 ### Create
 
 > ⛏️**alt-3**
-- Vim
+  
+> Vim (laptop)
+
+---
+
+> (mobile)
 - GitHub
 - Trello
 - Visual Studio Code
@@ -96,38 +106,42 @@
 - OneNote
 - Excel
 - Powerpoint
-- Woprd
+- Word
 - Google Slides
 - Google Docs
 - Google Sheets
 - QuickEdit
 - Adobe Acrobat
   
-> Vim (laptop)
-> (mobile)
-
 ### Trading
 
 > ⛏️**alt-4**
-- TradingView
-- Kind regards,aken
+
+> TradingView (laptop)
+
+---
+
+> (mobile)
+- Kraken
 - Stocktwits
 - PayPal
 - comdirect/photoTAN
 - Sparkasse/S-pushTAN
 - yahoofinance
 
-> TradingView (laptop)
-> (mobile)
-
 ### Media
 
 > ⛏️***alt-5***
-- Reading (Calibre)
+
+> Calibre (laptop)
+
+---
+
+> (mobile)
 - Watching (VLC)
 - Photoshop (GIMP)
 - AnkiDroid
-- - X
+- X
 - Reddit
 - Substack
 - YT
@@ -154,9 +168,7 @@
 - Imgur
 - Librera
 
-> Calibre (laptop)
-> (mobile)
-
+  
 [⬆️ Back to Table of Contents](#table-of-contents)
 
 ---
