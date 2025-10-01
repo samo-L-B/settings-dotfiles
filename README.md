@@ -1,77 +1,75 @@
-<h1> LAX settings - README </h1>
+# LAX settings - README
 
 ![BenvenidoBenny](https://i.imgur.com/27bUq.jpeg)
 
 ---
 
-In general this file summarizes the most import settings when starting a new device/etc.
+In general, this file summarizes LAX digital approach respectively displays the most important settings when starting a new device.
 
 ---
 
-<h2> 0. LAX settings - Keyboard config  </h2>
+## Table of Contents
 
-1 key to go/be mentally:
 
-- **alt-one**: search (powershell)
-        - google/gemini
-        - chatGPT
-        - claude
-        - perplexity
-        - deepseek
-        - phind.com
-- **alt-two**: browse
-        - firefox
-        - oracle
-        - calendar
-        - explorer
-- **alt-three**: create/programming
-        - vim
-        - visual studio code
-        - trello
-- **alt-four**: trading
-        - tradingview
-- **alt-five**: media
-        - reading
-        - gimp
+- [0. Keyboard Configuration (LAX Settings) 🎹](#0-keyboard-configuration-lax-settings)
+- [1. PowerShell settings (LAX settings) 🖥️](#1-powershell-settings-lax-settings)
+  - [Features 🌟](#features)
+  - [Configuration 📁](#configuration)
+  - [Usage 🚀](#usage)
+  - [Web Search Commands ⭐](#web-search-commands)
+---
+
+This includes the keyboard settings but also more in detail the setup of a proper PowerShell in order to facilitate quick access to do proper research.
 
 ---
 
+## 0. Keyboard Configuration (LAX Settings)
 
-<h2> LAX settings - PowerShell  </h2>
+The ultimate goal of taking control via **1 key to go/be mentally:**
 
-![Powershell]([https://i.imgur.com/27bUq.jpeg](https://cdn.icon-icons.com/icons2/2248/PNG/512/powershell_icon_136294.png)
+### **alt-one**: *search*
+- Google/Gemini
+- ChatGPT
+- Claude
+- Perplexity
+- DeepSeek
+- Phind.com
 
-# Contents
+### **alt-two**: *browse*
+- Firefox
+- Oracle
+- Calendar
+- Explorer
 
-- [Contents](#contents)
-- [LAX Personal PowerShell Configuration 🖥️](#personal-powershell-configuration-️)
-  - [TL:DR](#tldr)
-  - [Features 🌟](#features-)
-  - [Components Installed 🛠️](#components-installed-️)
-  - [Configuration 📁](#configuration-)
-  - [Usage 🚀](#usage-)
-  - [Web Search Commands ⭐](#Web-Search-Commands)
-  - [Supported Linux Commands 🐧](#supported-linux-commands-)
-  - [Contributing 🤝](#contributing-)
-  - [Personalization 🎨](#personalization-)
-  - [License 📜](#license-)
+### **alt-three**: *create/programming*
+- Vim
+- Visual Studio Code
+- Trello
+
+### **alt-four**: *trading*
+- TradingView
+
+### **alt-five**: *media*
+- Reading (Calibre)
+- Watching (VLC)
+- Photoshop (GIMP)
 
 ---
 
-# Personal PowerShell Configuration 🖥️
+## 1. PowerShell settings (LAX settings)
 
-Welcome to my personal PowerShell profile repository! 🎉 This collection of PowerShell scripts is designed to bring your personaltouch to the Powershell.
+![Powershell](https://cdn.icon-icons.com/icons2/2248/PNG/512/powershell_icon_136294.png)
+
+Welcome to my personal PowerShell profile repository! 🎉 This collection of PowerShell scripts is designed to bring LAX personaltouch to the Powershell and enable quick access to the most important features of the Internet.
 
 Feel free to use, fork, and customize these scripts to enhance your own command-line experience. 🔧
 
-## Features 🌟
+### Features
 
 - **Bash-like Shell Experience**: Mimics Unix shell functionality, bringing familiarity to Windows PowerShell. 🐧
 - **Oh My Posh Integration**: Enhances the user interface with stylish prompts and Git status indicators. ⚡
 - **Deferred Loading**: Improves function loading time for a smoother experience. 🕒
 - **Automatic Installation**: The scripts automatically install necessary modules and components on first execution. 🛠️
-
-## Components Installed 🛠️
 
 - **Terminal-Icons Module**: Enhances terminal UI with icons. 🎨
 - **PoshFunctions**: Essential functions for PowerShell. ⚙️
@@ -80,13 +78,13 @@ Feel free to use, fork, and customize these scripts to enhance your own command-
 - **z**: Directory jumper
 - **PSFzf**: Fuzzy finder
 
-## Configuration 📁
+### Configuration
 
 - The configuration file is located at: `~/powershell/usr_profile.ps1 and the oh-my-posh JSON file is located at `~/powershell/andresen.omp.json.
 - Both files should be stored in your .config folder.
 - Additionally, you should store the JSON file as well as the Microsoft.Powershell_profile.ps1 (located at: `~/powershell/ Microsoft.Powershell_profile.ps1) in your respective Powershell folder within the Documents folder (subfolder Powershell).
 
-## Usage 🚀
+### Usage
 
 - Save those Files as described in Configuration
 - Next try to adjust respectively tweak the appearance of your terminal/powershell and install all necessary packages.
@@ -108,7 +106,7 @@ Feel free to use, fork, and customize these scripts to enhance your own command-
 
 After finishing this process you can open a new powershell instance and enjoy the enhanced PowerShell experience! 🎉
 
-## Web Search Commands ⭐
+### Web Search Commands ⭐
 
 The PowerShell profile includes aliases and functions that mimic everyday workflow of LAX: (Start Process or)
 
