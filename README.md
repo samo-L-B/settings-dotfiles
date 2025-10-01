@@ -222,14 +222,120 @@ Welcome to the underlying personal PowerShell profile repository for all LAX dev
 1. Install Font _Hack Bold italic Nerd Font Complete Mono_ (download & install: https://github.com/ryanoasis/nerd-fonts/releases) 
 2. Configure Terminal (Windows Terminal): open WindowsPowershell + adjust default terminal in settings to TERMINAL + Appearance (acrylic in tab row) + Default Appearance Color One Half Dark + Default Appearance Text Hack NF & enable acrylic (10% opacity)
 3. Download & Install PowerShell (Store) + change it to default shell
-4. Change the terminal background color (
-5, 
-Install Scoop (Comamnd-line installer) iwr -useb get.scoop.sh | iex (in commandline)
-- Install Git for Windows
-- Install Neovim
-- Make a user profile link it to a .config file folder which is in your User directory ()
-- Install Oh My Posh (Prompt theme engine) (Install-Module posh-git -Scope CurrentUser -Force and Install-Module oh-my-posh -Scope CurrentUser -Force in .conf\powershell\ directory)
-- Install Terminal Icons
+4. Change the terminal background color (copy paste this into the json settings file) + change color in default appearance
+
+  {
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": [],
+    "copyFormatting": "none",
+    "copyOnSelect": false,
+    "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+    "keybindings": 
+    [
+        {
+            "id": "Terminal.CopyToClipboard",
+            "keys": "ctrl+c"
+        },
+        {
+            "id": "Terminal.PasteFromClipboard",
+            "keys": "ctrl+v"
+        },
+        {
+            "id": "Terminal.DuplicatePaneAuto",
+            "keys": "alt+shift+d"
+        }
+    ],
+    "newTabMenu": 
+    [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
+    "profiles": 
+    {
+        "defaults": 
+        {
+            "colorScheme": "One Half Dark",
+            "elevate": false,
+            "font": 
+            {
+                "face": "Hack Nerd Font Mono"
+            },
+            "opacity": 10,
+            "padding": "50",
+            "useAcrylic": true
+        },
+        "list": 
+        [
+            {
+                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": false,
+                "name": "Windows PowerShell",
+                "opacity": 14
+            },
+            {
+                "commandline": "%SystemRoot%\\System32\\cmd.exe",
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": false,
+                "name": "Eingabeaufforderung"
+            },
+            {
+                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "hidden": false,
+                "name": "Azure Cloud Shell",
+                "source": "Windows.Terminal.Azure"
+            },
+            {
+                "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+                "hidden": false,
+                "name": "PowerShell",
+                "source": "Windows.Terminal.PowershellCore"
+            },
+            {
+                "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
+                "hidden": false,
+                "name": "Git Bash",
+                "source": "Git"
+            }
+        ]
+    },
+    "schemes": [
+        {
+            "name": "My Modified Dark",
+            "foreground": "#DCDFE4",
+            "background": "#282C34",
+            "cursorColor": "#FFFFFF",
+            "selectionBackground": "#FFFFFF",
+            "black": "#282C34",
+            "blue": "#61AFEF",
+            "cyan": "#56B6C2",
+            "green": "#98C379",
+            "purple": "#C678DD",
+            "red": "#E06C75",
+            "white": "#DCDFE4",
+            "yellow": "#E5C07B",
+            "brightBlack": "#5A6374",
+            "brightBlue": "#61AFEF",
+            "brightCyan": "#56B6C2",
+            "brightGreen": "#98C379",
+            "brightPurple": "#C678DD",
+            "brightRed": "#E06C75",
+            "brightWhite": "#DCDFE4",
+            "brightYellow": "#E5C07B"
+        }
+    ],
+    "themes": [],
+    "useAcrylicInTabRow": true
+}
+5. Install Scoop (comamnd-line installer) by using *iwr -useb get.scoop.sh | iex* & *scoop install curl sudo jq* (in commandline)
+6. Install Git for Windows by using *winget install -e --id Git.Git* (in commandline)
+7. Install Neovim by using *scoop install neovim gcc* (in commandline)
+8. Make user profile save it to a C:\Users\*username*\.config\powershell\user_profile.ps1 file
+9. Update Profile by first using *New-Item -ItemType Directory -Path (Split-Path -Parent $PROFILE.CurrentUserCurrentHost) -Force* (in commandline) then using *nvim $PROFILE.CurrentUserCurrentHost* (in commandline) and insert (*. $env:USERPROFILE\.config\powershell\user_profile.ps1*)
+10. Install Oh My Posh (Prompt theme engine) (*Install-Module posh-git -Scope CurrentUser -Force* and *winget install JanDeDobbeleer.OhMyPosh --source winget --scope user --force* in command line in .conf\powershell\ directory)
+11. Install Terminal Icons
 - Install z - Directory jumper
 - Install PSReadLine - Autocompletion
 - Install Fzf - Fuzzy finder
