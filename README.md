@@ -47,11 +47,12 @@
 
 ---
 
-![UNO](https://www.istockphoto.com/de/vektor/1-kinder-hand-zeigt-die-nummer-eins-hand-zeichen-gm1186342766-334689440)
 
 ### Search
 
 > ⛏️**alt-1**
+
+![UNO](https://thumbs.dreamstime.com/b/kid-s-hand-showing-number-one-sign-fingers-icon-counting-education-childrens-vector-illustration-digit-163181820.jpg)
 
 **PowerShell** (laptop)
 
@@ -72,6 +73,8 @@
 ### Browse
 
 > ⛏️**alt-2**
+
+![DOS](https://thumbs.dreamstime.com/b/kid-s-hand-showing-number-two-sign-fingers-icon-counting-education-childrens-vector-illustration-digit-163181963.jpg)
 
 **Firefox** (laptop)
 
@@ -95,6 +98,8 @@
 ### Create
 
 > ⛏️**alt-3**
+
+![TRES](https://thumbs.dreamstime.com/b/kid-s-hand-showing-number-three-sign-fingers-icon-counting-education-childrens-vector-illustration-digit-163181964.jpg)
 
 **VIM/NVIM** (laptop)
 
@@ -122,6 +127,8 @@
 
 > ⛏️**alt-4**
 
+![QUATRO](https://st2.depositphotos.com/3038577/49396/v/450/depositphotos_493967216-stock-illustration-4-kids-hand-showing-the.jpg)
+
 **TradingView** (laptop)
 
 *(mobile)*:
@@ -137,6 +144,8 @@
 ### Media
 
 > ⛏️***alt-5***
+
+![CINCO](https://www.shutterstock.com/image-vector/5-kids-hand-showing-number-260nw-2022101549.jpg)
 
 ***Calibre*** (laptop)
 
