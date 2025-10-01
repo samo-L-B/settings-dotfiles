@@ -11,6 +11,11 @@
 ## Table of Contents
 
 - [Keyboard Configuration 🎹](#keyboard-configuration)
+  - [search 🧐](#alt-1:-search)
+  - [browse 📁](#alt-2:-browse)
+  - [create/programming 🧮](#alt-3:-create/programming)
+  - [trading 💸](#alt-4:-trading)
+  - [media 🎬](#alt-5:-media)
 - [PowerShell settings 🖥️](#powershell-settings)
   - [Features 🌟](#features)
   - [Configuration 📁](#configuration)
@@ -18,7 +23,6 @@
   - [Web Search Commands ⭐](#web-search-commands)
   - [Supported Linux Commands 🐧](#supported-linux-commands)
 - [Browser Settings (Firefox) 🖥️](#browser-settings)
-  - [TL:DR](#tldr)
   - [Features 🌟](#features-)
   - [Components Installed 🛠️](#components-installed-️)
   - [Configuration 📁](#configuration-)
@@ -47,7 +51,7 @@
 
 ## Keyboard Configuration
 
-🎹 The ultimate goal of taking control via **1 key to go/be mentally**. It can be applied to any computer and/or mobile device. At the moment we focus on a laptop as well as a mobile device.
+🎹 The ultimate goal of taking control via **1 key to go/be mentally**. It can be applied to any computer and/or mobile device. 
 
 ### **alt-1**: *search*
 - Google/Gemini
