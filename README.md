@@ -53,7 +53,7 @@
 
 🎹 The ultimate goal of taking control via **1 key to go/be mentally**. It can be applied to any computer and/or mobile device. 
 
-### alt-1: search
+### alt-1: Search
 - Google/Gemini
 - ChatGPT
 - Claude
@@ -61,21 +61,21 @@
 - DeepSeek
 - Phind.com
 
-### alt-2: browse
+### alt-2: Browse
 - Firefox
 - Oracle
 - Calendar
 - Explorer
 
-### alt-3: create/programming
+### alt-3: Create
 - Vim
 - Visual Studio Code
 - Trello
 
-### alt-4: trading
+### alt-4: Trading
 - TradingView
 
-### alt-5: media
+### alt-5: Media
 - Reading (Calibre)
 - Watching (VLC)
 - Photoshop (GIMP)
