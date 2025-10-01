@@ -43,19 +43,19 @@
 
 ## Keyboard Configuration
 
-![KEY](https://github.com/user-attachments/assets/457e0c95-30da-447a-ab2b-0d80433320be)
-
-
 🎹 The ultimate goal of taking control via **1 key to go/be mentally**. It can be applied to any computer and/or mobile device. 
+
+
+![KEY](https://png.pngtree.com/png-vector/20250518/ourmid/pngtree-elegant-golden-key-with-intricate-designs-depicted-on-a-transparent-background-png-image_16281536.png)
 
 ---
 
 
 ### Search
 
-> ⛏️**alt-1**
+1️⃣
 
-![UNO](https://thumbs.dreamstime.com/b/kid-s-hand-showing-number-one-sign-fingers-icon-counting-education-childrens-vector-illustration-digit-163181820.jpg)
+> ⛏️**alt-1**
 
 **PowerShell** (laptop)
 
@@ -77,7 +77,7 @@
 
 > ⛏️**alt-2**
 
-![DOS](https://thumbs.dreamstime.com/b/kid-s-hand-showing-number-two-sign-fingers-icon-counting-education-childrens-vector-illustration-digit-163181963.jpg)
+2️⃣
 
 **Firefox** (laptop)
 
@@ -102,7 +102,7 @@
 
 > ⛏️**alt-3**
 
-![TRES](https://thumbs.dreamstime.com/b/kid-s-hand-showing-number-three-sign-fingers-icon-counting-education-childrens-vector-illustration-digit-163181964.jpg)
+3️⃣
 
 **VIM/NVIM** (laptop)
 
@@ -130,7 +130,7 @@
 
 > ⛏️**alt-4**
 
-![QUATRO](https://st2.depositphotos.com/3038577/49396/v/450/depositphotos_493967216-stock-illustration-4-kids-hand-showing-the.jpg)
+4️⃣
 
 **TradingView** (laptop)
 
@@ -148,7 +148,7 @@
 
 > ⛏️***alt-5***
 
-![CINCO](https://www.shutterstock.com/image-vector/5-kids-hand-showing-number-260nw-2022101549.jpg)
+5️⃣
 
 ***Calibre*** (laptop)
 
