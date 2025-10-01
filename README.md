@@ -49,11 +49,11 @@
 
 > ⛏️**alt-1**
 
-> powershell (laptop)
-
 ---
 
-> (mobile)
+**PowerShell** (laptop)
+
+*(mobile):*
 - Google/Gemini/Lens/Maps
 - ChatGPT
 - Grok
@@ -67,12 +67,13 @@
 
 ### Browse
 
-> ⛏️**alt-2** 
-> Firefox (laptop)
+> ⛏️**alt-2**
 
 ---
 
-> (mobile)
+**Firefox** (laptop)
+
+*(mobile):*
 - Firefox
 - Chrome
 - Opera
@@ -90,12 +91,12 @@
 ### Create
 
 > ⛏️**alt-3**
-  
-> Vim (laptop)
 
 ---
 
-> (mobile)
+**VIM/NVIM** (laptop)
+
+*(mobile):*
 - GitHub
 - Trello
 - Visual Studio Code
@@ -117,11 +118,11 @@
 
 > ⛏️**alt-4**
 
-> TradingView (laptop)
-
 ---
 
-> (mobile)
+**TradingView** (laptop)
+
+*(mobile)*:
 - Kraken
 - Stocktwits
 - PayPal
@@ -133,11 +134,11 @@
 
 > ⛏️***alt-5***
 
-> Calibre (laptop)
-
 ---
 
-> (mobile)
+***Calibre*** (laptop)
+
+*(mobile):*
 - Watching (VLC)
 - Photoshop (GIMP)
 - AnkiDroid
