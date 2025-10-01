@@ -43,6 +43,9 @@
 
 ## Keyboard Configuration
 
+![KEY](https://github.com/user-attachments/assets/457e0c95-30da-447a-ab2b-0d80433320be)
+
+
 🎹 The ultimate goal of taking control via **1 key to go/be mentally**. It can be applied to any computer and/or mobile device. 
 
 ---
