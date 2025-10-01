@@ -47,7 +47,7 @@
 
 ### search
 
-⛏️***alt-1***
+> ⛏️**alt-1**
 - Google/Gemini
 - ChatGPT
 - Claude
@@ -57,7 +57,7 @@
 
 ### browse
 
-⛏️***alt-2*** 
+> ⛏️**alt-2** 
 - Firefox
 - Oracle
 - Calendar
@@ -65,19 +65,19 @@
 
 ### create
 
-⛏️***alt-3***
+> ⛏️**alt-3**
 - Vim
 - Visual Studio Code
 - Trello
 
 ### trading
 
-⛏️***alt-4***
+> ⛏️**alt-4**
 - TradingView
 
 ### media
 
-⛏️***alt-5***
+> ⛏️***alt-5***
 - Reading (Calibre)
 - Watching (VLC)
 - Photoshop (GIMP)
