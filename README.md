@@ -11,11 +11,11 @@
 ## Table of Contents
 
 - [Keyboard Configuration 🎹](#keyboard-configuration)
-  - [Search 🧐](#alt-1:search)
-  - [Browse 📁](#alt-2:browse)
-  - [Create 🧮](#alt-3:create)
-  - [Trading 💸](#alt-4:trading)
-  - [Media 🎬](#alt-5:media)
+  - [Search 🧐](#search)
+  - [Browse 📁](#browse)
+  - [Create 🧮](#create)
+  - [Trading 💸](#trading)
+  - [Media 🎬](#media)
 - [PowerShell settings 🖥️](#powershell-settings)
   - [Features 🌟](#features)
   - [Configuration 📁](#configuration)
@@ -47,7 +47,7 @@
 
 ### search
 
-***alt-1***
+⛏️***alt-1***
 - Google/Gemini
 - ChatGPT
 - Claude
@@ -57,7 +57,7 @@
 
 ### browse
 
-***alt-2*** 
+⛏️***alt-2*** 
 - Firefox
 - Oracle
 - Calendar
@@ -65,19 +65,19 @@
 
 ### create
 
-***alt-3***
+⛏️***alt-3***
 - Vim
 - Visual Studio Code
 - Trello
 
 ### trading
 
-***alt-4***
+⛏️***alt-4***
 - TradingView
 
 ### media
 
-***alt-5***
+⛏️***alt-5***
 - Reading (Calibre)
 - Watching (VLC)
 - Photoshop (GIMP)
