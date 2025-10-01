@@ -45,11 +45,11 @@
 
 🎹 The ultimate goal of taking control via **1 key to go/be mentally**. It can be applied to any computer and/or mobile device. 
 
+---
+
 ### Search
 
 > ⛏️**alt-1**
-
----
 
 **PowerShell** (laptop)
 
@@ -65,11 +65,11 @@
 - Giphy
 - (Alexa/G-Assistant/Translate)
 
+---
+
 ### Browse
 
 > ⛏️**alt-2**
-
----
 
 **Firefox** (laptop)
 
@@ -87,12 +87,12 @@
 - Dropbox
 - Google Play Store
 - Research Gate
-  
+
+---
+
 ### Create
 
 > ⛏️**alt-3**
-
----
 
 **VIM/NVIM** (laptop)
 
@@ -113,12 +113,12 @@
 - Google Sheets
 - QuickEdit
 - Adobe Acrobat
-  
+
+---
+
 ### Trading
 
 > ⛏️**alt-4**
-
----
 
 **TradingView** (laptop)
 
@@ -130,11 +130,11 @@
 - Sparkasse/S-pushTAN
 - yahoofinance
 
+---
+
 ### Media
 
 > ⛏️***alt-5***
-
----
 
 ***Calibre*** (laptop)
 
@@ -172,6 +172,7 @@
   
 [⬆️ Back to Table of Contents](#table-of-contents)
 
+---
 ---
 
 ## PowerShell settings
