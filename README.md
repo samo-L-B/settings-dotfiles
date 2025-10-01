@@ -1,32 +1,36 @@
-# LAX settings - README
+# LAX settings - README 📚
 
 ![BenvenidoBenny](https://i.imgur.com/27bUq.jpeg)
 
 ---
 
-In general, this file summarizes LAX digital approach respectively displays the most important settings when starting a new device.
+In general, this file summarizes LAX digital approach respectively displays the most important settings when starting a new device. This includes the keyboard settings but also more in detail the setup of a proper PowerShell in order to facilitate quick access to do proper research. Additionally, the browser settings as well as the nvim settings are being displayed/explained.
 
 ---
 
-## Table of Contents
+## Table of Contents 📖
 
-
-- [0. Keyboard Configuration 🎹](#0-keyboard-configuration)
-- [1. PowerShell settings 🖥️](#1-powershell-settings)
+- [Keyboard Configuration 🎹](#keyboard-configuration)
+- [PowerShell settings 🖥️](#powershell-settings)
   - [Features 🌟](#features)
   - [Configuration 📁](#configuration)
   - [Setup 🚀](#setup)
   - [Web Search Commands ⭐](#web-search-commands)
   - [Supported Linux Commands 🐧](#supported-linux-commands)
+- [Browser Settings (Firefox) 🖥️](#browser-settings)
+  - [TL:DR](#tldr)
+  - [Features 🌟](#features-)
+  - [Components Installed 🛠️](#components-installed-️)
+  - [Configuration 📁](#configuration-)
+  - [Usage 🚀](#usage-)
+  - [Contributing 🤝](#contributing-)
+  - [Personalization 🎨](#personalization-)
+  - [License 📜](#license-)
 
 
 ---
 
-This includes the keyboard settings but also more in detail the setup of a proper PowerShell in order to facilitate quick access to do proper research.
-
----
-
-## 0. Keyboard Configuration
+## Keyboard Configuration 🎹
 
 The ultimate goal of taking control via **1 key to go/be mentally:**
 
@@ -57,6 +61,8 @@ The ultimate goal of taking control via **1 key to go/be mentally:**
 - Watching (VLC)
 - Photoshop (GIMP)
 
+
+[⬆️ Back to Top](#table-of-contents)
 ---
 
 ## 1. PowerShell settings
