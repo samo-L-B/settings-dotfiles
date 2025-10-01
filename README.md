@@ -11,19 +11,22 @@ In general, this file summarizes LAX digital approach respectively displays the 
 ## Table of Contents
 
 
-- [0. Keyboard Configuration (LAX Settings) 🎹](#0-keyboard-configuration-lax-settings)
-- [1. PowerShell settings (LAX settings) 🖥️](#1-powershell-settings-lax-settings)
+- [0. Keyboard Configuration 🎹](#0-keyboard-configuration)
+- [1. PowerShell settings 🖥️](#1-powershell-settings)
   - [Features 🌟](#features)
   - [Configuration 📁](#configuration)
-  - [Usage 🚀](#usage)
+  - [Setup 🚀](#setup)
   - [Web Search Commands ⭐](#web-search-commands)
+  - [Supported Linux Commands 🐧](#supported-linux-commands)
+
+
 ---
 
 This includes the keyboard settings but also more in detail the setup of a proper PowerShell in order to facilitate quick access to do proper research.
 
 ---
 
-## 0. Keyboard Configuration (LAX Settings)
+## 0. Keyboard Configuration
 
 The ultimate goal of taking control via **1 key to go/be mentally:**
 
@@ -56,8 +59,7 @@ The ultimate goal of taking control via **1 key to go/be mentally:**
 
 ---
 
-## 1. PowerShell settings (LAX settings)
-
+## 1. PowerShell settings
 ![Powershell](https://cdn.icon-icons.com/icons2/2248/PNG/512/powershell_icon_136294.png)
 
 Welcome to my personal PowerShell profile repository! 🎉 This collection of PowerShell scripts is designed to bring LAX personaltouch to the Powershell and enable quick access to the most important features of the Internet.
@@ -70,10 +72,8 @@ Feel free to use, fork, and customize these scripts to enhance your own command-
 - **Oh My Posh Integration**: Enhances the user interface with stylish prompts and Git status indicators. ⚡
 - **Deferred Loading**: Improves function loading time for a smoother experience. 🕒
 - **Automatic Installation**: The scripts automatically install necessary modules and components on first execution. 🛠️
-
 - **Terminal-Icons Module**: Enhances terminal UI with icons. 🎨
 - **PoshFunctions**: Essential functions for PowerShell. ⚙️
-- **Oh My Posh**: Provides customizable prompt themes and init my personal start theme. 🎨
 - **PSReadLine**: Cmdlets for customizing the editing environment, used for autocompletion
 - **z**: Directory jumper
 - **PSFzf**: Fuzzy finder
@@ -84,7 +84,7 @@ Feel free to use, fork, and customize these scripts to enhance your own command-
 - Both files should be stored in your .config folder.
 - Additionally, you should store the JSON file as well as the Microsoft.Powershell_profile.ps1 (located at: `~/powershell/ Microsoft.Powershell_profile.ps1) in your respective Powershell folder within the Documents folder (subfolder Powershell).
 
-### Usage
+### Setup
 
 - Save those Files as described in Configuration
 - Next try to adjust respectively tweak the appearance of your terminal/powershell and install all necessary packages.
@@ -106,7 +106,7 @@ Feel free to use, fork, and customize these scripts to enhance your own command-
 
 After finishing this process you can open a new powershell instance and enjoy the enhanced PowerShell experience! 🎉
 
-### Web Search Commands ⭐
+### Web Search Commands
 
 The PowerShell profile includes aliases and functions that mimic everyday workflow of LAX: (Start Process or)
 
@@ -128,7 +128,7 @@ The PowerShell profile includes aliases and functions that mimic everyday workfl
 - `reddit`: open reddit
 - `twitter`: open twitter
 
-## Supported Linux Commands 🐧
+### Supported Linux Commands
 
 The PowerShell profile includes aliases and functions that mimic common Linux commands, providing a familiar environment for users accustomed to Linux shell environments. Here are some of the supported Linux commands:
 
@@ -163,7 +163,7 @@ The PowerShell profile includes aliases and functions that mimic common Linux co
 - `gitpush`: Also known as lazy-git, pulls, adds all, commits the message after gitpush and then pushes.
 - `ptw`: Send text/files pipe output to a wastebin server, important: contact me via issue for this.
 
-## Contributing 🤝
+### Contributing 
 
 - Feel free to fork, modify, and contribute improvements or additional features.
 - For any issues, questions, or help, please create an issue in the repository. 💬
@@ -189,9 +189,10 @@ PowerShell setup (Windows) included installition of
 
 ---
 
-<h2> LAX settings - Firefox  </h2>
 
-![Firefox](<[https://i.imgur.com/27bUq.jpeg](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRzwexAU2kRlg1oqzxtyBLc6-B8Bjhj-Ej9Q&s)>)
+ # Browser Settings (Firefox)
+
+![Firefox](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRzwexAU2kRlg1oqzxtyBLc6-B8Bjhj-Ej9Q&s)>)
 
 # Contents
 
