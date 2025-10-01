@@ -11,11 +11,11 @@
 ## Table of Contents
 
 - [Keyboard Configuration 🎹](#keyboard-configuration)
-  - [Search 🧐](#alt-1:-search)
-  - [Browse 📁](#alt-2:-browse)
-  - [Create 🧮](#alt-3:-create)
-  - [Trading 💸](#alt-4:-trading)
-  - [Media 🎬](#alt-5:-media)
+  - [Search 🧐](#alt-1:search)
+  - [Browse 📁](#alt-2:browse)
+  - [Create 🧮](#alt-3:create)
+  - [Trading 💸](#alt-4:trading)
+  - [Media 🎬](#alt-5:media)
 - [PowerShell settings 🖥️](#powershell-settings)
   - [Features 🌟](#features)
   - [Configuration 📁](#configuration)
