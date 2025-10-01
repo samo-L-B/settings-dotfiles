@@ -4,7 +4,7 @@
 
 ---
 
-📚 In general, this file summarizes LAX digital approach respectively displays the most important settings when starting a new device. This includes the keyboard settings but also more in detail the setup of a proper PowerShell in order to facilitate quick access to do proper research. Additionally, the browser settings as well as the nvim settings are being displayed/explained. README was initialized 2022.
+📚 In general, this file summarizes LAX digital approach respectively displays the most important settings when starting a new device. This includes the keyboard settings but also more in detail the setup of a proper PowerShell in order to facilitate quick access to do proper research. Additionally, the browser settings as well as the nvim settings are being displayed/explained.
 
 ---
 
@@ -26,7 +26,22 @@
   - [Contributing 🤝](#contributing-)
   - [Personalization 🎨](#personalization-)
   - [License 📜](#license-)
-
+- [Browser Settings 🖥️](#browser-settings)
+  - [Features 🌟](#features-)
+  - [Components Installed 🛠️](#components-installed-️)
+  - [Configuration 📁](#configuration-)
+  - [Usage 🚀](#usage-)
+  - [Contributing 🤝](#contributing-)
+  - [Personalization 🎨](#personalization-)
+  - [License 📜](#license-)
+- [NVIM/VIM settings 🖥️](#NVIM/VIM-settings)
+  - [Features 🌟](#features-)
+  - [Components Installed 🛠️](#components-installed-️)
+  - [Configuration 📁](#configuration-)
+  - [Usage 🚀](#usage-)
+  - [Contributing 🤝](#contributing-)
+  - [Personalization 🎨](#personalization-)
+  - [License 📜](#license-)
 
 ---
 
@@ -66,12 +81,11 @@
 
 ---
 
-## 1. PowerShell settings
+## PowerShell settings
 ![Powershell](https://cdn.icon-icons.com/icons2/2248/PNG/512/powershell_icon_136294.png)
 
 Welcome to my personal PowerShell profile repository! 🎉 This collection of PowerShell scripts is designed to bring LAX personaltouch to the Powershell and enable quick access to the most important features of the Internet.
 
-Feel free to use, fork, and customize these scripts to enhance your own command-line experience. 🔧
 
 ### Features
 
@@ -192,27 +206,18 @@ PowerShell setup (Windows) included installition of
     z - Directory jumper
     PSFzf - Fuzzy finder
 
----
+
+[⬆️ Back to Table of Contents](#table-of-contents)
 
 ---
 
+---
 
- # Browser Settings (Firefox)
+
+ # Browser Settings
 
 ![Firefox](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRzwexAU2kRlg1oqzxtyBLc6-B8Bjhj-Ej9Q&s)>)
 
-# Contents
-
-- [Contents](#contents)
-- [LAX Personal Firefox Configuration 🖥️](#personal-firefox-configuration)
-  - [TL:DR](#tldr)
-  - [Features 🌟](#features-)
-  - [Components Installed 🛠️](#components-installed-️)
-  - [Configuration 📁](#configuration-)
-  - [Usage 🚀](#usage-)
-  - [Contributing 🤝](#contributing-)
-  - [Personalization 🎨](#personalization-)
-  - [License 📜](#license-)
 
 ---
 
@@ -256,28 +261,18 @@ After finishing this process you can open a new powershell instance and enjoy th
 - Customize the scripts according to personal preferences or specific system requirements.
 - To insert your own OhMyPosh config, just fork the repo and change the URL in the main file to your own.
 
----
+
+[⬆️ Back to Table of Contents](#table-of-contents)
 
 ---
 
 ---
 
-<h2> LAX settings - nvim  </h2>
+---
+
+# NVIM/VIM settings 
 
 ![NVIM](<[https://i.imgur.com/27bUq.jpeg](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRzwexAU2kRlg1oqzxtyBLc6-B8Bjhj-Ej9Q&s)>)
-
-# Contents
-
-- [Contents](#contents)
-- [LAX Personal Nvim Configuration 🖥️](#personal-firefox-configuration)
-  - [TL:DR](#tldr)
-  - [Features 🌟](#features-)
-  - [Components Installed 🛠️](#components-installed-️)
-  - [Configuration 📁](#configuration-)
-  - [Usage 🚀](#usage-)
-  - [Contributing 🤝](#contributing-)
-  - [Personalization 🎨](#personalization-)
-  - [License 📜](#license-)
 
 ---
 
@@ -311,6 +306,10 @@ Add-Ons:
 
 After finishing this process you can open a new powershell instance and enjoy the enhanced PowerShell experience! 🎉
 
+
+
+[⬆️ Back to Table of Contents](#table-of-contents)
+
 ## Contributing 🤝
 
 - Feel free to fork, modify, and contribute improvements or additional features.
@@ -323,8 +322,6 @@ After finishing this process you can open a new powershell instance and enjoy th
 
 ## License 📜
 
-This project is licensed under the LAX licence. DO NOT FUCK WITH THE LAX!
-
----
+This project is licensed under the LAX licence. README was initialized 2022. DO NOT FUCK WITH THE LAX!
 
 _Developed by samo-L-B with ❤️_
