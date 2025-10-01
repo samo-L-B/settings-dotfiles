@@ -204,6 +204,7 @@ Welcome to the underlying personal PowerShell profile repository for all LAX dev
 - **z**: Directory jumper 🏄‍♂️
 - **PSFzf**: Fuzzy finder 🕵️
 - **set-alias**: quick search & functional shortcuts ⏩
+- **Hack Font**: personalized & visually attractive font ✍️
 
 ### Configuration
 
@@ -211,18 +212,19 @@ Welcome to the underlying personal PowerShell profile repository for all LAX dev
 - The oh-my-posh customization JSON file is located at `~/powershell/LAX.omp.json' (style/appearance)
 - Both files should be stored in your '~/.config' folder. 
 - Additionally, you should store the JSON file as well as the Microsoft.Powershell_profile.ps1 (located at: `~/powershell/ Microsoft.Powershell_profile.ps1) in your respective Powershell folder within the Documents folder (subfolder Powershell).
+- The entire Directory structure should look like this:
+
+<img width="1041" height="703" alt="grafik" src="https://github.com/user-attachments/assets/2de34758-997a-404a-8f21-e818d04e143d" />
+
 
 ### Setup
 
-1. 
-2.
-3.
-4. - Configure Windows Terminal
-- Install Font _Hacker Nerd Font Mono_ (Installs a stylish font for code readability)
-- Install PowerShell
-- Change the default shell
-- Change the terminal background color
-- Install Scoop (Comamnd-line installer) iwr -useb get.scoop.sh | iex (in commandline)
+1. Install Font _Hack Bold italic Nerd Font Complete Mono_ (download & install: https://github.com/ryanoasis/nerd-fonts/releases) 
+2. Configure Terminal (Windows Terminal): open WindowsPowershell + adjust default terminal in settings to TERMINAL + Appearance (acrylic in tab row) + Default Appearance Color One Half Dark + Default Appearance Text Hack NF & enable acrylic (10% opacity)
+3. Download & Install PowerShell (Store) + change it to default shell
+4. Change the terminal background color (
+5, 
+Install Scoop (Comamnd-line installer) iwr -useb get.scoop.sh | iex (in commandline)
 - Install Git for Windows
 - Install Neovim
 - Make a user profile link it to a .config file folder which is in your User directory ()
