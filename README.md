@@ -336,16 +336,19 @@ Welcome to the underlying personal PowerShell profile repository for all LAX dev
 7. Install Neovim by using *scoop install neovim gcc* (in commandline)
 8. Make user profile save it to a C:\Users\*username*\.config\powershell\user_profile.ps1 file
 9. Update Profile by first using *New-Item -ItemType Directory -Path (Split-Path -Parent $PROFILE.CurrentUserCurrentHost) -Force* (in commandline) then using *nvim $PROFILE.CurrentUserCurrentHost* (in commandline) and insert (*. $env:USERPROFILE\.config\powershell\user_profile.ps1*)
-10. Install Oh My Posh (Prompt theme engine) (*Install-Module posh-git -Scope CurrentUser -Force* and *winget install JanDeDobbeleer.OhMyPosh --source winget --scope user --force* in command line in .conf\powershell\ directory)
-11. Install Terminal Icons
-- Install z - Directory jumper
-- Install PSReadLine - Autocompletion
-- Install Fzf - Fuzzy finder
-
-
-- Save the files downloaded as described in the configuration section.
-- Next try to adjust respectively tweak the appearance of your terminal/powershell and install all necessary packages.
-
+10. Install Oh My Posh (Prompt theme engine) (*Install-Module posh-git -Scope CurrentUser -Force* and *winget install JanDeDobbeleer.OhMyPosh --source winget --scope user --force* in command line in .conf\powershell\ directory) & copy paste LAX.omp.json in same folder as user_profile (C:\Users\*username*\.config\powershell\)
+11. setup Git
+'''
+╰─❯ git config --global user.name "samo-L-B"
+╰─❯ git config --global user.email "leon@andresen.at"
+╰─❯ ssh-keygen -t ed25519 -C "leon@andresen.at"
+'''
+12. install node.js by using *scoop install nvm* & *nvm install 14.16.0* & *nvm use 14.16.0* (in command line)
+13. install terminal icons by using *Install-Module -Name Terminal-Icons -Repository PSGallery -Force* & *Import-Module Terminal-Icons* (in commandline but actually in .config\powershell folder) 
+14. install z by using '''Install-Module -Name z -Force''' (in commandline but actually in .config\powershell folder)
+15. install PSReadLine by using '''Install-Module -Name PSReadLine -AllowPrerelease -Scope CurrentUser -Force -SkipPublisherCheck''' & '''Set-PSReadLineOption -PredictionViewStyle ListView'''' (in commandline but actually in .confiug\powershell folder)
+16. install fzf by using '''scoop install fzf''' & '''Install-Module -Name PSFzf -Scope CurrentUser -Force''' & '''Set-PsFzfOption -PSReadlineChordProvider 'Ctrl+f' - PSReadlineChordReversedHistory 'Ctrl+r''' (in commandline but actually in .confiug\powershell folder)
+  
 After finishing this process you can open a new powershell instance and enjoy the enhanced PowerShell experience! 🎉
 
 ### Web Search Commands
