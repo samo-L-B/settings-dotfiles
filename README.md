@@ -223,7 +223,7 @@ Welcome to the underlying personal PowerShell profile repository for all LAX dev
 2. Configure Terminal (Windows Terminal): open WindowsPowershell + adjust default terminal in settings to TERMINAL + Appearance (acrylic in tab row) + Default Appearance Color One Half Dark + Default Appearance Text Hack NF & enable acrylic (10% opacity)
 3. Download & Install PowerShell (Store) + change it to default shell
 4. Change the terminal background color (copy paste this into the json settings file) + change color in default appearance
-
+```
   {
     "$help": "https://aka.ms/terminal-documentation",
     "$schema": "https://aka.ms/terminal-profiles-schema",
@@ -329,6 +329,8 @@ Welcome to the underlying personal PowerShell profile repository for all LAX dev
     "themes": [],
     "useAcrylicInTabRow": true
 }
+```
+
 5. Install Scoop (comamnd-line installer) by using *iwr -useb get.scoop.sh | iex* & *scoop install curl sudo jq* (in commandline)
 6. Install Git for Windows by using *winget install -e --id Git.Git* (in commandline)
 7. Install Neovim by using *scoop install neovim gcc* (in commandline)
