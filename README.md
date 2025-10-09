@@ -38,7 +38,15 @@
   - [Contributing 🤝](#contributing-)
   - [Personalization 🎨](#personalization-)
   - [License 📜](#license-)
-
+- [Windows Settings 🖥️](#windows-settings)
+  - [Features 🌟](#features-)
+  - [Components Installed 🛠️](#components-installed-️)
+  - [Configuration 📁](#configuration-)
+  - [Usage 🚀](#usage-)
+  - [Contributing 🤝](#contributing-)
+  - [Personalization 🎨](#personalization-)
+  - [License 📜](#license-)
+- [NVIM/VIM settings 🖥️](#NVIM/VIM-settings)
 ---
 
 ## Keyboard Configuration
@@ -534,6 +542,46 @@ After finishing this process you can open a new powershell instance and enjoy th
 
 [⬆️ Back to Table of Contents](#table-of-contents)
 
+
+# Windows settings 🖥️
+
+  Welcome to my personal windows settings! 🎉 In general, keep in mind that by increasing focus and avoiding distraction you benefit in your everyday life and your workflow. Always keep in mind that you are most productive when using linux instead of windows but sometimes you can't help it and you have to work with the system presen. All the info present are designed to bring your personaltouch to the windows OS. There is still a lot of room for improvement.
+
+Feel free to use, fork, and customize these scripts to enhance your own command-line experience. 🔧
+
+## MUST-HAVES 🌟
+
+- *Virtual Desktops*: at least 4: main / coding / trading / media
+--> MAIN:       everyday tasks/research
+--> CODING:     (start olá beleza)
+--> TRADING:    tradingview & start downtown81 
+--> MEDIA:      spotify/youtube 
+## Components Installed 🛠️
+
+Software/Apps:
+- Calibre
+- Deepl
+- Git
+- Mozilla Firefox
+- Opera
+- PowerShell
+- PowerToys
+- Spotify
+- TranslucentTB
+- Trello
+- X
+
+## Configuration 📁
+
+Install software preferably straight from the web and avoid Microsoft Store (some apps are not supported or running slowly in the version provided)
+## Usage 🚀
+ 
+- Be aware Satya Nadella respectively Bill Gates is a son of a bitch.
+- Be aware that less > more.
+
+[⬆️ Back to Table of Contents](#table-of-contents)
+
+--------------------------------------------------------------------------------------------------------------
 ## Contributing 🤝
 
 - Feel free to fork, modify, and contribute improvements or additional features.
