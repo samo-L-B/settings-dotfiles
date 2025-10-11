@@ -516,16 +516,47 @@ Feel free to use, fork, and customize these scripts to enhance your own command-
 
 ## Features 🌟
 
-- **Bash-like Shell Experience**: Mimics Unix shell functionality, bringing familiarity to Windows PowerShell. 🐧
-- **lazy.vim**:
-    - cloak.lua: Automatic activation for matched file patterns respectively customizable masking character (defaults to '*')
+- **lazy.vim**: package manager
+        -> commands:
+            - :Lazy             -> Open plugin manager
+            - :Lazy sync        -> Sync plugins
+            - :Lazy clean       -> Remove unused plugins 
+            - :Lazy check       -> Check for updates
+            - :Lazy log         -> Show recent updates
+            - :Lazy build       -> Rebuild a plugin
+            - :Lazy debug       -> Show debug information
+            - :Lazy install     -> Install plugin(s)
+            - (optional respectively deactivated currently: :Lazy search [q]  -> Search for plugins)
+
+- **telescope.lua**: powerful fuzzy finder
+
+            - <leader>pf	    -> Find files (through all project files)
+            - <C-p>             -> Git files (through tracked Git files)
+            - <leader>pws	    -> Word search (current word under cursor) (stops at punctuation, spaces, special characters)
+            - <leader>pWs	    -> Word search (current word under cursor with punctuation) (everything until whitespace) 
+            - <leader>ps	    -> Interactive search respectively search with custom input
+            - <leader>pg        -> Live grep respectively search(type and see results while typing) 
+            - <leader>vh	    -> Help tags	Search through help documentation
+            - <leader>pb        -> switch between open buffers 
+
+
+- **colors.lua**: personal customization & individual touch
+    - color: color or rose-pine
+    - transparent background (and no background)
+
+
+- **nvim-treesitter.lua**: highlighting and indexing
+
+
+
+- cloak.lua: Automatic activation for matched file patterns respectively customizable masking character (defaults to '*')
     :CloakDisable
     :CloakEnable
     :CloakToggle
     :CloakPreviewLine (temporarily reveals masked content)
     - colors.lua: colorscheme & transparency 
     - conform.lua:  automatic code formatting (for different languages (like clang-format for C/C++, stylua for Lua, and prettier for JavaScript)
-    
+ 
 optional?
     - dap.lua: complete setup for debugging code, including window management, UI controls, and automatic debugger installation
     :DAP (Debug Adapter Protocol) (F8-F12 for navigation)
@@ -595,13 +626,6 @@ optional?
         :<C-s>; jump forward
         :C-s>, jump backwards
         :<C-E>   change choice
-    - telescope: powerful fuzzy finder
-        :<leader>pf	Find files (through all project files)
-        :<C-p>	Git files (through tracked Git files)
-        :<leader>pws	Word search (current word under cursor)
-        :<leader>pWs	WORD search
-        :<leader>ps	Interactive search	Search with custom input
-        :<leader>vh	Help tags	Search through help documentation
     - tj: creates PHP development environment that provides syntax highlighting and parsing + enables PHP-specific features + integrates with Treesitter for enhanced capabilities + sets up basic PHP language support
         :<leader>pp	Run PHP files
         :<leader>pi	Organize imports	
@@ -618,8 +642,6 @@ optional?
         : <leader>zZ for minimal distraction mode
         : press either again to toggle off
 
-
-
 ## Components Installed 🛠️
 
 Add-Ons:
@@ -630,6 +652,50 @@ Add-Ons:
 
 ## Configuration 📁
 
+- opearting on linux OS: .config folder already as default^
+- operating on windows OS: iniate symlink from directory: C:\Users\<username>\AppData\Local\nvim to directory: C:\Users\<username>\.config\nvim
+
+- prerequisite: scoop install ripgrep (in order to make telescope plugin work)
+
+
+┌────────────────────────────────────────────────────────────────────────────┐
+│ 📁 NeoVim Configuration Directory Structure (.config/nvim)                  │
+└────────────────────────────────────────────────────────────────────────────┘
+
+┌────────────────────────────────────────────────────────────────────────────┐
+│ 📂 Main Configuration Directory                                            │
+└────────────────────────────────────────────────────────────────────────────┘
+
+📁 lua/
+├── 📁 samolb/
+│   ├──  init.lua
+│   ├──  lazy_init.lua
+│   ├──  remap.lua
+│   └── 📁 lazy/
+│       ├──  colors.lua
+│       ├──  conform.lua
+│       ├──  dap.lua
+│       ├──  fugitive.lua
+│       ├──  golf.lua
+│       ├──  jai.lua
+│       ├──  local.lua
+│       ├──  lsp.lua
+│       ├──  neotest.lua
+│       ├──  peek.lua
+│       ├──  snippets.lua
+│       ├──  telescope.lua
+│       ├──  tj.lua
+│       ├──  treesitter.lua
+│       ├──  trouble.lua
+│       ├──  undotree.lua
+│       └──  zenmode.lua
+├──  init.lua
+└── 📄 lazy-lock.json
+
+┌────────────────────────────────────────────────────────────────────────────┐
+│ Legend: 📁 = Directory, 📄 = File,  = Lua Script, 📂 = Root Directory      │
+└────────────────────────────────────────────────────────────────────────────┘
+- Directory: C:\Users\<username>\.config\nvim
 - Check Add-Ons and enable respectively disable features you like or dislike.
 
 ## Usage 🚀
@@ -640,7 +706,11 @@ Add-Ons:
 
 After finishing this process you can open a new powershell instance and enjoy the enhanced PowerShell experience! 🎉
 
+## shortcuts/keymaps:
 
+- leader        = spacebar
+- <leader>pv    = netrw (in normal mode) 
+- 
 
 [⬆️ Back to Table of Contents](#table-of-contents)
 
