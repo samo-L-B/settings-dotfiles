@@ -517,6 +517,108 @@ Feel free to use, fork, and customize these scripts to enhance your own command-
 ## Features 🌟
 
 - **Bash-like Shell Experience**: Mimics Unix shell functionality, bringing familiarity to Windows PowerShell. 🐧
+- **lazy.vim**:
+    - cloak.lua: Automatic activation for matched file patterns respectively customizable masking character (defaults to '*')
+    :CloakDisable
+    :CloakEnable
+    :CloakToggle
+    :CloakPreviewLine (temporarily reveals masked content)
+    - colors.lua: colorscheme & transparency 
+    - conform.lua:  automatic code formatting (for different languages (like clang-format for C/C++, stylua for Lua, and prettier for JavaScript)
+    
+optional?
+    - dap.lua: complete setup for debugging code, including window management, UI controls, and automatic debugger installation
+    :DAP (Debug Adapter Protocol) (F8-F12 for navigation)
+    :shortcuts for different debug views (scopes, watches, etc.)
+    :<F8> to start the debugger
+    :<leader>b to set a breakpoint
+    :<F10>: Step over (execute current line)
+    :<F11>: Step into (enter functions)
+    :<F12>: Step out (finish current function)
+    ;<F8>: Continue to next breakpoint
+    - fugitive.lua: shortcuts for git 
+    :g<leader>gs: Opens Git status interface
+    :<leader>p: Push changes to remote
+    :<leader>P: Pull with rebase (keeps history clean)
+    :<leader>t: Push with tracking (useful for new branches)
+    :gu: Accept changes from left side
+    :gh: Accept changes from right side
+    -golf.lua: enhances Vim's built-in f/t; motion commands
+    : f followed by any character: searches forward 
+    : F followed by any character: searches backward
+    : ; to repeat the search
+    : , to repeat backward
+    : t followed by any character: searches until before target
+    : T followed by any character: searches backward until
+    - jai.lua: jumplist navigation commands
+    :Ctrl-I: Jump forward in the jump list
+    :Ctrl-O: Jump backward in the jump list
+    :ju: List all jump points
+    - local.lua: manages local plugins
+        - harpoon: navigation
+            :<leader>a - Add current file
+            :<leader>A - Prepend current file
+            :<C-e> - Toggle quick menu
+            :<C-h/t/n/s> - Jump to files 1-4
+            :<leader><C-h/t/n/s> - Replace files 1-4
+        - cursor-ai: 
+            :<leader>ca opens panel
+        - cockpit: testing interface for code
+            :<leader>ct: Execute tests
+            :<leader>cr: Refresh test results
+    - lsp.lua: intelligent code editing
+        :K         = Show documentation
+        :gd        = Go to definition
+        :gD        = Go to declaration
+        :gr        = Find references
+        :<lead=    = Format code (from conform.nvim)
+        :<C-p>=    = Previous item
+        :<C-n>=    = Next item
+        :<C-y>     = Confirm selection
+        :<C-Space> = Trigger completion
+        :]d        = Next diagnostic
+        :[d        = Previous diagnostic
+        ;<leader>d = Show diagnostic under cursor
+    - neotest.lua: powerful testing framework
+        :<leader>tr	= run nearest test (execute test under cursor)
+        :<leader>tv	= toggle test summary (view all available tests & their status
+        :<leader>ts = run test suite (all tests)
+        :<leader>td	= debug nearest test
+        :<leader>to	= open test output
+        :<leader>ta	= run directory tests
+    - peek.lua: markdown preview plugin
+        :PeekOpen - Opens the preview window
+        :PeekClose - Closes the preview window
+        ;use navigation keys to toggle arround (classical vim nav)
+    -snippets.lua: creates snippet system that automatically expands predefined code templates + provides forward/backward navigation between snippet fields + enables choice selection for multiple options (work both insert mode (i) + select mode (s))
+        :<C-s>e	Expand snippet (only in insert mode)
+        :<C-s>; jump forward
+        :C-s>, jump backwards
+        :<C-E>   change choice
+    - telescope: powerful fuzzy finder
+        :<leader>pf	Find files (through all project files)
+        :<C-p>	Git files (through tracked Git files)
+        :<leader>pws	Word search (current word under cursor)
+        :<leader>pWs	WORD search
+        :<leader>ps	Interactive search	Search with custom input
+        :<leader>vh	Help tags	Search through help documentation
+    - tj: creates PHP development environment that provides syntax highlighting and parsing + enables PHP-specific features + integrates with Treesitter for enhanced capabilities + sets up basic PHP language support
+        :<leader>pp	Run PHP files
+        :<leader>pi	Organize imports	
+        :<leader>pf	Format file	Standard
+    - treesitter.lua: enhanced editing environment (enhanced syntax highlighting + smart identification + code context intendation + code context in different window)
+    - trouble.lua: diagnostic viewer (shows errors, warnings, issues in a floating window + enables quick navigation between problems
+        :<leader>tt to toggle the trouble window
+        :[t to go to previous issue
+        ; ]t to go to next issue
+    - undotree.lua: visual undo/redo system
+        :<leader>u to toggle the undotree window (j/k for nav -> enter to jump to specific change + use <leader>u again to close the window)
+    - zenmode.lua: creates two focus modes
+        : <leader>zz for focused mode with numbers
+        : <leader>zZ for minimal distraction mode
+        : press either again to toggle off
+
+
 
 ## Components Installed 🛠️
 
