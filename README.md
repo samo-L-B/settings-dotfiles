@@ -231,114 +231,6 @@ Welcome to the underlying personal PowerShell profile repository for all LAX dev
 2. Configure Terminal (Windows Terminal): open WindowsPowershell + adjust default terminal in settings to TERMINAL + Appearance (acrylic in tab row) + Default Appearance Color One Half Dark + Default Appearance Text Hack NF & enable acrylic (10% opacity)
 3. Download & Install PowerShell (Store) + change it to default shell
 4. Change the terminal background color (copy paste this into the json settings file) + change color in default appearance
-```
-  {
-    "$help": "https://aka.ms/terminal-documentation",
-    "$schema": "https://aka.ms/terminal-profiles-schema",
-    "actions": [],
-    "copyFormatting": "none",
-    "copyOnSelect": false,
-    "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
-    "keybindings": 
-    [
-        {
-            "id": "Terminal.CopyToClipboard",
-            "keys": "ctrl+c"
-        },
-        {
-            "id": "Terminal.PasteFromClipboard",
-            "keys": "ctrl+v"
-        },
-        {
-            "id": "Terminal.DuplicatePaneAuto",
-            "keys": "alt+shift+d"
-        }
-    ],
-    "newTabMenu": 
-    [
-        {
-            "type": "remainingProfiles"
-        }
-    ],
-    "profiles": 
-    {
-        "defaults": 
-        {
-            "colorScheme": "One Half Dark",
-            "elevate": false,
-            "font": 
-            {
-                "face": "Hack Nerd Font Mono"
-            },
-            "opacity": 10,
-            "padding": "50",
-            "useAcrylic": true
-        },
-        "list": 
-        [
-            {
-                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
-                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
-                "hidden": false,
-                "name": "Windows PowerShell",
-                "opacity": 14
-            },
-            {
-                "commandline": "%SystemRoot%\\System32\\cmd.exe",
-                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
-                "hidden": false,
-                "name": "Eingabeaufforderung"
-            },
-            {
-                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
-                "hidden": false,
-                "name": "Azure Cloud Shell",
-                "source": "Windows.Terminal.Azure"
-            },
-            {
-                "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
-                "hidden": false,
-                "name": "PowerShell",
-                "source": "Windows.Terminal.PowershellCore"
-            },
-            {
-                "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
-                "hidden": false,
-                "name": "Git Bash",
-                "source": "Git"
-            }
-        ]
-    },
-    "schemes": [
-        {
-            "name": "My Modified Dark",
-            "foreground": "#DCDFE4",
-            "background": "#282C34",
-            "cursorColor": "#FFFFFF",
-            "selectionBackground": "#FFFFFF",
-            "black": "#282C34",
-            "blue": "#61AFEF",
-            "cyan": "#56B6C2",
-            "green": "#98C379",
-            "purple": "#C678DD",
-            "red": "#E06C75",
-            "white": "#DCDFE4",
-            "yellow": "#E5C07B",
-            "brightBlack": "#5A6374",
-            "brightBlue": "#61AFEF",
-            "brightCyan": "#56B6C2",
-            "brightGreen": "#98C379",
-            "brightPurple": "#C678DD",
-            "brightRed": "#E06C75",
-            "brightWhite": "#DCDFE4",
-            "brightYellow": "#E5C07B"
-        }
-    ],
-    "themes": [],
-    "useAcrylicInTabRow": true
-}
-```
-
 5. Install Scoop (comamnd-line installer) by using *iwr -useb get.scoop.sh | iex* & *scoop install curl sudo jq* (in commandline)
 6. Install Git for Windows by using *winget install -e --id Git.Git* (in commandline)
 7. Install Neovim by using *scoop install neovim gcc* (in commandline)
@@ -430,13 +322,13 @@ The PowerShell profile includes aliases and functions that mimic common Linux co
 
 PowerShell setup (Windows) included installition of
 
-    Scoop - A command-line installer
-    Git for Windows
-    Oh My Posh - Prompt theme engine
-    Terminal Icons - Folder and file icons
-    PSReadLine - Cmdlets for customizing the editing environment, used for autocompletion
-    z - Directory jumper
-    PSFzf - Fuzzy finder
+- Scoop - A command-line installer
+- Git for Windows
+- Oh My Posh - Prompt theme engine
+- Terminal Icons - Folder and file icons
+- PSReadLine - Cmdlets for customizing the editing environment, used for autocompletion
+- z - Directory jumper
+- PSFzf - Fuzzy finder
 
 
 [⬆️ Back to Table of Contents](#table-of-contents)
@@ -504,7 +396,7 @@ After finishing this process you can open a new powershell instance and enjoy th
 
 # NVIM/VIM settings 
 
-![NVIM](<[https://i.imgur.com/27bUq.jpeg](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRzwexAU2kRlg1oqzxtyBLc6-B8Bjhj-Ej9Q&s)>)
+![Neovim Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Neovim-mark.svg/738px-Neovim-mark.svg.png?20150131093814)
 
 ---
 
@@ -518,6 +410,7 @@ Feel free to use, fork, and customize these scripts to enhance your own command-
 
 - **lazy.vim**: package manager
         -> commands:
+
             - :Lazy             -> Open plugin manager
             - :Lazy sync        -> Sync plugins
             - :Lazy clean       -> Remove unused plugins 
@@ -531,32 +424,95 @@ Feel free to use, fork, and customize these scripts to enhance your own command-
 - **telescope.lua**: powerful fuzzy finder
 
             - <leader>pf	    -> Find files (through all project files)
-            - <C-p>             -> Git files (through tracked Git files)
+            - <Ctrl+p>          -> Git files (through tracked Git files)
             - <leader>pws	    -> Word search (current word under cursor) (stops at punctuation, spaces, special characters)
             - <leader>pWs	    -> Word search (current word under cursor with punctuation) (everything until whitespace) 
             - <leader>ps	    -> Interactive search respectively search with custom input
-            - <leader>pg        -> Live grep respectively search(type and see results while typing) 
+            - <leader>pg         -> Live grep respectively search(type and see results while typing) 
             - <leader>vh	    -> Help tags	Search through help documentation
-            - <leader>pb        -> switch between open buffers 
+            - <leader>pb         -> switch between open buffers 
 
 
-- **colors.lua**: personal customization & individual touch
-    - color: color or rose-pine
-    - transparent background (and no background)
+- **colors.lua**: colorscheme & individual touch (color: color or rose-pine & transparent background (and no background))
 
+- **conform.lua**: auto-formatter plugin
 
-- **nvim-treesitter.lua**: highlighting and indexing
+        - after :w                  -> automatically files when you save (:w
+        - <leader>f                 -> manually format current buffer
+        - :ConformInfo              -> show formatter info for current buffer
 
+- **treesitter.lua**: highlighting and indexing
 
+        - :TSUpdate                 -> Update all parsers
+        - :TSUpdate [language]      -> Update specific parser e.g. [javasrcipt]
+        - :TSInstall [language]     -> Install a new parser e.g. [python]
+        - :TSUninstall [language]   -> Remove a parser e.g. [rust]
+        - :TSInstallInfo            -> See all available parsers
+        - :TSContextEnable          -> Turn on context
+        - :TSContextDisable         -> Turn off context
+        - :TSContextToggle          -> Toggle context 
 
-- cloak.lua: Automatic activation for matched file patterns respectively customizable masking character (defaults to '*')
-    :CloakDisable
-    :CloakEnable
-    :CloakToggle
-    :CloakPreviewLine (temporarily reveals masked content)
-    - colors.lua: colorscheme & transparency 
-    - conform.lua:  automatic code formatting (for different languages (like clang-format for C/C++, stylua for Lua, and prettier for JavaScript)
- 
+- **markdown-preview.lua**: preview for markdown files
+
+        - :MarkdownPreviewToggle    -> Toggle preview window
+        - :MarkdownPreview          -> Force open preview
+        - :MarkdownPreviewStop      -> Close preview window
+        - <Leader>mp                -> Toggle preview
+        - <Leader>mo                -> Open preview
+        - <Leader>mc                -> Close preview
+
+- **conform.lua**:  automatic code formatting (for different languages (like clang-format for C/C++, stylua for Lua, and prettier for JavaScript)
+
+- **harpoon.lua**: quick file navigation for most-used files (pinning important files to slots 1-4 -> jump directly/quicker than telescope)
+
+        - <leader>a                -> add current file
+        - <leader>A                -> add current file to BEGINNING of list
+        - <Ctrl+e>                 -> Toggle quick menu
+        - <Ctrl+h/t/n/s>           -> Jump to files 1-4
+        - <leader><Ctrl+h/t/n/s>   -> Replace files 1-4
+
+- **undotree.lua**: visual undo/redo system
+        -> prerequisitete: scoop install diffutils
+        
+        - <leader>u                 -> toggle undotree window
+        - j/k                       -> for navigation (enter to jump to specific change + use q to close the window)
+        - Ctrl+w h                  -> jump into the undotree panel
+
+- **fugitive.lua**: shortcuts for git
+
+        - <leader>gs                -> Opens Git status interface
+        - <leader>p                 -> Push c            -> hanges to remote
+        - <leader>P                 -> Pull with rebase (keeps history clean)
+        - <leader>t                 -> Push with tracking (useful for new branches)
+        - gu                        -> Accept changes from left side
+        - gh                        -> Accept changes from right side
+
+- **lsp.lua**: intelligent code editing
+
+        - K                         -> Show documentation
+        - gd                        -> definition
+        - gD                        -> go to declaration
+        - gr                        -> find references
+        - gi                        -> go to implementation
+        - <leader>rn                -> Rename symbol (if mapped)
+        - <leader>ca                -> Code actions (if mapped)
+        - <Ctrl+p>                  -> Previous item
+        - <Ctrl+n>                  -> Next item
+        - <Ctrl+y>                  -> Confirm selection
+        - <Ctrl+Space>              -> Trigger completion
+        - ]d                        -> Next diagnostic
+        - [d                        -> Previous diagnostic
+        - <leader>q                 -> Open diagnostic list (if mapped)
+        - <leader>d                 -> Show diagnostic under cursor
+
+- cursor-ai: 
+
+        - :<leader>ca opens panel
+
+- cockpit: testing interface for code
+            :<leader>ct: Execute tests
+            :<leader>cr: Refresh test results
+
 optional?
     - dap.lua: complete setup for debugging code, including window management, UI controls, and automatic debugger installation
     :DAP (Debug Adapter Protocol) (F8-F12 for navigation)
@@ -567,13 +523,6 @@ optional?
     :<F11>: Step into (enter functions)
     :<F12>: Step out (finish current function)
     ;<F8>: Continue to next breakpoint
-    - fugitive.lua: shortcuts for git 
-    :g<leader>gs: Opens Git status interface
-    :<leader>p: Push changes to remote
-    :<leader>P: Pull with rebase (keeps history clean)
-    :<leader>t: Push with tracking (useful for new branches)
-    :gu: Accept changes from left side
-    :gh: Accept changes from right side
     -golf.lua: enhances Vim's built-in f/t; motion commands
     : f followed by any character: searches forward 
     : F followed by any character: searches backward
@@ -585,31 +534,6 @@ optional?
     :Ctrl-I: Jump forward in the jump list
     :Ctrl-O: Jump backward in the jump list
     :ju: List all jump points
-    - local.lua: manages local plugins
-        - harpoon: navigation
-            :<leader>a - Add current file
-            :<leader>A - Prepend current file
-            :<C-e> - Toggle quick menu
-            :<C-h/t/n/s> - Jump to files 1-4
-            :<leader><C-h/t/n/s> - Replace files 1-4
-        - cursor-ai: 
-            :<leader>ca opens panel
-        - cockpit: testing interface for code
-            :<leader>ct: Execute tests
-            :<leader>cr: Refresh test results
-    - lsp.lua: intelligent code editing
-        :K         = Show documentation
-        :gd        = Go to definition
-        :gD        = Go to declaration
-        :gr        = Find references
-        :<lead=    = Format code (from conform.nvim)
-        :<C-p>=    = Previous item
-        :<C-n>=    = Next item
-        :<C-y>     = Confirm selection
-        :<C-Space> = Trigger completion
-        :]d        = Next diagnostic
-        :[d        = Previous diagnostic
-        ;<leader>d = Show diagnostic under cursor
     - neotest.lua: powerful testing framework
         :<leader>tr	= run nearest test (execute test under cursor)
         :<leader>tv	= toggle test summary (view all available tests & their status
@@ -617,30 +541,99 @@ optional?
         :<leader>td	= debug nearest test
         :<leader>to	= open test output
         :<leader>ta	= run directory tests
-    - peek.lua: markdown preview plugin
-        :PeekOpen - Opens the preview window
-        :PeekClose - Closes the preview window
-        ;use navigation keys to toggle arround (classical vim nav)
-    -snippets.lua: creates snippet system that automatically expands predefined code templates + provides forward/backward navigation between snippet fields + enables choice selection for multiple options (work both insert mode (i) + select mode (s))
-        :<C-s>e	Expand snippet (only in insert mode)
-        :<C-s>; jump forward
-        :C-s>, jump backwards
-        :<C-E>   change choice
-    - tj: creates PHP development environment that provides syntax highlighting and parsing + enables PHP-specific features + integrates with Treesitter for enhanced capabilities + sets up basic PHP language support
-        :<leader>pp	Run PHP files
-        :<leader>pi	Organize imports	
-        :<leader>pf	Format file	Standard
-    - treesitter.lua: enhanced editing environment (enhanced syntax highlighting + smart identification + code context intendation + code context in different window)
-    - trouble.lua: diagnostic viewer (shows errors, warnings, issues in a floating window + enables quick navigation between problems
-        :<leader>tt to toggle the trouble window
-        :[t to go to previous issue
-        ; ]t to go to next issue
-    - undotree.lua: visual undo/redo system
-        :<leader>u to toggle the undotree window (j/k for nav -> enter to jump to specific change + use <leader>u again to close the window)
-    - zenmode.lua: creates two focus modes
-        : <leader>zz for focused mode with numbers
-        : <leader>zZ for minimal distraction mode
-        : press either again to toggle off
+
+
+Key Maps: 
+
+    - <Space>                       -> leader key
+    - <leader>pv                    -> Open file explorer (netrw)
+    - J (in visual)                 -> Move selected lines down
+    - K (in visual)                 -> Move selected lines up
+
+    - <Ctrl+d>                      -> Scroll half-page down (centered)
+    - <Ctrl+u>                      -> Scroll half-page up (centered)
+    - n                             -> Next search result (centered)
+    - N                             -> Previous search result (centered)
+
+    - <leader>p (in visual)         -> Paste without overwriting register
+    - <leader>y (normal/visual)     -> Yank to system clipboard
+    - <leader>Y (normal)            -> Yank line to system clipboard
+    - <leader>d                     -> Delete without yanking
+
+    - <leader>s                     -> Search/replace word under cursor
+    - <leader>x                     -> Make file executable
+
+    - <Ctrl+k>                      -> Next quickfix item (centered)
+    - <Ctrl+j>                      -> Previous quickfix item (centered)
+    - <leader>k                     -> Next location list item (centered)
+    - <leader>j                     -> Previous location list item (centered)
+
+    - <Ctrl+f>                      -> Open tmux sessionizer (needs tmux)
+
+    - =ap                           -> Format paragraph (restore cursor)
+
+Key Maps 2 (commented out (not actively using currently)):
+
+    - <leader>tf                    -> Run Plenary test file
+    - J (normal)                    -> Join lines (keep cursor position)
+
+    - <leader>zig                   -> Restart LSP server
+    - <Ctrl+c>                      -> Alternative Escape
+
+    - <Alt+h>                       -> Tmux sessionizer vsplit
+    - <Alt+H>                       -> Tmux sessionizer new window
+
+    - <leader>ee                    -> Insert "if err != nil { return err }"
+    - <leader>ea                    -> Insert error assertion
+    - <leader>ef                    -> Insert error with log.Fatalf
+    - <leader>el                    -> Insert error with logger
+
+    - <leader>ca                    -> Cellular automaton animation
+
+    - <leader><leader>              -> Source/reload current file
+
+earlier versions:
+
+- peek.lua: markdown preview plugin
+        
+        - :PeekOpen - Opens the preview window
+        - :PeekClose - Closes the preview window
+        - ;use navigation keys to toggle arround (classical vim nav)
+
+optional future plugins:
+
+-**snippets.lua**: creates snippet system that automatically expands predefined code templates + provides forward/backward navigation between snippet fields + enables choice selection for multiple options (work both insert mode (i) + select mode (s))
+       
+        - <C-s>e                -> Expand snippet (only in insert mode)
+        - <C-s>                 -> jump forward
+        - C-s>,                 -> jump backwards
+        - <C-E>                 -> change choice
+
+- **tj.lua**: creates PHP development environment that provides syntax highlighting & parsing + enables PHP-specific features + integrates with Treesitter for enhanced capabilities + sets up basic PHP language support
+        
+        - :<leader>pp           -> Run PHP files
+        - :<leader>pi	        -> Organize imports	
+        - :<leader>pf	        -> Format file	Standard
+
+- **trouble.lua**: diagnostic viewer (shows errors, warnings, issues in a floating window + enables quick navigation between problems
+        
+        - <leader>tt            -> to toggle the trouble window
+        - [t                    -> to go to previous issue
+        - ]t                    -> to go to next issue
+
+- **zenmode.lua**: creates two focus modes
+        
+        - <leader>zz            -> for focused mode with numbers
+        - <leader>zZ            ->for minimal distraction mode
+                                -> press either again to toggle off
+
+- cloak.lua: automatic activation for matched file patterns respectively customizable masking character (defaults to '*') actually hide/obfuscate sensitive data like API keys, tokens, or passwords in your code editor
+        
+        - :CloakDisable
+        - :CloakEnable
+        - :CloakToggle
+        - :CloakPreviewLine (temporarily reveals masked content)
+    
 
 ## Components Installed 🛠️
 
@@ -654,47 +647,37 @@ Add-Ons:
 
 - opearting on linux OS: .config folder already as default^
 - operating on windows OS: iniate symlink from directory: C:\Users\<username>\AppData\Local\nvim to directory: C:\Users\<username>\.config\nvim
-
-- prerequisite: scoop install ripgrep (in order to make telescope plugin work)
-
-
+```
 ┌────────────────────────────────────────────────────────────────────────────┐
 │ 📁 NeoVim Configuration Directory Structure (.config/nvim)                  │
-└────────────────────────────────────────────────────────────────────────────┘
-
-┌────────────────────────────────────────────────────────────────────────────┐
-│ 📂 Main Configuration Directory                                            │
-└────────────────────────────────────────────────────────────────────────────┘
-
+└─────────────────────────────────────────────────────────────────┬────┘
 📁 lua/
 ├── 📁 samolb/
-│   ├──  init.lua
-│   ├──  lazy_init.lua
-│   ├──  remap.lua
+│   ├── 📄 init.lua
+│   ├── 📄 lazy_init.lua
+│   ├── 📄 remap.lua
 │   └── 📁 lazy/
-│       ├──  colors.lua
-│       ├──  conform.lua
-│       ├──  dap.lua
-│       ├──  fugitive.lua
-│       ├──  golf.lua
-│       ├──  jai.lua
-│       ├──  local.lua
-│       ├──  lsp.lua
-│       ├──  neotest.lua
-│       ├──  peek.lua
-│       ├──  snippets.lua
-│       ├──  telescope.lua
-│       ├──  tj.lua
-│       ├──  treesitter.lua
-│       ├──  trouble.lua
-│       ├──  undotree.lua
-│       └──  zenmode.lua
-├──  init.lua
+│       ├── 📄 colors.lua
+│       ├── 📄 conform.lua
+│       ├── 📄 dap.lua
+│       ├── 📄 fugitive.lua
+│       ├── 📄 golf.lua
+│       ├── 📄 jai.lua
+│       ├── 📄 local.lua
+│       ├── 📄 lsp.lua
+│       ├── 📄 neotest.lua
+│       ├── 📄 peek.lua
+│       ├── 📄 snippets.lua
+│       ├── 📄 telescope.lua
+│       ├── 📄 tj.lua
+│       ├── 📄 treesitter.lua
+│       ├── 📄 trouble.lua
+│       ├── 📄 undotree.lua
+│       └── 📄 zenmode.lua
+├── 📄 init.lua
 └── 📄 lazy-lock.json
-
-┌────────────────────────────────────────────────────────────────────────────┐
-│ Legend: 📁 = Directory, 📄 = File,  = Lua Script, 📂 = Root Directory      │
-└────────────────────────────────────────────────────────────────────────────┘
+```
+- prerequisite: scoop install ripgrep (in order to make telescope plugin work)
 - Directory: C:\Users\<username>\.config\nvim
 - Check Add-Ons and enable respectively disable features you like or dislike.
 
@@ -723,11 +706,17 @@ Feel free to use, fork, and customize these scripts to enhance your own command-
 
 ## MUST-HAVES 🌟
 
-- *Virtual Desktops*: at least 4: main / coding / trading / media
---> MAIN:       everyday tasks/research
---> CODING:     (start olá beleza)
---> TRADING:    tradingview & start downtown81 
---> MEDIA:      spotify/youtube 
+- *Virtual Desktops*: 
+
+5 working spaces at least (access via autohotkey (alt + number))
+
+    --> 1. SEARCH:                 search & file management 
+    --> 2. BROWSE:                 everyday tasks/research
+    --> 3. CODE/CREATE:            (start olá beleza)
+    --> 4. TRADE:                  tradingview & start downtown81 
+    --> 5. MEDIA:                  spotify/youtube
+
+
 ## Components Installed 🛠️
 
 Software/Apps:
@@ -742,6 +731,7 @@ Software/Apps:
 - TranslucentTB
 - Trello
 - X
+- Autohotkey (https://www.autohotkey.com/)
 
 ## Configuration 📁
 
