@@ -1,4 +1,4 @@
-# samo-L-B's settings-dotfiles - README 
+# samo-L-B's settings-dotfiles-v.1.025 
 
 ![BenvenidoBenny](https://i.imgur.com/27bUq.jpeg)
 
@@ -8,11 +8,9 @@ This file summarizes samo-L-B's dotfilesm, the digital approach/principles as we
 
 It includes the keyboard settings and the underlying mental concept for operating those devices (as well as the operating system) but also more in detail the setup of the OS and a proper PowerShell in order to facilitate quick access to do proper research. Additionally, the browser settings as well as the nvim settings are being outlined and explained.
 
+Always keep in mind that a proper setup and the resulting efficiency helps the operator in saving time, improve her/his daily drive which ultimately increases quality and quantity of the output she/he generate! 
 
 ![idiota_grande](data:image/png;base64,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)
-
-
-Always keep in mind that a proper setup and the resulting efficiency helps the operator in saving time, improve her/his daily drive which ultimately increases quality and quantity of the output she/he generate! 
 
 In case you have any great ideas and contribution, feel free to contact the owner of this repository - ALWAYS more than happy to learn and improve the daily workflow! Enjoy enormous eejit! 💩 
 
@@ -21,83 +19,89 @@ In case you have any great ideas and contribution, feel free to contact the owne
 
 ## Table of Contents
 
-### 1. [Keyboard Configuration 🎹](#keyboard-configuration)
+### 1. [Keyboard Configuration](#keyboard-configuration) 🎹
     
-##### 1.1. [Search 🧐](#search)
+##### 1.1. [Search](#search) 🧐
     
-##### 1.2. [Browse 📁](#browse)
+##### 1.2. [Browse](#browse) 📁
     
-##### 1.3. [Create 🧮](#create)
+##### 1.3. [Create](#create) 🧮
     
-##### 1.4. [Trading 💸](#trading)
+##### 1.4. [Trading](#trading) 💸
     
-##### 1.5. [Media 🎬](#media)
+##### 1.5. [Media](#media) 🎬
 
 ---
 
 ### 2.  [OS: Windows Settings 🖥️](#windows-settings)
         
-- [Features 🌟](#features-)
-- [Components Installed 🛠️](#components-installed-️)
-- [Configuration 📁](#configuration-)
-- [Usage 🚀](#usage-)
-- [Contributing 🤝](#contributing-)
-- [Personalization 🎨](#personalization-)
-- [License 📜](#license-)
+- [Features](#features-) 🌟
+- [Components Installed](#components-installed-️) 🛠️
+- [Configuration](#configuration-) 📁
+- [Usage](#usage-) 🚀
 
 ---
 
-### 3. [OS: Linux Settings 🖥️](#linux-settings)
+### 3. [OS: Linux Settings](#linux-settings) 🖥️
 
-- [Features 🌟](#features-)
-- [Components Installed 🛠️](#components-installed-️)
-- [Configuration 📁](#configuration-)
-- [Usage 🚀](#usage-)
-- [Contributing 🤝](#contributing-)
-- [Personalization 🎨](#personalization-)
-- [License 📜](#license-)
+- [Features](#features-) 🌟
+- [Components Installed](#components-installed-️) 🛠️
+- [Configuration](#configuration-) 📁
+- [Usage](#usage-) 🚀
+- [Contributing](#contributing-) 🤝
+- [Personalization](#personalization-) 🎨
+- [License](#license-) 📜
 
 ---
 
-### 4. [PowerShell settings 🖥️](#powershell-settings)
+### 4. [PowerShell settings](#powershell-settings) 🖥️
     
-- [Features 🌟](#features)
-- [Configuration 📁](#configuration)
-- [Setup 🚀](#setup)
-- [Web Search Commands ⭐](#web-search-commands)
-- [Supported Linux Commands 🐧](#supported-linux-commands)
+- [Features](#features) 🌟
+- [Configuration](#configuration) 📁
+- [Setup](#setup) 🚀
+- [Web Search Commands](#web-search-commands) ⭐
+- [Supported Linux Commands](#supported-linux-commands) 🐧
 
 ---
 
-### 5. [Browser Settings 🖥️](#browser-settings)
+### 5. [Browser Settings](#browser-settings) 🖥️
     
-- [Features 🌟](#features-)
-- [Components Installed 🛠️](#components-installed-️)
-- [Configuration 📁](#configuration-)
-- [Usage 🚀](#usage-)
-- [Contributing 🤝](#contributing-)
-- [Personalization 🎨](#personalization-)
-- [License 📜](#license-)
+- [Features](#features-) 🌟
+- [Components Installed](#components-installed-️) 🛠️
+- [Configuration](#configuration-) 📁
+- [Usage](#usage-) 🚀
+- [Contributing](#contributing-) 🤝
+- [Personalization](#personalization-) 🎨
+- [License](#license-) 📜
 
 ---
 
-### 6. [NVIM/VIM settings 🖥️](#NVIM/VIM-settings)
-- [Features 🌟](#features-)
-- [Components Installed 🛠️](#components-installed-️)
-- [Configuration 📁](#configuration-)
-- [Usage 🚀](#usage-)
-- [Contributing 🤝](#contributing-)
-- [Personalization 🎨](#personalization-)
-- [License 📜](#license-)
+### 6. [NVIM/VIM settings](#NVIM/VIM-settings) 🍌
+- [Features](#features-) 🌟
+- [Components Installed](#components-installed-️) 🛠️
+- [Configuration](#configuration-) 📁
+- [Usage](#usage-) 🚀
+- [Contributing](#contributing-) 🤝
+- [Personalization](#personalization-) 🎨
+- [License](#license-) 📜
 
 ---
 ---
 
-## 1. Keyboard Configuration 🎹 
+### [Essentials](#essentials) 🌊
+- [Personalization](#personalization-) 🎨
+- [Contributing](#contributing-) 🤝
+- [License](#license-) 📜
+
+---
+---
+
+## 1. Keyboard Configuration 🎹
 
 
-The keyboard configuration perfectly summarizes the entire approach of all digital devices as well and their underlying operating systems.
+The keyboard configuration perfectly summarizes the entire approach of all digital devices as well and their underlying operating systems. 
 
+The ultimate goal of taking control via **1 key to go/be mentally**.
 
 
 <p float="left">
@@ -105,10 +109,9 @@ The keyboard configuration perfectly summarizes the entire approach of all digit
     <img src="https://blueseatblogs.com/cdn-cgi/image/quality=80,format=auto,onerror=redirect,metadata=none/wp-content/uploads/2018/07/consciousness-709143.jpg" width=200 />
 </p>
 
+It can be applied to any computer with all operating systems and/or mobile device. Additionally, it will also be used in order to set up virtual working spaces on different (virtual) desktops.
 
-
-The ultimate goal of taking control via **1 key to go/be mentally**.
-It can be applied to any computer with all operating systems and/or mobile device. Additionally, it will also be used in order to set up virtual working spaces on different (virtual) desktops. In general, this also aims to help you to structure thought processes. Use AutoHotkey scripts already present in *C:\Users\<username>\.config\AutoHotkey* on windows machines and */home/(user)/.config/autokey/data* folder on linux machines. There always exist the opportunity to create new scripts. 
+In general, this also aims to help you to structure thought processes. Use AutoHotkey scripts already present in *C:\Users\<username>\.config\AutoHotkey* on windows machines and */home/(user)/.config/autokey/data* folder on linux machines. There always exist the opportunity to create new scripts. 
 
 
 ![true_ape](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExcGkzc29ibWV2cTl3cHhyNXk5Zm10dmVhZXZqanhodDV6MHV0ejJucSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/XGqDsE3owV0RO/giphy.gif)
@@ -119,9 +122,10 @@ At some point in the future, the aim will be to learn more and improve efficienc
 ---
 
 
-### 1.1. Search
+### 1.1. Search 🧐
 
-The S€ARCH includes actual classic search as well as AI programs and research in general. 🔍
+The S€ARCH includes classic search, AI search and deep research tools. 
+    
 > **ALT-1️⃣**: ***virtual desktop***: S€ARCH
       
 > **WIN-1️⃣**: ***PowerShell*** (laptop)
@@ -140,22 +144,19 @@ The S€ARCH includes actual classic search as well as AI programs and research 
 - Giphy
 - (Alexa/G-Assistant/Translate)
 
-
 > ⛏️: 
 
 ---
 
-### 1.2. Browse
+### 1.2. Browse 📁
 
-The BROW$€ includes browsing in classic web browsers as well as other information browsing/learning material. 
+The BROW$€ includes classic web browsers as well as other information browsing/learning software or plattforms. 
 
 > **ALT-2️⃣**: ***virtual desktop 2***: BROW$€
       
 > **WIN-2️⃣**: ***Firefox*** (computer)
 
 ![browse_dumbass](https://i.giphy.com/ytwDCNbIBn8CIwXM4w.webp)
-
-**Firefox** (laptop)
 
 > *(mobile):* ***apps***
 - Firefox
@@ -172,22 +173,19 @@ The BROW$€ includes browsing in classic web browsers as well as other informat
 - Google Play Store
 - Research Gate
 
-
 > ⛏️:
 
 ---
 
-### 1.3. Create
+### 1.3. Create 🧮
 
-This includes all creation software but the focus really lays on code generation as well as project management.  
+This includes all creation software but the focus on code generation and project management.  
 
 > **ALT-3️⃣**: ***virtual desktop 3***: CR€AT€
       
-> **WIN-3️⃣**: ***VIM/TRELLO*** (computer)
+> **WIN-3️⃣**: ***(N)VIM/TRELLO*** (computer)
 
 ![create_dumbass](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYjZmcXR1dzYxZXJ3bnhoaWxuc3RudTYzM295Y2Z4Y3gyMnhpdXRpMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/d31vTpVi1LAcDvdm/giphy.gif)
-
-**VIM/NVIM** (laptop)
 
 > *(mobile):* ***apps**
 - GitHub
@@ -211,17 +209,18 @@ This includes all creation software but the focus really lays on code generation
 
 ---
 
-### 1.4. Trading
+### 1.4. Trading 💸
 
-This includes all software or programm scripts running concerned with the financial markets.
+This includes all software or programm scripts running concerned with financial markets.
 
 > **ALT  -4️⃣**: ***virtual desktop 4***: TRADING
 
-> **ALT-4️⃣**: +++TRADINGVIEW***
+> **ALT-4️⃣**: ***TRADINGVIEW***
 
 ![trade_dumbass](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExbWRpNWFoZmdxNnhmOWtjd3FhNzEzNmltODBkd2dtc3U5NXEwaGRyaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/bMycGOQLESDCEnLNUz/giphy.gif)
 
 >*(mobile):* ***apps***
+- TradingView
 - Kraken
 - Stocktwits
 - PayPal
@@ -233,14 +232,15 @@ This includes all software or programm scripts running concerned with the financ
 
 ---
 
-### 1.5. Media
+### 1.5. Media 🎬
 
 This includes all software regarding media consumption (musica as well as video format and books).
+
 > **ALT-5️⃣**: ***virtual desktop 5***: M€DIA 
 
 > **WIN-5️⃣**. ***Calibre/Spotify*** (computer)
 
-![media_dumbass](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHBwZjNuMjhrYW1rZmtlaHFna3M0YXkyYzBsZW5jMmo1bnVmY3lsZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/4ZtY6pvsG2HdtPSKiS/giphy.gif)
+![media_dumbass](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExcno3eGZ4Y2EyenI1dGswdXVsaXI2MjVuc2IxOG84b2doN29hZ2Y1YyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/KBaxHrT7rkeW5ma77z/giphy.gif)
 
 *(mobile):*
 - Watching (VLC)
@@ -282,13 +282,129 @@ This includes all software regarding media consumption (musica as well as video 
 ---
 ---
 
-## PowerShell settings
-![Powershell](https://cdn.icon-icons.com/icons2/2248/PNG/512/powershell_icon_136294.png)
+## 2. OS:Windows Settings 🖥️
+
+Welcome to samo-L-B's personal windows settings! 🎉 
+
+In general, keep in mind that by increasing focus and avoiding distraction you benefit in your everyday life and your workflow. 
+Always keep in mind that you are most productive when using linux instead of windows but sometimes you can't help it and you have to work with the system present. 
+
+![windows-sucks](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExdzBneWZhY3JzYzJtOXpxazVtcnV1NmY4ZGxlc3MwM3NrbGNjMWlnMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l3q2zbskZp2j8wniE/giphy.gif)
+
+All the info present are designed to bring your personaltouch to the windows OS. There is still a lot of room for improvement.
+
+---
+
+### Features 🌟
+
+***Virtual Desktops***: 5 working spaces at least (access via autohotkey (alt + number))
+
+    --> 1. SEARCH:                 search & file management 
+    --> 2. BROWSE:                 everyday tasks/research
+    --> 3. CODE/CREATE:            (start olá beleza)
+    --> 4. TRADE:                  tradingview & start downtown81
+    --> 5. MEDIA:                  spotify/youtube
+
+### Components Installed 🛠️
+
+Software/Apps:
+- Calibre
+- Deepl
+- Git
+- Mozilla Firefox
+- Opera
+- PowerShell
+- PowerToys
+- Spotify
+- TranslucentTB
+- Trello
+- X
+- Autohotkey (https://www.autohotkey.com/)
+
+### Configuration 📁
+
+Install software preferably straight via scoop/winget or from the web.
+
+### Usage 🚀
+ 
+- Be aware Satya Nadella respectively Bill Gates is a son of a bitch.
+- Be aware that less > more.
+- AutoHotkey config allows you to access all (virtual) workspaces as mentioned above.
+
+---
+
+[⬆️ Back to Table of Contents](#table-of-contents)
+
+---
+---
+
+## 3. OS: Linux Settings 🖥️
+
+Welcome to samo-L-B's personal Linux (ubuntu) settings! 🎉 
+
+Windows sucks so try to work with the best OS available on the market currently. 
+
+![linux](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNTRxM3RpYXNldmE1anBicTBnZ3Bic3RmNjg0ZzIyOHZyZm5qMTU4YSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xndHaRIcvge5y/giphy.gif)
+
+Keep in mind that there still exist a backup-server in the current work setup - use it wisely.  
+
+---
+
+### Features 🌟
+
+***DISTRIBUTION***: **Kali Linux**
+
+
+***Virtual Desktops***: 5 working spaces at least (access via autohotkey (alt + number))
+
+    --> 1. SEARCH:                 search & file management 
+    --> 2. BROWSE:                 everyday tasks/research
+    --> 3. CODE/CREATE:            (start olá beleza)
+    --> 4. TRADE:                  tradingview & start downtown81
+    --> 5. MEDIA:                  spotify/youtube
+
+
+### Components Installed 🛠️
+
+File Management:
+-
+-
+-
+
+Software/Apps:
+- Calibre
+- Git
+- Mozilla Firefox
+- PowerShell
+- Spotify
+- X
+- Autohotkey (https://www.autohotkey.com/)
+
+### Configuration 📁
+
+![wtf](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbWl5OHlsM3dxY25xc21pNzBlaXdxeDR6NmZ4NHJzbzN1dnNrbWN4eSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZxmJiR5631jqpv4Uzn/giphy.gif)
+
+### Usage 🚀
+
+![top-secret](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXpmNTBrdnkydW8zdDQ3am56OGtza3hrenRnZnpsencxY3huejhlNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/NdKVEei95yvIY/giphy.gif)
+
+---
+
+[⬆️ Back to Table of Contents](#table-of-contents)
+
+---
+---
+
+## 4. PowerShell settings 🖥️
 
 Welcome to the underlying personal PowerShell profile repository for all LAX devices! This collection of PowerShell scripts is designed to bring personaltouch to the Powershell and enable quick access to the most important features of the Internet. Most importantly, it helps us to go mentally to the first SEARCH respectively RESEARCH function.
 
+![Powershell](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExcXNpYmR6bWZ5a2FyaG15aWhidm94YmRtY21ncDY4MmhoZjB6ZDRsOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/JmJMzlXOiI0dq/giphy.gif)
 
-### Features
+- These videos helped me to deepen my skills regarding the setting up of my config files (https://www.youtube.com/watch?v=5-aK2_WwrmM AND https://christitus.com/pretty-powershell/)
+- To insert your own OhMyPosh config, just fork the repo and change the URL in the main file to your own.
+
+### Features 🌟
 
 - **Bash-like Shell Experience**: Mimics Unix shell functionality, bringing familiarity to Windows PowerShell. 🐧
 - **Oh My Posh Integration**: Enhances the user interface with stylish prompts and Git status indicators. ⚡
@@ -296,24 +412,26 @@ Welcome to the underlying personal PowerShell profile repository for all LAX dev
 - **Automatic Installation**: The scripts automatically install necessary modules and components on first execution. 🛠️
 - **Terminal-Icons Module**: Enhances terminal UI with icons. 🎨
 - **PoshFunctions**: Essential functions for PowerShell. ⚙️
-- **PSReadLine**: Cmdlets for customizing the editing environment, used for autocompletion 🏋️
+- **PSReadLine**: Cmdlets for customizing editing environment + for autocompletion 🏋️
 - **z**: Directory jumper 🏄‍♂️
 - **PSFzf**: Fuzzy finder 🕵️
 - **set-alias**: quick search & functional shortcuts ⏩
 - **Hack Font**: personalized & visually attractive font ✍️
+- **Scoop**: installation manager
+- **Git**: Git for Windows 🔗
 
-### Configuration
+### Configuration 📁
 
 - The configuration file is located at: `~/powershell/user_profile.ps1' (functionality). 
 - The oh-my-posh customization JSON file is located at `~/powershell/LAX.omp.json' (style/appearance)
 - Both files should be stored in your '~/.config' folder. 
-- Additionally, you should store the JSON file as well as the Microsoft.Powershell_profile.ps1 (located at: `~/powershell/ Microsoft.Powershell_profile.ps1) in your respective Powershell folder within the Documents folder (subfolder Powershell).
+- Additionally, store the JSON file as well as the Microsoft.Powershell_profile.ps1 (located at: `~/powershell/ Microsoft.Powershell_profile.ps1) in your respective Powershell folder within the Documents folder (subfolder Powershell).
 - The entire Directory structure should look like this:
 
 <img width="1041" height="703" alt="grafik" src="https://github.com/user-attachments/assets/2de34758-997a-404a-8f21-e818d04e143d" />
 
 
-### Setup
+### Setup 🚀
 
 1. Install Font _Hack Bold italic Nerd Font Complete Mono_ (download & install: https://github.com/ryanoasis/nerd-fonts/releases) 
 2. Configure Terminal (Windows Terminal): open WindowsPowershell + adjust default terminal in settings to TERMINAL + Appearance (acrylic in tab row) + Default Appearance Color One Half Dark + Default Appearance Text Hack NF & enable acrylic (10% opacity)
@@ -339,7 +457,7 @@ Welcome to the underlying personal PowerShell profile repository for all LAX dev
   
 After finishing this process you can open a new powershell instance and enjoy the enhanced PowerShell experience! 🎉
 
-### Web Search Commands
+### Web Search Commands ⭐
 
 The PowerShell profile includes aliases and functions that mimic everyday workflow of LAX: (Start Process or)
 
@@ -361,7 +479,7 @@ The PowerShell profile includes aliases and functions that mimic everyday workfl
 - `reddit`: open reddit
 - `twitter`: open twitter
 
-### Supported Linux Commands
+### Supported Linux Commands 🐧
 
 The PowerShell profile includes aliases and functions that mimic common Linux commands, providing a familiar environment for users accustomed to Linux shell environments. Here are some of the supported Linux commands:
 
@@ -396,27 +514,7 @@ The PowerShell profile includes aliases and functions that mimic common Linux co
 - `gitpush`: Also known as lazy-git, pulls, adds all, commits the message after gitpush and then pushes.
 - `ptw`: Send text/files pipe output to a wastebin server, important: contact me via issue for this.
 
-### Contributing 
-
-- Feel free to fork, modify, and contribute improvements or additional features.
-- For any issues, questions, or help, please create an issue in the repository. 💬
-- These videos helped me to deepen my skills regarding the setting up of my config files (https://www.youtube.com/watch?v=5-aK2_WwrmM AND https://christitus.com/pretty-powershell/)
-
-## Personalization 🎨
-
-- Customize the scripts according to personal preferences or specific system requirements.
-- To use a forked version, update the `githubUser` variable to point to your own forked repository.
-- To insert your own OhMyPosh config, just fork the repo and change the URL in the main file to your own.
-
-PowerShell setup (Windows) included installition of
-
-- Scoop - A command-line installer
-- Git for Windows
-- Oh My Posh - Prompt theme engine
-- Terminal Icons - Folder and file icons
-- PSReadLine - Cmdlets for customizing the editing environment, used for autocompletion
-- z - Directory jumper
-- PSFzf - Fuzzy finder
+---
 
 
 [⬆️ Back to Table of Contents](#table-of-contents)
@@ -426,53 +524,71 @@ PowerShell setup (Windows) included installition of
 ---
 
 
- # Browser Settings
+## 5. Browser Settings 🖥️
 
 ![Firefox](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRzwexAU2kRlg1oqzxtyBLc6-B8Bjhj-Ej9Q&s)>)
 
 
 ---
 
-# Personal Firefox Configuration 🖥️
-
 Welcome to my personal Firefox profile settings! 🎉 This collection of Firefox scripts respectively Add-Ons, Designs, Themes, etc are designed to bring your personaltouch to the Mozilla Firefox.
 
 Feel free to use, fork, and customize these scripts to enhance your own command-line experience. 🔧
 
-## Features 🌟
+### Features 🌟
 
-- **Bash-like Shell Experience**: Mimics Unix shell functionality, bringing familiarity to Windows PowerShell. 🐧
+- **Theme**: Spirited Away Theme 🐧
 
-## Components Installed 🛠️
+### Components Installed 🛠️
 
-Add-Ons:
+🔌 Add-Ons:
 
-- **A**: Enhances the user interface with stylish prompts and Git status indicators. ⚡
-- **A**: Improves function loading time for a smoother experience. 🕒
-- **A**: The scripts automatically install necessary modules and components on first execution. 🛠️
+    - **AdBlock**: Blocks intrusive ads and improves browsing experience. 🚫
+    - **Add Custom Search Engine**: Allows users to add and configure custom search engines for the address bar. 🔍
+    - **Auto Tab Discard**: Automatically discards inactive tabs to save memory and CPU usage. 💤
+    - **CanvasBlocker**: Prevents websites from using HTML5 canvas for fingerprinting purposes. 🖼️
+    - **ClearURLs**: Removes tracking elements from URLs to protect privacy. 🔗
+    - **ColorZilla**: Advanced color picker and eyedropper tool for web development. 🎨
+    - **Consent-O-Matic**: Automatically answers cookie consent popups based on user preferences. ✅
+    - **Cookie AutoDelete**: Automatically deletes unused cookies from closed tabs. 🍪
+    - **Copy PlainText**: Copies selected text without formatting. 📝
+    - **CORS Everywhere**: Enables cross-origin resource sharing (CORS) for web development. 🌐
+    - **Decentraleyes**: Serves local copies of common JavaScript libraries to prevent tracking. 🛡️
+    - **Disconnect**: Blocks third-party trackers for safer and faster browsing. 🔌
+    - **Firefox Multi-Account Containers**: Separates website data into containers to manage identities and privacy. 🧳
+    - **Restore Closed Tabs**: Allows quick reopening of recently closed tabs. ♻️
+    - **GIPHY for Firefox**: Easily search and share GIFs from GIPHY directly in your browser. 🎞️
+    - **I Don't Care About Cookies**: Hides annoying cookie warnings on websites. 🍪🚫
+    - **Image to Text**: Extracts and converts text from images using OCR. 🖼️🔤
+    - **LocalCDN**: Delivers commonly used web resources locally to reduce tracking and improve speed. 📦
+    - **Multi Engine Search**: Enables simultaneous searching across multiple engines. 🔎🔎
+    - **OneTab**: Converts all your tabs into a list to reduce clutter and save memory. 📋
+    - **Page Translator Revised**: Translates entire web pages using different translation engines. 🌍
+    - **Privacy-Oriented Origin Policy**: Improves privacy by restricting access to window.origin. 🔐
+    - **Read Aloud**: A Text to Speech Voice Reader: Reads web page content aloud using TTS technology. 🔊
+    - **Search by Engine**: Lets you search with a specific engine using a keyword shortcut. 🧭
+    - **SingleFile**: Saves an entire web page into a single HTML file. 🗃️
+    - **SponsorBlock for YouTube**: Skips sponsored segments in YouTube videos automatically. ⏩
+    - **Swift Selection Search**: Quickly search selected text with your preferred search engines. ⚡
+    - **Tabliss**: Customizable new tab page with beautiful backgrounds and widgets. 🧩
+    - **Tampermonkey**: User script manager for customizing and automating website behavior. 🧠
+    - **Tranquility Reader**: Provides a clean and distraction-free reading experience. 📖
+    - **ScrollAnywhere**: Enables click-and-drag scrolling anywhere on a page. 🖱️
+    - **uBlock Origin**: Efficient and powerful ad and content blocker. 🚫🛡️
+    - **Unhook**: Hides YouTube distractions like recommendations, comments, and more. 🎯
+    - **Wikiwand**: Modern interface for browsing Wikipedia. 📚
+    - **YouTube High Definition**: Forces YouTube to always play videos in high definition. 🎥
+    - **YouTube Playback Speed Control**: Adds controls for precise playback speed adjustment on YouTube. ⏱️
 
-## Configuration 📁
+### Configuration 📁
 
 - Check Add-Ons and enable respectively disable features you like or dislike.
 
-## Usage 🚀
+### Usage 🚀
 
-- Save those Files as described in Configuration
-- Next try to adjust respectively tweak the appearance of your terminal/powershell and install all necessary packages.
--
+- only safe sites
 
-After finishing this process you can open a new powershell instance and enjoy the enhanced PowerShell experience! 🎉
-
-## Contributing 🤝
-
-- Feel free to fork, modify, and contribute improvements or additional features.
-- For any issues, questions, or help, please create an issue in the repository. 💬
-
-## Personalization 🎨
-
-- Customize the scripts according to personal preferences or specific system requirements.
-- To insert your own OhMyPosh config, just fork the repo and change the URL in the main file to your own.
-
+---
 
 [⬆️ Back to Table of Contents](#table-of-contents)
 
@@ -480,21 +596,17 @@ After finishing this process you can open a new powershell instance and enjoy th
 
 ---
 
----
+## 6. NVIM/VIM settings 🍌 
 
-# NVIM/VIM settings 
-
-![Neovim Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Neovim-mark.svg/738px-Neovim-mark.svg.png?20150131093814)
+![Neovim Logo](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExc2NnMnRreDA4aTN5MDFlbXVuN2R2ZWNweXR6ZGRhaWpwcXRvbm44dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/rhZr8u3cvxe0ksf1ej/giphy.gif)
 
 ---
-
-# Personal NVIM Configuration 🖥️
 
 Welcome to my personal NVIM profile settings! 🎉 This collection of NVIM scripts respectively Plugins, Themes, etc are designed to bring your personaltouch to the NVIM text editor. There is still a lot of room for improvement.
 
 Feel free to use, fork, and customize these scripts to enhance your own command-line experience. 🔧
 
-## Features 🌟
+### Features 🌟
 
 - **lazy.vim**: package manager
         -> commands:
@@ -521,7 +633,10 @@ Feel free to use, fork, and customize these scripts to enhance your own command-
             - <leader>pb         -> switch between open buffers 
 
 
-- **colors.lua**: colorscheme & individual touch (color: color or rose-pine & transparent background (and no background))
+- **colors.lua**: colorscheme & individual touch 
+
+            - color: color or rose-pine
+            - transparent (and no background))
 
 - **conform.lua**: auto-formatter plugin
 
@@ -549,9 +664,11 @@ Feel free to use, fork, and customize these scripts to enhance your own command-
         - <Leader>mo                -> Open preview
         - <Leader>mc                -> Close preview
 
-- **conform.lua**:  automatic code formatting (for different languages (like clang-format for C/C++, stylua for Lua, and prettier for JavaScript)
+- **conform.lua**:  automatic code formatting
+            
+        - for different languages (like clang-format for C/C++, stylua for Lua, and prettier for JavaScript)
 
-- **harpoon.lua**: quick file navigation for most-used files (pinning important files to slots 1-4 -> jump directly/quicker than telescope)
+- **harpoon.lua**: quick file navigation for most-used files (pinning important files slots 1-4) 
 
         - <leader>a                -> add current file
         - <leader>A                -> add current file to BEGINNING of list
@@ -597,41 +714,49 @@ Feel free to use, fork, and customize these scripts to enhance your own command-
 
         - :<leader>ca opens panel
 
+
+optional:
+
 - cockpit: testing interface for code
-            :<leader>ct: Execute tests
-            :<leader>cr: Refresh test results
 
-optional?
-    - dap.lua: complete setup for debugging code, including window management, UI controls, and automatic debugger installation
-    :DAP (Debug Adapter Protocol) (F8-F12 for navigation)
-    :shortcuts for different debug views (scopes, watches, etc.)
-    :<F8> to start the debugger
-    :<leader>b to set a breakpoint
-    :<F10>: Step over (execute current line)
-    :<F11>: Step into (enter functions)
-    :<F12>: Step out (finish current function)
-    ;<F8>: Continue to next breakpoint
-    -golf.lua: enhances Vim's built-in f/t; motion commands
-    : f followed by any character: searches forward 
-    : F followed by any character: searches backward
-    : ; to repeat the search
-    : , to repeat backward
-    : t followed by any character: searches until before target
-    : T followed by any character: searches backward until
-    - jai.lua: jumplist navigation commands
-    :Ctrl-I: Jump forward in the jump list
-    :Ctrl-O: Jump backward in the jump list
-    :ju: List all jump points
-    - neotest.lua: powerful testing framework
-        :<leader>tr	= run nearest test (execute test under cursor)
-        :<leader>tv	= toggle test summary (view all available tests & their status
-        :<leader>ts = run test suite (all tests)
-        :<leader>td	= debug nearest test
-        :<leader>to	= open test output
-        :<leader>ta	= run directory tests
+        - <leader>ct: Execute tests
+        - <leader>cr: Refresh test results
+
+- dap.lua: complete setup for debugging code, including window management, UI controls, and automatic debugger installation
+    
+        - :DAP (Debug Adapter Protocol) (F8-F12 for navigation)
+        - :shortcuts for different debug views (scopes, watches, etc.)
+        - :<F8> to start the debugger
+        - :<leader>b to set a breakpoint
+        - <F10>: Step over (execute current line)
+        - <F11>: Step into (enter functions)
+        - <F12>: Step out (finish current function)
+        - <F8>: Continue to next breakpoint
+-golf.lua: enhances Vim's built-in f/t; motion commands
+
+        - : f followed by any character: searches forward 
+        - : F followed by any character: searches backward
+        - : ; to repeat the search
+        - : , to repeat backward
+        - : t followed by any character: searches until before target
+        - : T followed by any character: searches backward until
+
+- jai.lua: jumplist navigation commands
+        
+        - :Ctrl-I: Jump forward in the jump list
+        - :Ctrl-O: Jump backward in the jump list
+        - :ju: List all jump points
+- neotest.lua: powerful testing framework
+        
+        - <leader>tr	= run nearest test (execute test under cursor)
+        - <leader>tv	= toggle test summary (view all available tests & their status
+        - <leader>ts = run test suite (all tests)
+        - <leader>td	= debug nearest test
+        - <leader>to	= open test output
+        - <leader>ta	= run directory tests
 
 
-Key Maps: 
+**Key Maps**: (most important):
 
     - <Space>                       -> leader key
     - <leader>pv                    -> Open file explorer (netrw)
@@ -723,7 +848,7 @@ optional future plugins:
         - :CloakPreviewLine (temporarily reveals masked content)
     
 
-## Components Installed 🛠️
+### Components Installed 🛠️
 
 Add-Ons:
 
@@ -731,7 +856,7 @@ Add-Ons:
 - **A**: Improves function loading time for a smoother experience. 🕒
 - **A**: The scripts automatically install necessary modules and components on first execution. 🛠️
 
-## Configuration 📁
+### Configuration 📁
 
 - opearting on linux OS: .config folder already as default^
 - operating on windows OS: iniate symlink from directory: C:\Users\<username>\AppData\Local\nvim to directory: C:\Users\<username>\.config\nvim
@@ -769,7 +894,7 @@ Add-Ons:
 - Directory: C:\Users\<username>\.config\nvim
 - Check Add-Ons and enable respectively disable features you like or dislike.
 
-## Usage 🚀
+### Usage 🚀
 
 - Save those Files as described in Configuration
 - Next try to adjust respectively tweak the appearance of your terminal/powershell and install all necessary packages.
@@ -777,72 +902,29 @@ Add-Ons:
 
 After finishing this process you can open a new powershell instance and enjoy the enhanced PowerShell experience! 🎉
 
-## shortcuts/keymaps:
-
-- leader        = spacebar
-- <leader>pv    = netrw (in normal mode) 
-- 
+---
 
 [⬆️ Back to Table of Contents](#table-of-contents)
 
+---
+---
 
-# Windows settings 🖥️
+## Essentials 🌊
 
-  Welcome to my personal windows settings! 🎉 In general, keep in mind that by increasing focus and avoiding distraction you benefit in your everyday life and your workflow. Always keep in mind that you are most productive when using linux instead of windows but sometimes you can't help it and you have to work with the system presen. All the info present are designed to bring your personaltouch to the windows OS. There is still a lot of room for improvement.
-
-Feel free to use, fork, and customize these scripts to enhance your own command-line experience. 🔧
-
-## MUST-HAVES 🌟
-
-- *Virtual Desktops*: 
-
-5 working spaces at least (access via autohotkey (alt + number))
-
-    --> 1. SEARCH:                 search & file management 
-    --> 2. BROWSE:                 everyday tasks/research
-    --> 3. CODE/CREATE:            (start olá beleza)
-    --> 4. TRADE:                  tradingview & start downtown81 
-    --> 5. MEDIA:                  spotify/youtube
-
-
-## Components Installed 🛠️
-
-Software/Apps:
-- Calibre
-- Deepl
-- Git
-- Mozilla Firefox
-- Opera
-- PowerShell
-- PowerToys
-- Spotify
-- TranslucentTB
-- Trello
-- X
-- Autohotkey (https://www.autohotkey.com/)
-
-## Configuration 📁
-
-Install software preferably straight from the web and avoid Microsoft Store (some apps are not supported or running slowly in the version provided)
-## Usage 🚀
- 
-- Be aware Satya Nadella respectively Bill Gates is a son of a bitch.
-- Be aware that less > more.
-
-[⬆️ Back to Table of Contents](#table-of-contents)
-
---------------------------------------------------------------------------------------------------------------
-## Contributing 🤝
-
-- Feel free to fork, modify, and contribute improvements or additional features.
-- For any issues, questions, or help, please create an issue in the repository. 💬
-
-## Personalization 🎨
+### Personalization 🎨
 
 - Customize the scripts according to personal preferences or specific system requirements.
 - To insert your own OhMyPosh config, just fork the repo and change the URL in the main file to your own.
 
-## License 📜
+### Contributing 🤝
+
+- Feel free to fork, modify, and contribute improvements or additional features.
+- Say thank you and spread the love if you liked it!
+- For any issues, questions, or help, please create an issue in the repository. 💬
+
+![thanksbitch](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExb3IzY2ZtNmZmM2h0anlmYjh5Y3poZzJ6aG9heDloMzVrM2dnbzZtNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/uWlpPGquhGZNFzY90z/giphy.gif)
+
+### License 📜
 
 This project is licensed under the LAX licence. README was initialized 2022. DO NOT FUCK WITH THE LAX!
 
