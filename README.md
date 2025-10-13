@@ -1,93 +1,163 @@
-# LAX settings - README 
+# samo-L-B's settings-dotfiles - README 
 
 ![BenvenidoBenny](https://i.imgur.com/27bUq.jpeg)
 
 ---
 
-📚 In general, this file summarizes LAX digital approach respectively displays the most important settings when starting a new device. This includes the keyboard settings but also more in detail the setup of a proper PowerShell in order to facilitate quick access to do proper research. Additionally, the browser settings as well as the nvim settings are being displayed/explained.
+This file summarizes samo-L-B's dotfilesm, the digital approach/principles as well as it the most important settings for daily drive on tech devices. It also helps whenever iniating/starting a new device. 📚 
 
+It includes the keyboard settings and the underlying mental concept for operating those devices (as well as the operating system) but also more in detail the setup of the OS and a proper PowerShell in order to facilitate quick access to do proper research. Additionally, the browser settings as well as the nvim settings are being outlined and explained.
+
+
+![idiota_grande](data:image/png;base64,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)
+
+
+Always keep in mind that a proper setup and the resulting efficiency helps the operator in saving time, improve her/his daily drive which ultimately increases quality and quantity of the output she/he generate! 
+
+In case you have any great ideas and contribution, feel free to contact the owner of this repository - ALWAYS more than happy to learn and improve the daily workflow! Enjoy enormous eejit! 💩 
+
+---
 ---
 
 ## Table of Contents
 
-- [Keyboard Configuration 🎹](#keyboard-configuration)
-  - [Search 🧐](#search)
-  - [Browse 📁](#browse)
-  - [Create 🧮](#create)
-  - [Trading 💸](#trading)
-  - [Media 🎬](#media)
-- [PowerShell settings 🖥️](#powershell-settings)
-  - [Features 🌟](#features)
-  - [Configuration 📁](#configuration)
-  - [Setup 🚀](#setup)
-  - [Web Search Commands ⭐](#web-search-commands)
-  - [Supported Linux Commands 🐧](#supported-linux-commands)
-- [Browser Settings 🖥️](#browser-settings)
-  - [Features 🌟](#features-)
-  - [Components Installed 🛠️](#components-installed-️)
-  - [Configuration 📁](#configuration-)
-  - [Usage 🚀](#usage-)
-  - [Contributing 🤝](#contributing-)
-  - [Personalization 🎨](#personalization-)
-  - [License 📜](#license-)
-- [NVIM/VIM settings 🖥️](#NVIM/VIM-settings)
-  - [Features 🌟](#features-)
-  - [Components Installed 🛠️](#components-installed-️)
-  - [Configuration 📁](#configuration-)
-  - [Usage 🚀](#usage-)
-  - [Contributing 🤝](#contributing-)
-  - [Personalization 🎨](#personalization-)
-  - [License 📜](#license-)
-- [Windows Settings 🖥️](#windows-settings)
-  - [Features 🌟](#features-)
-  - [Components Installed 🛠️](#components-installed-️)
-  - [Configuration 📁](#configuration-)
-  - [Usage 🚀](#usage-)
-  - [Contributing 🤝](#contributing-)
-  - [Personalization 🎨](#personalization-)
-  - [License 📜](#license-)
-- [NVIM/VIM settings 🖥️](#NVIM/VIM-settings)
----
-
-## Keyboard Configuration
-
-🎹 The ultimate goal of taking control via **1 key to go/be mentally**. It can be applied to any computer and/or mobile device. 
-
-
-![KEY](https://png.pngtree.com/png-vector/20250518/ourmid/pngtree-elegant-golden-key-with-intricate-designs-depicted-on-a-transparent-background-png-image_16281536.png)
+### 1. [Keyboard Configuration 🎹](#keyboard-configuration)
+    
+##### 1.1. [Search 🧐](#search)
+    
+##### 1.2. [Browse 📁](#browse)
+    
+##### 1.3. [Create 🧮](#create)
+    
+##### 1.4. [Trading 💸](#trading)
+    
+##### 1.5. [Media 🎬](#media)
 
 ---
 
+### 2.  [OS: Windows Settings 🖥️](#windows-settings)
+        
+- [Features 🌟](#features-)
+- [Components Installed 🛠️](#components-installed-️)
+- [Configuration 📁](#configuration-)
+- [Usage 🚀](#usage-)
+- [Contributing 🤝](#contributing-)
+- [Personalization 🎨](#personalization-)
+- [License 📜](#license-)
 
-### Search
+---
 
-> 1️⃣
-> ⛏️**alt-1**
+### 3. [OS: Linux Settings 🖥️](#linux-settings)
 
-**PowerShell** (laptop)
+- [Features 🌟](#features-)
+- [Components Installed 🛠️](#components-installed-️)
+- [Configuration 📁](#configuration-)
+- [Usage 🚀](#usage-)
+- [Contributing 🤝](#contributing-)
+- [Personalization 🎨](#personalization-)
+- [License 📜](#license-)
 
-*(mobile):*
+---
+
+### 4. [PowerShell settings 🖥️](#powershell-settings)
+    
+- [Features 🌟](#features)
+- [Configuration 📁](#configuration)
+- [Setup 🚀](#setup)
+- [Web Search Commands ⭐](#web-search-commands)
+- [Supported Linux Commands 🐧](#supported-linux-commands)
+
+---
+
+### 5. [Browser Settings 🖥️](#browser-settings)
+    
+- [Features 🌟](#features-)
+- [Components Installed 🛠️](#components-installed-️)
+- [Configuration 📁](#configuration-)
+- [Usage 🚀](#usage-)
+- [Contributing 🤝](#contributing-)
+- [Personalization 🎨](#personalization-)
+- [License 📜](#license-)
+
+---
+
+### 6. [NVIM/VIM settings 🖥️](#NVIM/VIM-settings)
+- [Features 🌟](#features-)
+- [Components Installed 🛠️](#components-installed-️)
+- [Configuration 📁](#configuration-)
+- [Usage 🚀](#usage-)
+- [Contributing 🤝](#contributing-)
+- [Personalization 🎨](#personalization-)
+- [License 📜](#license-)
+
+---
+---
+
+## 1. Keyboard Configuration 🎹 
+
+
+The keyboard configuration perfectly summarizes the entire approach of all digital devices as well and their underlying operating systems.
+
+
+
+<p float="left">
+    <img src="https://png.pngtree.com/png-vector/20250518/ourmid/pngtree-elegant-golden-key-with-intricate-designs-depicted-on-a-transparent-background-png-image_16281536.png" width=200 />
+    <img src="https://blueseatblogs.com/cdn-cgi/image/quality=80,format=auto,onerror=redirect,metadata=none/wp-content/uploads/2018/07/consciousness-709143.jpg" width=200 />
+</p>
+
+
+
+The ultimate goal of taking control via **1 key to go/be mentally**.
+It can be applied to any computer with all operating systems and/or mobile device. Additionally, it will also be used in order to set up virtual working spaces on different (virtual) desktops. In general, this also aims to help you to structure thought processes. Use AutoHotkey scripts already present in *C:\Users\<username>\.config\AutoHotkey* on windows machines and */home/(user)/.config/autokey/data* folder on linux machines. There always exist the opportunity to create new scripts. 
+
+
+![true_ape](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExcGkzc29ibWV2cTl3cHhyNXk5Zm10dmVhZXZqanhodDV6MHV0ejJucSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/XGqDsE3owV0RO/giphy.gif)
+
+
+At some point in the future, the aim will be to learn more and improve efficiency by establishing a new workflow with a glove(80) keyboard (https://www.moergo.com/) or a kinesis keyboard (https://kinesis-ergo.com/products/#adv360). But it only makes sense as soon as the owner really stays at one location (too uncomfy for travel) - current setup is perfect!
+
+---
+
+
+### 1.1. Search
+
+The S€ARCH includes actual classic search as well as AI programs and research in general. 🔍
+> **ALT-1️⃣**: ***virtual desktop***: S€ARCH
+      
+> **WIN-1️⃣**: ***PowerShell*** (laptop)
+
+![search_dumbass](https://media1.tenor.com/m/xtdUk-931v8AAAAd/scooby-doo-searching-for-clues.gif)
+
+> *(mobile):* ***apps***
 - Google/Gemini/Lens/Maps
 - ChatGPT
 - Grok
 - Claude
 - Perplexity
 - DeepSeek
-- Phind.com
+- Phind
 - Wikipedia
 - Giphy
 - (Alexa/G-Assistant/Translate)
 
+
+> ⛏️: 
+
 ---
 
-### Browse
+### 1.2. Browse
 
-> 2️⃣
-> ⛏️**alt-2**
+The BROW$€ includes browsing in classic web browsers as well as other information browsing/learning material. 
+
+> **ALT-2️⃣**: ***virtual desktop 2***: BROW$€
+      
+> **WIN-2️⃣**: ***Firefox*** (computer)
+
+![browse_dumbass](https://i.giphy.com/ytwDCNbIBn8CIwXM4w.webp)
 
 **Firefox** (laptop)
 
-*(mobile):*
+> *(mobile):* ***apps***
 - Firefox
 - Chrome
 - Opera
@@ -102,16 +172,24 @@
 - Google Play Store
 - Research Gate
 
+
+> ⛏️:
+
 ---
 
-### Create
+### 1.3. Create
 
->3️⃣
-> ⛏️**alt-3**
+This includes all creation software but the focus really lays on code generation as well as project management.  
+
+> **ALT-3️⃣**: ***virtual desktop 3***: CR€AT€
+      
+> **WIN-3️⃣**: ***VIM/TRELLO*** (computer)
+
+![create_dumbass](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYjZmcXR1dzYxZXJ3bnhoaWxuc3RudTYzM295Y2Z4Y3gyMnhpdXRpMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/d31vTpVi1LAcDvdm/giphy.gif)
 
 **VIM/NVIM** (laptop)
 
-*(mobile):*
+> *(mobile):* ***apps**
 - GitHub
 - Trello
 - Visual Studio Code
@@ -129,16 +207,21 @@
 - QuickEdit
 - Adobe Acrobat
 
+> ⛏️:
+
 ---
 
-### Trading
+### 1.4. Trading
 
->4️⃣
-> ⛏️**alt-4**
+This includes all software or programm scripts running concerned with the financial markets.
 
-**TradingView** (laptop)
+> **ALT  -4️⃣**: ***virtual desktop 4***: TRADING
 
-*(mobile)*:
+> **ALT-4️⃣**: +++TRADINGVIEW***
+
+![trade_dumbass](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExbWRpNWFoZmdxNnhmOWtjd3FhNzEzNmltODBkd2dtc3U5NXEwaGRyaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/bMycGOQLESDCEnLNUz/giphy.gif)
+
+>*(mobile):* ***apps***
 - Kraken
 - Stocktwits
 - PayPal
@@ -146,16 +229,18 @@
 - Sparkasse/S-pushTAN
 - yahoofinance
 
+> ⛏️:
+
 ---
 
-### Media
+### 1.5. Media
 
->5️⃣
-> ⛏️***alt-5***
+This includes all software regarding media consumption (musica as well as video format and books).
+> **ALT-5️⃣**: ***virtual desktop 5***: M€DIA 
 
+> **WIN-5️⃣**. ***Calibre/Spotify*** (computer)
 
-
-***Calibre*** (laptop)
+![media_dumbass](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHBwZjNuMjhrYW1rZmtlaHFna3M0YXkyYzBsZW5jMmo1bnVmY3lsZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/4ZtY6pvsG2HdtPSKiS/giphy.gif)
 
 *(mobile):*
 - Watching (VLC)
@@ -176,7 +261,7 @@
 - Phonograph
 - SoundCloud
 - Genius
-- radio.net
+- radio_net
 - Datpiff
 - Yacht Cabin
 - FB Messenger
@@ -188,7 +273,10 @@
 - Imgur
 - Librera
 
-  
+> ⛏️:
+
+---
+
 [⬆️ Back to Table of Contents](#table-of-contents)
 
 ---
