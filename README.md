@@ -20,17 +20,17 @@ In case you have any great ideas and contribution, feel free to contact the owne
 
 ## Table of Contents
 
-### 1. [Keyboard Configuration](#keyboard-configuration) 🎹
+### 1. [Keyboard Configuration](#keyboard-configuration-) 🎹
     
-- [Search](#search) - 1 🧐
-- [Browse](#browse) - 2 📁
-- [Create](#create) - 3 🧮
-- [Trading](#trading) - 4 💸
-- [Media](#media) - 5 🎬
+- [Search](#search-) - 1 🧐
+- [Browse](#browse-) - 2 📁
+- [Create](#create-) - 3 🧮
+- [Trading](#trading-) - 4 💸
+- [Media](#media-) - 5 🎬
 
 ---
 
-### 2. [OS: Windows Configuration](#os-windows-configuration) 🖥️
+### 2. [OS: Windows Configuration](#os-windows-configuration-) 🖥️
 
 - [Features](#features-) 🌟
 - [Components Installed](#components-installed-️) 🛠️
@@ -39,7 +39,7 @@ In case you have any great ideas and contribution, feel free to contact the owne
 
 ---
 
-### 3. [OS: Linux Configuration](#os-linux-configuration) 🖥️
+### 3. [OS: Linux Configuration](#os-linux-configuration-) 🖥️
 
 - [Features](#features-) 🌟
 - [Components Installed](#components-installed-️) 🛠️
@@ -48,17 +48,17 @@ In case you have any great ideas and contribution, feel free to contact the owne
 
 ---
 
-### 4. [PowerShell Configuration](#powershell-configuration) 🖥️
+### 4. [PowerShell Configuration](#powershell-configuration-) 🖥️
     
-- [Features](#features) 🌟
+- [Features](#features-) 🌟
 - [Installation](#installation-) 📁
 - [Setup](#setup) 🚀
 - [Commands](#commands) ⭐
-- [Supported Linux Commands](#supported-linux-commands) 🐧
+- [Supported Linux Commands](#supported-linux-commands-) 🐧
 
 ---
 
-### 5. [Browser Configuration](#browser-configuration) 🖥️
+### 5. [Browser Configuration](#browser-configuration-) 🖥️
     
 - [Features](#features-) 🌟
 - [Components Installed](#components-installed-️) 🛠️
@@ -68,7 +68,7 @@ In case you have any great ideas and contribution, feel free to contact the owne
 
 ---
 
-### 6. [NVIM/VIM Configuration](#NVIM/VIM-configuration) 🍌
+### 6. [NVIM/VIM Configuration](#NVIM/VIM-configuration-) 🍌
 
 - [Plugins](#plugins-) 🌟
 - [Key Maps](#key-maps-) 🔑
@@ -82,7 +82,7 @@ In case you have any great ideas and contribution, feel free to contact the owne
 ---
 ---
 
-### [Repository Information](#repository-info) 🌊
+### [Repository Information](#repository-info-) 🌊
 
 - [Personalization](#personalization-) 🎨
 - [Contributing](#contributing-) 🤝
