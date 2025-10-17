@@ -91,7 +91,8 @@ v
 ---
 ---
 
-## 1. Keyboard Configuration  🎹
+## 1. Keyboard Configuration  
+## 🎹
 
 
 The keyboard configuration perfectly summarizes the entire approach of all digital devices as well and their underlying operating systems. 
