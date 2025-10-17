@@ -20,17 +20,17 @@ In case you have any great ideas and contribution, feel free to contact the owne
 
 ## Table of Contents
 
-### 1. [Keyboard Configuration](#keyboard-configuration-) 🎹
-    
-- [Search](#search-) - 1 🧐
-- [Browse](#browse-) - 2 📁
-- [Create](#create-) - 3 🧮
-- [Trading](#trading-) - 4 💸
-- [Media](#media-) - 5 🎬
+### 1. [Keyboard Configuration](#1-keyboard-configuration-) 🎹
+
+- [Search](#search---1) - 1 🧐
+- [Browse](#12-browse) - 2 📁
+- [Create](#13-create) - 3 🧮
+- [Trading](#14-trading) - 4 💸
+- [Media](#15-media) - 5 🎬
 
 ---
 
-### 2. [OS: Windows Configuration](#os-windows-configuration-) 🖥️
+### 2. [OS: Windows Configuration](#2-os-windows-configuration-) 🖥️
 
 - [Features](#features-) 🌟
 - [Components Installed](#components-installed-️) 🛠️
@@ -39,7 +39,7 @@ In case you have any great ideas and contribution, feel free to contact the owne
 
 ---
 
-### 3. [OS: Linux Configuration](#os-linux-configuration-) 🖥️
+### 3. [OS: Linux Configuration](#3-os-linux-configuration-) 🖥️
 
 - [Features](#features-) 🌟
 - [Components Installed](#components-installed-️) 🛠️
@@ -48,7 +48,7 @@ In case you have any great ideas and contribution, feel free to contact the owne
 
 ---
 
-### 4. [PowerShell Configuration](#powershell-configuration-) 🖥️
+### 4. [PowerShell Configuration](#4-powershell-configuration-) 🖥️
     
 - [Features](#features-) 🌟
 - [Installation](#installation-) 📁
@@ -58,7 +58,7 @@ In case you have any great ideas and contribution, feel free to contact the owne
 
 ---
 
-### 5. [Browser Configuration](#browser-configuration-) 🖥️
+### 5. [Browser Configuration](#5-browser-configuration-) 🖥️
     
 - [Features](#features-) 🌟
 - [Components Installed](#components-installed-️) 🛠️
@@ -68,7 +68,7 @@ In case you have any great ideas and contribution, feel free to contact the owne
 
 ---
 
-### 6. [NVIM/VIM Configuration](#NVIM/VIM-configuration-) 🍌
+### 6. [NVIM/VIM Configuration](#6-NVIM/VIM-configuration-) 🍌
 
 - [Plugins](#plugins-) 🌟
 - [Key Maps](#key-maps-) 🔑
@@ -117,7 +117,7 @@ At some point in the future, the aim will be to learn more and improve efficienc
 ---
 
 
-### Search - 1🧐
+### Search - 1 🧐
 
 The S€ARCH includes classic search, AI search and deep research tools. 
     
@@ -155,7 +155,7 @@ The S€ARCH includes classic search, AI search and deep research tools.
 > 5. iterate/refine (tweak instructions, test variations, prompt chaining)
 ---
 
-### 1.2. Browse 📁
+### Browse - 2 📁
 
 The BROW$€ includes classic web browsers as well as other information browsing/learning software or plattforms. 
 
@@ -197,7 +197,7 @@ The BROW$€ includes classic web browsers as well as other information browsing
 
 ---
 
-### 1.3. Create 🧮
+### Create - 3 🧮
 
 This includes all creation software but the focus on code generation and project management.  
 
@@ -247,7 +247,7 @@ This includes all creation software but the focus on code generation and project
 
 ---
 
-### 1.4. Trading 💸
+### Trading - 4 💸
 
 This includes all software or programm scripts running concerned with financial markets.
 
@@ -290,7 +290,7 @@ This includes all software or programm scripts running concerned with financial 
 
 ---
 
-### 1.5. Media 🎬
+### Media - 5🎬
 
 This includes all software regarding media consumption (musica as well as video format and books).
 
@@ -387,6 +387,7 @@ All the info present are designed to bring your personaltouch to the windows OS.
 - Calibre
 - Deepl
 - Git
+- LibreOffice
 - Mozilla Firefox
 - Opera
 - PowerShell
