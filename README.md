@@ -22,15 +22,11 @@ In case you have any great ideas and contribution, feel free to contact the owne
 
 ### 1. [Keyboard Configuration](#keyboard-configuration) 🎹
     
-##### 1.1. [Search](#search) 🧐
-    
-##### 1.2. [Browse](#browse) 📁
-    
-##### 1.3. [Create](#create) 🧮
-    
-##### 1.4. [Trading](#trading) 💸
-    
-##### 1.5. [Media](#media) 🎬
+- [Search](#search) - 1 🧐
+- [Browse](#browse) - 2 📁
+- [Create](#create) - 3 🧮
+- [Trading](#trading) - 4 💸
+- [Media](#media) - 5 🎬
 
 ---
 
@@ -121,7 +117,7 @@ At some point in the future, the aim will be to learn more and improve efficienc
 ---
 
 
-### 1.1. Search 🧐
+### Search - 1🧐
 
 The S€ARCH includes classic search, AI search and deep research tools. 
     
