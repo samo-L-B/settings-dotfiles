@@ -20,13 +20,113 @@ In case you have any great ideas and contribution, feel free to contact the owne
 
 ## Table of Contents
 
-### [1. Keyboard Configuration](#1-keyboard-configuration-) 🎹
+### [1. Keyboard Configuration](#1-keyboard-configuration) 🎹
 
 - [1.1 Search](#11-search) 🧐
-- [Browse](#12-browse) - 2 📁
-- [Create](#13-create) - 3 🧮
-- [Trading](#14-trading) - 4 💸
-- [Media](#15-media) - 5 🎬
+- [1.2 Browse](#12-browse) 📁
+- [1.3 Create](#13-create) 🧮
+- [1.4 Trading](#14-trading) 💸
+- [1.5 Media](#15-media) 🎬
+---
+
+### 2. [OS: Windows Configuration](#2-os-windows-configuration-) 🖥️
+
+- [Features](#features-) 🌟
+- [Components Installed](#components-installed-️) 🛠️
+- [Installation](#installation-) 📁
+- [Usage](#usage-) 🚀
+
+---
+
+### 3. [OS: Linux Configuration](#3-os-linux-configuration-) 🖥️
+
+- [Features](#features-) 🌟
+- [Components Installed](#components-installed-️) 🛠️
+- [Installation](#installation-) 📁
+- [Usage](#usage-) 🚀
+
+---
+
+### 4. [PowerShell Configuration](#4-powershell-configuration-) 🖥️
+    
+- [Features](#features-) 🌟
+- [Installation](#installation-) 📁
+- [Setup](#setup) 🚀
+- [Commands](#commands) ⭐
+- [Supported Linux Commands](#supported-linux-commands-) 🐧
+
+---
+
+### 5. [Browser Configuration](#5-browser-configuration-) 🖥️
+    
+- [Features](#features-) 🌟
+- [Components Installed](#components-installed-️) 🛠️
+- [Installation](#installation-) 📁
+- [Usage](#usage-) 🚀
+- [Contributing](#contributing-) 🤝
+
+---
+
+### 6. [NVIM/VIM Configuration](#6-NVIM/VIM-configuration-) 🍌
+
+- [Plugins](#plugins-) 🌟
+- [Key Maps](#key-maps-) 🔑
+- [Components Installed](#components-installed-️) 🛠️
+- [Installation](#installation-) 📁
+- [Usage](#usage-) 🚀
+- [Contributing](#contributing-) 🤝
+- [Personalization](#personalization-) 🎨
+- [License](#license-) 📜
+
+---
+---
+
+### [Repository Information](#repository-info-) 🌊
+
+- [Personalization](#personalization-) 🎨
+- [Contributing](#contributing-) 🤝
+- [License](#license-) 📜
+
+---
+---
+
+## 1. Keyboard Configuration 🎹
+
+
+The keyboard configuration perfectly summarizes the entire approach of all digital devices as well and their underlying operating systems. 
+
+The ultimate goal of taking control via **1 key to go/be mentally**.
+
+
+<p float="left">
+    <img src="https://png.pngtree.com/png-vector/20250518/ourmid/pngtree-elegant-golden-key-with-intricate-designs-depicted-on-a-transparent-background-png-image_16281536.png" width=200 />
+    <img src="https://blueseatblogs.com/cdn-cgi/image/quality=80,format=auto,onerror=redirect,metadata=none/wp-content/uploads/2018/07/consciousness-709143.jpg" width=200 />
+</p>
+
+It can be applied to any computer with all operating systems and/or mobile device. Additionally, it will also be used in order to set up virtual working spaces on different (virtual) desktops.
+
+In general, this also aims to help you to structure thought processes. Use AutoHotkey scripts already present in *C:\Users\<username>\.config\AutoHotkey* on windows machines and */home/(user)/.config/autokey/data* folder on linux machines. There always exist the opportunity to create new scripts. 
+
+
+![true_ape](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExcGkzc29ibWV2cTl3cHhyNXk5Zm10dmVhZXZqanhodDV6MHV0ejJucSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/XGqDsE3owV0RO/giphy.gif)
+
+
+At some point in the future, the aim will be to learn more and improve efficiency by establishing a new workflow with a glove(80) keyboard (https://www.moergo.com/) or a kinesis keyboard (https://kinesis-ergo.com/products/#adv360). But it only makes sense as soon as the owner really stays at one location (too uncomfy for travel) - current setup is perfect!
+
+---
+
+
+### Search - 1 🧐
+
+The S€ARCH includes classic search, AI search and deep research tools. 
+    
+> **ALT-1️⃣**: ***virtual desktop***: S€ARCH
+      
+> **WIN-1️⃣**: ***PowerShell*** (laptop)
+
+![search_dumbass](https://media1.tenor.com/m/xtdUk-931v8AAAAd/scooby-doo-searching-for-clues.gif)
+
+> *(mobile):* ***apps***
 
 ---
 
