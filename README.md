@@ -21,7 +21,8 @@ In case you have any great ideas and contribution, feel free to contact the owne
 ## Table of Contents
 
 
-### [1. Keyboard Configuration 🎹](#1-keyboard-configuration-🎹)
+### [1. Keyboard Configuration](#1-keyboard-configuration-)
+🎹
 
 #### [1.1 Search 🧐](#11-search-🧐)
 v 
@@ -91,7 +92,8 @@ v
 ---
 ---
 
-## 1. Keyboard Configuration 🎹
+## 1. Keyboard Configuration 
+🎹
 
 
 The keyboard configuration perfectly summarizes the entire approach of all digital devices as well and their underlying operating systems. 
