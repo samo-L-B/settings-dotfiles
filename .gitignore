@@ -1,1 +1,7 @@
+.config/scoop/
 .config/.chocolatey/
+.config/nvim-data/
+.config/winfetch/
+.config/vscode/
+nvim/
+

@@ -1,1 +1,0 @@
-curl https://www.cnbc.com/world/?region=us | html2text
