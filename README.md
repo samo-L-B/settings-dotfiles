@@ -22,29 +22,24 @@ In case you have any great ideas and contribution, feel free to contact the owne
 
 ### [1. Keyboard Configuration 🎹](#keyboard-config)
 
-#### [1.1. Search 🧐](#search)
-#### [1.2. Browse 📁](#browse)
-#### [1.3. Create🧮](#create)
-#### [1.4. Trading💸](#trading)
-#### [1.5. Media🎬](#media)
+- #### [1.1. Search 🧐](#search)
+- #### [1.2. Browse 📁](#browse)
+- #### [1.3. Create🧮](#create)
+- #### [1.4. Trading💸](#trading)
+- #### [1.5. Media🎬](#media)
 
 --
 
 ### [2. OS: Windows Configuration 🖥️](#os-windows-config)
--
 
-### 2. [OS: Windows Configuration](#2-os-windows-configuration-) 🖥️
-
-- [Features](#features-) 🌟
-- [Components Installed](#components-installed-️) 🛠️
-- [Installation](#installation-) 📁
-- [Usage](#usage-) 🚀
-
+- #### [Windows Setup 💿](#windows-setup)
+- #### [Software 💾](#windows-software)
+- #### [Usage 🚀](#windows-usage)
 ---
 
 ### 3. [OS: Linux Configuration](#3-os-linux-configuration-) 🖥️
 
-- [Features](#features-) 🌟
+- #### [Features](#features-) 🌟
 - [Components Installed](#components-installed-️) 🛠️
 - [Installation](#installation-) 📁
 - [Usage](#usage-) 🚀
@@ -195,8 +190,7 @@ The BROW$€ includes classic web browsers as well as other information browsing
 > 3. time/attention boundaries
 
 ---
-
-### Create - 3 🧮
+### <a id="create"></a>1.3. Create 🧮
 
 This includes all creation software but the focus on code generation and project management.  
 
@@ -245,8 +239,7 @@ This includes all creation software but the focus on code generation and project
 > 7. leverage (scale/compound/reused)
 
 ---
-
-### Trading - 4 💸
+### <a id="trading"></a>1.4. Trading 💸
 
 This includes all software or programm scripts running concerned with financial markets.
 
@@ -288,8 +281,7 @@ This includes all software or programm scripts running concerned with financial 
 > 10. Can I execute this repeatedly?
 
 ---
-
-### Media - 5🎬
+### <a id="media"></a>1.5. Media 🎬
 
 This includes all software regarding media consumption (musica as well as video format and books).
 
@@ -352,9 +344,7 @@ This includes all software regarding media consumption (musica as well as video 
 ---
 ---
 
-(#os-windows-config)
-
-## 2. OS: Windows Configuration 🖥️
+### <a id="os-windows-config"></a>2. OS: Windows Configuration 🖥️
 
 Welcome to samo-L-B's personal windows settings! 🎉 
 
@@ -368,8 +358,7 @@ Always keep in mind that you are most productive when using linux instead of win
 All the info present are designed to bring your personaltouch to the windows OS. There is still a lot of room for improvement.
 
 ---
-
-### Features 🌟
+#### <a id="windows-setup"></a>Windows Setup 💿
 
 ***DISTRIBUTION***: *Windows 11*
 
@@ -380,8 +369,7 @@ All the info present are designed to bring your personaltouch to the windows OS.
     --> 3. CODE/CREATE:            (start olá beleza)
     --> 4. TRADE:                  tradingview & start downtown81
     --> 5. MEDIA:                  spotify/youtube
-
-### Components Installed 🛠️
+#### <a id="windows-software"></a>Software 💾
 
 **Software/Apps:**
 - Ankidroid
@@ -473,7 +461,7 @@ All the info present are designed to bring your personaltouch to the windows OS.
 - ClaudeAI
 - Perplexity
 
-### Installation 📁
+***Installation***
 
 - Microsoft Winodws 11 ISO file: (https://www.microsoft.com/de-de/software-download/windows11)
 - bootable USB stick with Rufus (https://rufus.ie/de/)
@@ -493,8 +481,7 @@ All the info present are designed to bring your personaltouch to the windows OS.
     winget install Microsoft.WindowsTerminal
     winget install Microsoft.PowerShell
 ```
-
-### Usage 🚀
+### <a id="windows-usage"></a>Usage 🚀
  
 - Be aware Satya Nadella respectively Bill Gates is a son of a bitch - rather work with your linux distribution.
 - Be aware that less > more.
