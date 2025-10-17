@@ -20,14 +20,17 @@ In case you have any great ideas and contribution, feel free to contact the owne
 
 ## Table of Contents
 
-### [1. Keyboard Configuration](#1-keyboard-configuration) 🎹
+- [1. Keyboard Configuration](#1-keyboard-configuration) 🎹
+  - [1.1 Search](#11-search) 🧐
+  - [1.2 Browse](#12-browse) 📁
+  - [1.3 Create](#13-create) 🧮
+  - [1.4 Trading](#14-trading) 💸
+  - [1.5 Media](#15-media) 🎬
 
-- [1.1 Search](#11-search) 🧐
-- [1.2 Browse](#12-browse) 📁
-- [1.3 Create](#13-create) 🧮
-- [1.4 Trading](#14-trading) 💸
-- [1.5 Media](#15-media) 🎬
+
 ---
+
+
 
 ### 2. [OS: Windows Configuration](#2-os-windows-configuration-) 🖥️
 
@@ -116,7 +119,7 @@ At some point in the future, the aim will be to learn more and improve efficienc
 ---
 
 
-### Search - 1 🧐
+### 1.1 Search 🧐
 
 The S€ARCH includes classic search, AI search and deep research tools. 
     
