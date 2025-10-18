@@ -1070,6 +1070,25 @@ Additionally, the most important commands of each plugin are listed. It's mandat
     - `:Trouble symbols`: show document symbols
     - `:Trouble lsp`: show LSP references/definitions
 
+- **ui.lua**: multiple UI features bundled together
+
+- **lualine.lua**: indivual configuration of lualine
+    - 🕒 Clock
+    - 🟢 Git branch (with git icon ())
+    - 📄 Filename + icon 
+    - 🍞 Navic breadcrumbs (LSP symbol path) (LSP context)
+    - 🐛 Diagnostics (error/warning/info/hint icons (, , , 󰌵))
+    - 🧲 Harpoon index (󱡅 X" where X is your current harpoon index)
+    - 📐 Visual selection (line/char count) (X lines Y characters)
+    - 📍 Cursor location (line:column)
+    - 🚫 Indentation issues (tabs/spaces mix)
+    - 💩 time-sensitive emojis indicating time (🌇🍌 (morning), 🌞 (afternoon), or 🌙💩 (evening))
+
+- **ui.lua**:
+    - twillight: 🌒 Dim inactive portions of code
+    - notify: 📧 notifciations slided in
+    - mini.animate: 🌀 Animated UI
+
 - **zenmode.lua**: creates two focus modes
     - `<leader>zz`: for focused mode with numbers (press again to toggle off)
     - `<leader>zZ`: for minimal distraction mode (press again to toggle off)
