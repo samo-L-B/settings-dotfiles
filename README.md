@@ -22,69 +22,51 @@ In case you have any great ideas and contribution, feel free to contact the owne
 
 ### [1. Keyboard Configuration 🎹](#keyboard-config)
 
-- #### [1.1. Search 🧐](#search)
-- #### [1.2. Browse 📁](#browse)
-- #### [1.3. Create🧮](#create)
-- #### [1.4. Trading💸](#trading)
-- #### [1.5. Media🎬](#media)
-
---
-
+- [Search 🧐](#search)
+- [Browse 📁](#browse)
+- [Create🧮](#create)
+- [Trading💸](#trading)
+- [Media🎬](#media)
+---
 ### [2. OS: Windows Configuration 🖥️](#os-windows-config)
 
-- #### [Windows Setup 💿](#windows-setup)
-- #### [Software 💾](#windows-software)
-- #### [Usage 🚀](#windows-usage)
+- [Windows Setup 💿](#windows-setup)
+- [Software 💾](#windows-software)
+- [Usage 🚀](#windows-usage)
 ---
+### [3. OS: Linux Configuration](#os-linux-config) 🖥️
 
-### 3. [OS: Linux Configuration](#3-os-linux-configuration-) 🖥️
-
-- #### [Features](#features-) 🌟
-- [Components Installed](#components-installed-️) 🛠️
-- [Installation](#installation-) 📁
-- [Usage](#usage-) 🚀
-
+- [Linux Setup 📀](#linux-setup)
+- [Software 💽](#linux-software)
+- [Usage 🚀](#linux-usage)
 ---
-
-### 4. [PowerShell Configuration](#4-powershell-configuration-) 🖥️
+### [4. PowerShell Configuration 📱](#powershell-config)
     
-- [Features](#features-) 🌟
-- [Installation](#installation-) 📁
-- [Setup](#setup) 🚀
-- [Commands](#commands) ⭐
-- [Supported Linux Commands](#supported-linux-commands-) 🐧
-
+- [PowerShell Setup 🌟](#powershell-setup)
+- [Installation 📁](#installation)
+- [PowerShell commands ⭐](#powershell-commands)
+- [Usage 🚀](#powershell-usage)
 ---
-
-### 5. [Browser Configuration](#5-browser-configuration-) 🖥️
+### [5. Browser Configuration 📺](#browser-config) 
     
-- [Features](#features-) 🌟
-- [Components Installed](#components-installed-️) 🛠️
-- [Installation](#installation-) 📁
-- [Usage](#usage-) 🚀
-- [Contributing](#contributing-) 🤝
-
+- [Browser Features 📧](#browser-features)
+- [Browser commands ⭐](#browser-commands)
+- [Usage 🚀](#browser-usage) 
 ---
+### [6. NVIM/VIM Configuration 🍌](#nvim-config) 🍌
 
-### 6. [NVIM/VIM Configuration](#6-NVIM/VIM-configuration-) 🍌
-
-- [Plugins](#plugins-) 🌟
-- [Key Maps](#key-maps-) 🔑
-- [Components Installed](#components-installed-️) 🛠️
-- [Installation](#installation-) 📁
-- [Usage](#usage-) 🚀
-- [Contributing](#contributing-) 🤝
-- [Personalization](#personalization-) 🎨
-- [License](#license-) 📜
-
+- [Plugins 🔌](#nvim-plugins)
+- [Key Maps 🔑](#nvim-key-maps)
+- [Usage 🚀](#nvim-usage)
+- [Alternative 🛠️](#nvim-alternative)
 ---
 ---
+### [Repository Information 🌊](#repository-info)
 
-### [Repository Information](#repository-info-) 🌊
-
-- [Personalization](#personalization-) 🎨
-- [Contributing](#contributing-) 🤝
-- [License](#license-) 📜
+- [Personalization 🎨](#personalization)
+- [Contributing 🤝](#contributing)
+- [Future Improvements 🔨](#future-improvements)
+- [License 📜](#license)
 
 ---
 ---
@@ -113,7 +95,7 @@ At some point in the future, the aim will be to learn more and improve efficienc
 
 ---
 
-### <a id="search"></a>1.2. Search 🧐
+### <a id="search"></a>1.1. Search 🧐
 
 The S€ARCH includes classic search, AI search and deep research tools. 
       
@@ -369,6 +351,7 @@ All the info present are designed to bring your personaltouch to the windows OS.
     --> 3. CODE/CREATE:            (start olá beleza)
     --> 4. TRADE:                  tradingview & start downtown81
     --> 5. MEDIA:                  spotify/youtube
+
 #### <a id="windows-software"></a>Software 💾
 
 **Software/Apps:**
@@ -498,7 +481,7 @@ All the info present are designed to bring your personaltouch to the windows OS.
 ---
 ---
 
-## 3. OS: Linux Configuration 🖥️
+## <a id="os-linux-config"></a>1. OS: Linux Configuration 🖥️
 
 Welcome to samo-L-B's personal Linux (kali/ubuntu) settings! 🎉 
 
@@ -507,8 +490,7 @@ Welcome to samo-L-B's personal Linux (kali/ubuntu) settings! 🎉
 Keep in mind that there still exist a backup-server in the current work setup - use it wisely.  
 
 ---
-
-### Features 🌟
+### <a id="linux-setup"></a>Linux Setup 📀
 
 ***DISTRIBUTION***: **Kali Linux**
 
@@ -520,7 +502,7 @@ Keep in mind that there still exist a backup-server in the current work setup - 
     --> 4. TRADE:                  tradingview & start downtown81
     --> 5. MEDIA:                  spotify/youtube
 
-### Components Installed 🛠️
+### <a id="linux-software"></a>Software 💽
 
 *File Management*:
 - Ranger (terminal file manager)
@@ -548,11 +530,11 @@ Keep in mind that there still exist a backup-server in the current work setup - 
 - top hat
 - BURN MY WINDOWS
 
-### Installation 📁
+***Installation***:
 
 ![wtf](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbWl5OHlsM3dxY25xc21pNzBlaXdxeDR6NmZ4NHJzbzN1dnNrbWN4eSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZxmJiR5631jqpv4Uzn/giphy.gif)
 
-### Usage 🚀
+### <a id="linux-usage"></a>Usage 🚀
 
 ![top-secret](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXpmNTBrdnkydW8zdDQ3am56OGtza3hrenRnZnpsencxY3huejhlNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/NdKVEei95yvIY/giphy.gif)
 
@@ -614,14 +596,13 @@ fi
 
 ---
 ---
-
-## 4. PowerShell Configuration 🖥️
+## <a id="powershell-config"></a>4. PowerShell Configuration 📱
 
 Welcome to the underlying personal PowerShell profile repository for all LAX devices! This collection of PowerShell scripts is designed to bring personaltouch to the Powershell and enable quick access to the most important features of the Internet. Most importantly, it helps us to go mentally to the first SEARCH respectively RESEARCH function.
 
 ![Powershell](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExcXNpYmR6bWZ5a2FyaG15aWhidm94YmRtY21ncDY4MmhoZjB6ZDRsOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/JmJMzlXOiI0dq/giphy.gif)
 
-### Features 🌟
+### <a id="powershell-setup"></a>PowerShell Setup 🌟
 
 - **Bash-like Shell Experience**: Mimics Unix shell functionality, bringing familiarity to Windows PowerShell. 🐧
 - **Oh My Posh Integration**: Enhances the user interface with stylish prompts and Git status indicators. ⚡
@@ -637,51 +618,7 @@ Welcome to the underlying personal PowerShell profile repository for all LAX dev
 - **Scoop**: installation manager
 - **Git**: Git for Windows 🔗
 
-### Installation 📁
-
-- The configuration file is located at: `~/powershell/user_profile.ps1' (functionality). 
-- The oh-my-posh customization JSON file is located at `~/powershell/LAX.omp.json' (style/appearance)
-- Both files should be stored in your '~/.config' folder. 
-- Additionally, store the JSON file as well as the Microsoft.Powershell_profile.ps1 (located at: `~/powershell/ Microsoft.Powershell_profile.ps1) in your respective Powershell folder within the Documents folder (subfolder Powershell).
-- To insert your own OhMyPosh config, just fork the repo and change the URL in the main file to your own.
-- The entire Directory structure should look like this:
-
-<img width="241" height="103" alt="grafik" src="https://github.com/user-attachments/assets/2de34758-997a-404a-8f21-e818d04e143d" />
-
-```
-┌────────────────────────────────────────────────────────────────────────────┐
-│ 📁 PowerShell Configuration Directory Structure (.config/powershell)       │
-└────────────────────────────────────────────────────────────────────────────┘
-├── 📁 oh-my-posh/
-├── 📄 -Command
-├── 📄 .cdHistory
-├── 📄 LAX.omp.json
-├── 📄 LAX.omp.json.bak 
-└── 📄 user_profile.ps1
-```
-
-### Setup 🚀
-
-1. Install Font _Hack Bold italic Nerd Font Complete Mono_ (download & install: https://github.com/ryanoasis/nerd-fonts/releases) 
-2. Configure Terminal (Windows Terminal): open WindowsPowershell + adjust default terminal in settings to TERMINAL + Appearance (acrylic in tab row) + Default Appearance Color One Half Dark + Default Appearance Text Hack NF & enable acrylic (10% opacity)
-3. Download & Install PowerShell (Store) + change it to default shell
-4. Change the terminal background color (copy paste this into the json settings file) + change color in default appearance
-5. Install Scoop (comamnd-line installer) by using ```iwr -useb get.scoop.sh | iex``` & ```scoop install curl sudo jq``` (in commandline)
-6. Install Git for Windows by using ```winget install -e --id Git.Git``` (in commandline)
-7. Install Neovim by using ```scoop install neovim gcc``` (in commandline)
-8. Save user profile to path ```C:\Users\<username>\.config\powershell\user_profile.ps1```
-9. Update Profile by first using ```New-Item -ItemType Directory -Path (Split-Path -Parent $PROFILE.CurrentUserCurrentHost) -Force``` (in commandline) then using ```nvim $PROFILE.CurrentUserCurrentHost``` (in commandline) and insert (```. $env:USERPROFILE\.config\powershell\user_profile.ps1```)
-10. Install Oh My Posh (Prompt theme engine) (```Install-Module posh-git -Scope CurrentUser -Force``` and ```winget install JanDeDobbeleer.OhMyPosh --source winget --scope user --force``` in command line in ```.conf\powershell\ directory)``` & copy paste LAX.omp.json in same folder as user_profile ```C:\Users\*username*\.config\powershell\```
-11. Git setup: ```git config --global user.name "samo-L-B"``` & ```git config --global user.email "leon@andresen.at``` & ```ssh-keygen -t ed25519 -C "leon@andresen.at"```
-12. Install node.js by using ```scoop install nvm``` & ```nvm install 14.16.0``` & ```nvm use 14.16.0``` (in command line)
-13. Install terminal icons by using ```Install-Module -Name Terminal-Icons -Repository PSGallery -Force``` & ```Import-Module Terminal-Icons``` (in commandline but actually in .config\powershell folder) 
-14. Install z by using ```Install-Module -Name z -Force``` (in commandline but actually in ```.config\powershell folder```)
-15. Install PSReadLine by using ```Install-Module -Name PSReadLine -AllowPrerelease -Scope CurrentUser -Force -SkipPublisherCheck``` & ```Set-PSReadLineOption -PredictionViewStyle ListView``` (in commandline but actually in .confiug\powershell folder)
-16. Install fzf by using ```scoop install fzf``` & ```Install-Module -Name PSFzf -Scope CurrentUser -Force``` & ```Set-PsFzfOption -PSReadlineChordProvider 'Ctrl+f' - PSReadlineChordReversedHistory 'Ctrl+r``` (in commandline but actually in .confiug\powershell folder)
-  
-After finishing this process you can open a new powershell instance and enjoy the enhanced PowerShell experience! 🎉
-
-### Commands ⭐
+### <a id="powershell-commands"></a>Powershell Commands ⭐
 
 The PS profile includes aliases & functions mimicing samo-L-B's everyday workflow: 
 
@@ -784,7 +721,7 @@ The PS profile includes aliases & functions mimicing samo-L-B's everyday workflo
 - `btc`: Bitcoin (Yahoo Finance)
 - `eth`: Ethereum (Yahoo Finance)
 
-### Supported Linux Commands 🐧
+***Supported Linux Commands*** 🐧:
 
 The PowerShell profile includes aliases and functions that mimic common Linux commands, providing a familiar environment for users accustomed to Linux shell environments. Here are some of the supported Linux commands:
 
@@ -819,6 +756,49 @@ The PowerShell profile includes aliases and functions that mimic common Linux co
 - `gitpush`: lazy-git aka `lazyg` (pulls, adds, commits "message" after gitpush & pushes)
 - `ptw`: send text/files pipe output to a wastebin server.
 
+### <a id="powershell-usage"></a>Usage 🚀
+
+- The configuration file is located at: `~/powershell/user_profile.ps1' (functionality). 
+- The oh-my-posh customization JSON file is located at `~/powershell/LAX.omp.json' (style/appearance)
+- Both files should be stored in your '~/.config' folder. 
+- Additionally, store the JSON file as well as the Microsoft.Powershell_profile.ps1 (located at: `~/powershell/ Microsoft.Powershell_profile.ps1) in your respective Powershell folder within the Documents folder (subfolder Powershell).
+- To insert your own OhMyPosh config, just fork the repo and change the URL in the main file to your own.
+- The entire Directory structure should look like this:
+
+<img width="241" height="103" alt="grafik" src="https://github.com/user-attachments/assets/2de34758-997a-404a-8f21-e818d04e143d" />
+
+```
+┌────────────────────────────────────────────────────────────────────────────┐
+│ 📁 PowerShell Configuration Directory Structure (.config/powershell)       │
+└────────────────────────────────────────────────────────────────────────────┘
+├── 📁 oh-my-posh/
+├── 📄 -Command
+├── 📄 .cdHistory
+├── 📄 LAX.omp.json
+├── 📄 LAX.omp.json.bak 
+└── 📄 user_profile.ps1
+```
+
+1. Install Font _Hack Bold italic Nerd Font Complete Mono_ (download & install: https://github.com/ryanoasis/nerd-fonts/releases) 
+2. Configure Terminal (Windows Terminal): open WindowsPowershell + adjust default terminal in settings to TERMINAL + Appearance (acrylic in tab row) + Default Appearance Color One Half Dark + Default Appearance Text Hack NF & enable acrylic (10% opacity)
+3. Download & Install PowerShell (Store) + change it to default shell
+4. Change the terminal background color (copy paste this into the json settings file) + change color in default appearance
+5. Install Scoop (comamnd-line installer) by using ```iwr -useb get.scoop.sh | iex``` & ```scoop install curl sudo jq``` (in commandline)
+6. Install Git for Windows by using ```winget install -e --id Git.Git``` (in commandline)
+7. Install Neovim by using ```scoop install neovim gcc``` (in commandline)
+8. Save user profile to path ```C:\Users\<username>\.config\powershell\user_profile.ps1```
+9. Update Profile by first using ```New-Item -ItemType Directory -Path (Split-Path -Parent $PROFILE.CurrentUserCurrentHost) -Force``` (in commandline) then using ```nvim $PROFILE.CurrentUserCurrentHost``` (in commandline) and insert (```. $env:USERPROFILE\.config\powershell\user_profile.ps1```)
+10. Install Oh My Posh (Prompt theme engine) (```Install-Module posh-git -Scope CurrentUser -Force``` and ```winget install JanDeDobbeleer.OhMyPosh --source winget --scope user --force``` in command line in ```.conf\powershell\ directory)``` & copy paste LAX.omp.json in same folder as user_profile ```C:\Users\*username*\.config\powershell\```
+11. Git setup: ```git config --global user.name "samo-L-B"``` & ```git config --global user.email "leon@andresen.at``` & ```ssh-keygen -t ed25519 -C "leon@andresen.at"```
+12. Install node.js by using ```scoop install nvm``` & ```nvm install 14.16.0``` & ```nvm use 14.16.0``` (in command line)
+13. Install terminal icons by using ```Install-Module -Name Terminal-Icons -Repository PSGallery -Force``` & ```Import-Module Terminal-Icons``` (in commandline but actually in .config\powershell folder) 
+14. Install z by using ```Install-Module -Name z -Force``` (in commandline but actually in ```.config\powershell folder```)
+15. Install PSReadLine by using ```Install-Module -Name PSReadLine -AllowPrerelease -Scope CurrentUser -Force -SkipPublisherCheck``` & ```Set-PSReadLineOption -PredictionViewStyle ListView``` (in commandline but actually in .confiug\powershell folder)
+16. Install fzf by using ```scoop install fzf``` & ```Install-Module -Name PSFzf -Scope CurrentUser -Force``` & ```Set-PsFzfOption -PSReadlineChordProvider 'Ctrl+f' - PSReadlineChordReversedHistory 'Ctrl+r``` (in commandline but actually in .confiug\powershell folder)
+  
+After finishing this process you can open a new powershell instance and enjoy the enhanced PowerShell experience! 🎉
+
+
 ---
 
 
@@ -828,8 +808,7 @@ The PowerShell profile includes aliases and functions that mimic common Linux co
 
 ---
 
-
-## 5. Browser Configuration 🖥️
+## <a id="browser-config"></a>5. Browser Configuration 📺
 
 ![Firefox](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRzwexAU2kRlg1oqzxtyBLc6-B8Bjhj-Ej9Q&s)>)
 
@@ -838,11 +817,9 @@ The PowerShell profile includes aliases and functions that mimic common Linux co
 
 Welcome to the individual Firefox profile settings! 🎉 This collection of Firefox scripts respectively Add-Ons, Designs, Themes, etc are designed to bring your personaltouch to the Mozilla Firefox.
 
-### Features 🌟
+### <a id="browser-features"></a>Browser Features 📧
 
 - **Theme**: Spirited Away Theme 🐧
-
-### Components Installed 🛠️
 
 **Add-Ons**:
 
@@ -883,6 +860,8 @@ Welcome to the individual Firefox profile settings! 🎉 This collection of Fire
 - **YouTube High Definition**: Forces YouTube to always play videos in HD. 🎥
 - **YouTube Playback Speed Control**: Playback speed adjustment on YouTube. ⏱️
 
+### <a id="browser-commands"></a>Browser Commands ⭐ 
+
 **Mozilla Firefox custom searches**:
 - @google
 - @ebay
@@ -912,14 +891,12 @@ Welcome to the individual Firefox profile settings! 🎉 This collection of Fire
 - stockcharts
 - earningsw
 
-### Configuration 📁
+### <a id="browser-usage"></a>Usage 🚀
 
+- Install Firefox `scoop install firefox` 
 - Check Add-Ons and enable respectively disable features you like or dislike.
-
-### Usage 🚀
-
-- only safe sites
-- tor & opera for the rest
+- Install Tor `scoop install tor-browser`
+- Install Opera `scoop install opera`
 
 ---
 
@@ -928,8 +905,7 @@ Welcome to the individual Firefox profile settings! 🎉 This collection of Fire
 ---
 
 ---
-
-## 6. NVIM/VIM Configuration 🍌 
+## <a id="nvim-config"></a>5. NVIM/VIM Configuration 🍌 
 
 ![Neovim Logo](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExc2NnMnRreDA4aTN5MDFlbXVuN2R2ZWNweXR6ZGRhaWpwcXRvbm44dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/rhZr8u3cvxe0ksf1ej/giphy.gif)
 
@@ -945,7 +921,7 @@ It is also worth noting that that there are more things to think about than effi
 
 Be curious and put in the effort yourself and understand how things actually work! It's more fun to be competent!
 
-### Plugins 🌟
+### <a id="nvim-plugins"></a>Plugins 🔌
 
 All plugins have .lua configuration files which are stored in a dedicated directory `C:\Users\<username>\.config\nvim\samolb\lazy`. 
 
@@ -954,270 +930,431 @@ All plugins have .lua configuration files which are stored in a dedicated direct
 Additionally, the most important commands of each plugin are listed. It's mandatory, to review also the `remap.lua` file (path: `C:\Users\<username>\.config\nvim\lua\samolb\`)in order to understand some of the remapping of basic vim respecitvely nvim. 
 
 - **lazy.vim**: package manager (install/sync/load plugins)
-
-            - :Lazy             -> Open plugin manager
-            - :Lazy sync        -> Sync plugins
-            - :Lazy clean       -> Remove unused plugins 
-            - :Lazy check       -> Check for updates
-            - :Lazy log         -> Show recent updates
-            - :Lazy build       -> Rebuild a plugin
-            - :Lazy debug       -> Show debug information
-            - :Lazy install     -> Install plugin(s)
-            - (optional respectively deactivated currently: :Lazy search [q]  -> Search for plugins)
+    - `:Lazy`: Open plugin manager
+    - `:Lazy sync`: Sync plugins
+    - `:Lazy clean`: Remove unused plugins 
+    - `:Lazy check`: Check for updates
+    - `:Lazy log`: Show recent updates
+    - `:Lazy build`: Rebuild a plugin
+    - `:Lazy debug`: Show debug information
+    - `:Lazy instal`: Install plugin(s)
+    - ~~`:Lazy search [q]`: Search for plugins (deactivated currently)~~
 
 - **telescope.lua**: powerful fuzzy finder (finds files & content within files)
-
-            - <leader>pf	    -> Find files (through all project files)
-            - <Ctrl+p>            -> Git files (through tracked Git files)
-            - <leader>pws	    -> Word search (current word under cursor) (stops at punctuation, spaces, special characters)
-            - <leader>pWs	    -> Word search (current word under cursor with punctuation) (everything until whitespace) 
-            - <leader>ps	    -> Interactive search respectively search with custom input
-            - <leader>pg          -> Live grep respectively search(type and see results while typing) 
-            - <leader>vh	    -> Help tags	Search through help documentation
-            - <leader>pb          -> switch between open buffers 
+    - `<leader>pf`: Find files (through all project files)
+    - `<Ctrl+p>`: Git files (through tracked Git files)
+    - `<leader>pws`: Word search (current word under cursor) (stops at punctuation, spaces, special characters)
+    - `<leader>pWs`: Word search (current word under cursor with punctuation) (everything until whitespace) 
+    - `<leader>ps`: Interactive search respectively search with custom input
+    - `<leader>pg`: Live grep respectively search(type and see results while typing) 
+    - `<leader>vh`: Help tags (Search through help documentation)
+    - `<leader>pb`: switch between open buffers 
 
 - **cellular.lua**: code animation (just 4 fun)
-
-            - <leader> fml                      -> Makes your code fall down the screen like rain
-            - :CellularAutomaton make_it_rain   -> Makes your code fall down the screen like rain
-            - :CellularAutomaton game_of_life   -> Runs Conway's Game of Life on your code
+    - `<leader> fml`: Makes your code fall down the screen like rain (alternative: `:CellularAutomaton make_it_rain`
+    - `:CellularAutomaton game_of_life`: Runs Conway's Game of Life on your code
 
 - **colors.lua**: colorscheme & individual touch (color (rose pine default) & background (transparent)) 
-
-            - :colorscheme                  -> shows current colorscheme
-            - :colorscheme <Space><Tab>     -> switch between colorschemes
-            - :colorscheme <Space><Ctrl-d>  -> shows list with all available colorschemes
+    - `:colorscheme`: shows current colorscheme
+    - `:colorscheme <Space><Tab>`: switch between colorschemes
+    - `:colorscheme <Space><Ctrl-d>`: shows list with all available colorschemes
 
 - **conform.lua**: automatic code formatter plugin (C/C++, stylua for Lua, and prettier for JavaScript)
-
-        - after :w                  -> automatically files when you save (:w
-        - <leader>f                 -> manually format current buffer
-        - :ConformInfo              -> show formatter info for current buffer
+    - `:w`: automatically files when you save (:w
+    - `<leader>f`: manually format current buffer
+    - `:ConformInfo`: show formatter info for current buffer
 
 - **treesitter.lua**: parsing system (syntax highlighting and indexing of programming languages)
-
-        - :TSUpdate                 -> Update all parsers
-        - :TSUpdate [language]      -> Update specific parser e.g. [javasrcipt]
-        - :TSInstall [language]     -> Install a new parser e.g. [python]
-        - :TSUninstall [language]   -> Remove a parser e.g. [rust]
-        - :TSInstallInfo            -> See all available parsers
-        - :TSContextEnable          -> Turn on context
-        - :TSContextDisable         -> Turn off context
-        - :TSContextToggle          -> Toggle context 
-        - :TSModuleInfo [module]    -> Show module information
+    - `:TSUpdate`: Update all parsers
+    - `:TSUpdate [language]`: Update specific parser e.g. [javascript]
+    - `:TSInstall [language]`: Install a new parser e.g. [python]
+    - `:TSUninstall [language]`: Remove a parser e.g. [rust]
+    - `:TSInstallInfo`: See all available parsers
+    - `:TSContextEnable`: Turn on context
+    - `:TSContextDisable`: Turn off context
+    - `:TSContextToggle`: Toggle context 
+    - `:TSModuleInfo [module]`: Show module information
 
 - **markdown-preview.lua**: preview for markdown files
-
-        - :MarkdownPreviewToggle    -> Toggle preview window
-        - :MarkdownPreview          -> Force open preview
-        - :MarkdownPreviewStop      -> Close preview window
-        - <Leader>mp                -> Toggle preview
-        - <Leader>mo                -> Open preview
-        - <Leader>mc                -> Close preview
+    - `:MarkdownPreviewToggle`: Toggle preview window
+    - `:MarkdownPreview`: Force open preview
+    - `:MarkdownPreviewStop`: Close preview window
+    - `<Leader>mp`: Toggle preview
+    - `<Leader>mo`: Open preview
+    - `<Leader>mc`: Close preview
 
 - **harpoon.lua**: quick file navigation for most-used files (pinning important files slots 1-4) 
+    - `<leader>a`: add current file
+    - `<leader>A`: add current file to BEGINNING of list
+    - `<Ctrl+e>`: Toggle quick menu
+    - `<Ctrl+h/t/n/s>`: Jump to files 1-4
+    - `<leader><Ctrl+h/t/n/s>`: Replace files 1-4
 
-        - <leader>a                -> add current file
-        - <leader>A                -> add current file to BEGINNING of list
-        - <Ctrl+e>                 -> Toggle quick menu
-        - <Ctrl+h/t/n/s>           -> Jump to files 1-4
-        - <leader><Ctrl+h/t/n/s>   -> Replace files 1-4
-
-- **undotree.lua**: visual undo/redo system (prerequisite: scoop install diffutils)
-        
-        - <leader>u                 -> toggle undotree window
-        - j/k                       -> for navigation (enter to jump to specific change + use q to close the window)
-        - Ctrl+w h                  -> jump into the undotree panel
+- **undotree.lua**: visual undo/redo system (prerequisite: scoop install diffutils) 
+    - `<leader>u`: toggle undotree window
+    - `j/k`: for navigation (enter to jump to specific change + use q to close the window)
+    - `Ctrl+w h`: jump into the undotree panel
 
 - **fugitive.lua**: shortcuts for git
-
-        - <leader>gs                -> Opens Git status interface
-        - <leader>p                 -> Push c            -> hanges to remote
-        - <leader>P                 -> Pull with rebase (keeps history clean)
-        - <leader>t                 -> Push with tracking (useful for new branches)
-        - gu                        -> Accept changes from left side
-        - gh                        -> Accept changes from right side
+    - `<leader>gs`: Opens Git status interface
+    - `<leader>p`: Push c            -> hanges to remote
+    - `<leader>P`: Pull with rebase (keeps history clean)
+    - `<leader>t`: Push with tracking (useful for new branches)
+    - `gu`: Accept changes from left side
+    - `gh`: Accept changes from right side
 
 - **lsp.lua**: intelligent code editing
-
-        - K                         -> Show documentation
-        - gd                        -> definition
-        - gD                        -> go to declaration
-        - gr                        -> find references
-        - gi                        -> go to implementation
-        - <leader>rn                -> Rename symbol (if mapped)
-        - <leader>ca                -> Code actions (if mapped)
-        - <Ctrl+p>                  -> Previous item
-        - <Ctrl+n>                  -> Next item
-        - <Ctrl+y>                  -> Confirm selection
-        - <Ctrl+Space>              -> Trigger completion
-        - ]d                        -> Next diagnostic
-        - [d                        -> Previous diagnostic
-        - <leader>q                 -> Open diagnostic list (if mapped)
-        - <leader>d                 -> Show diagnostic under cursor
+    - `K`Show documentation
+    - `gd`: definition
+    - `gD`: go to declaration
+    - `gr`: find references
+    - `gi`: go to implementation
+    - `<leader>rn`: Rename symbol (if mapped)
+    - `<leader>ca`: Code actions (if mapped)
+    - `<Ctrl+p>`: Previous item
+    - `<Ctrl+n>`: Next item
+    - `<Ctrl+y>`: Confirm selection
+    - `<Ctrl+Space>`: Trigger completion
+    - `]d`: Next diagnostic
+    - `[d`: Previous diagnostic
+    - `<leader>q`: Open diagnostic list (if mapped)
+    - `<leader>d`: Show diagnostic under cursor
 
 - **dap.lua**: debuggger for code including window management, UI controls, and automatic debugger installation
-
-        - :DAP                      -> Debug Adapter Protocol
-        - <F8>                      -> to start the debugger / continue to next breakpoint (command line: :DapContinue - same as F8)
-        - <leader>B                 -> to set a conditional breakpoint
-        - <leader>b                 -> to set a breakpoint (command line: :DapToggleBreakpoint - same as <leader>b)
-        - :<F10>                    -> step over (execute current line) (command line: :DapStepOver - Same as F10)
-        - <F11>                     -> step into (enter functions) (command line: :DapStepInto - same as F11)
-        - <F12>                     -> step out (finish current function) (command line: :DapStepOut - same as F12)
-        - <leader>dr                -> toggle REPL (interactive console)
-        - <leader>ds                -> toggle call stacks
-        - <leader>dw                -> toggle watches (watch expressions)
-        - <leader>db                -> toggle breakpoints list
-        - <leader>dS                -> toggle scopes/variables (local/global variables)
-        - <leader>dc                -> toggle console output (program output) 
-        - :DapTerminate             -> Stop debugging
+    - `:DAP`: Debug Adapter Protocol
+    - `<F8>`: start debugger / continue to next breakpoint (command line:`:DapContinue` - same as F8)
+    - `<leader>B`: to set a conditional breakpoint
+    - `<leader>b`: to set a breakpoint (command line: `:DapToggleBreakpoint` - same as `<leader>b`)
+    - `<F10>`: step over (execute current line) (command line: :DapStepOver - Same as F10)
+    - `<F11>`: step into (enter functions) (command line: :DapStepInto - same as F11)
+    - `<F12>`: step out (finish current function) (command line: :DapStepOut - same as F12)
+    - `<leader>dr`: toggle REPL (interactive console)
+    - `<leader>ds`: toggle call stacks
+    - `<leader>dw`: toggle watches (watch expressions)
+    - `<leader>db`: toggle breakpoints list
+    - `<leader>dS`: toggle scopes/variables (local/global variables)
+    - `<leader>dc`: toggle console output (program output) 
+    - `:DapTerminate`: Stop debugging
 
 - **mini-pairs.lua**: automatically inserts a matching closing character ", [, or ( 
 
 - **neotest.lua**: powerful test runner framework
-        
-        - <leader>tr	            -> run nearest test (execute test under cursor)
-        - <leader>ts                -> run test suite (all tests in current file)
-        - <leader>ta	            -> run all tests (entiure project/directory)
-        - <leader>td	            -> debug nearest test (run test under cursor with DAP debugger attached)
-        - <leader>tv	            -> toggle test summary (view all available tests & their status in sidebar)
-        - <leader>to	            -> open test output
-        - :Neotest summary          -> Toggle test summary sidebar
-        - :Neotest output           -> show test output
-        - :Neotest run              -> run tests
-        - :Neotest stop             -> stop running tests  
+    - `<leader>tr`: run nearest test (execute test under cursor)
+    - `<leader>ts`: run test suite (all tests in current file)
+    - `<leader>ta`: run all tests (entire project/directory)
+    - `<leader>td`: debug nearest test (run test under cursor with DAP debugger attached)
+    - `<leader>tv`: toggle test summary (view all available tests & their status in sidebar)
+    - `<leader>to`: open test output
+    - `:Neotest summary`: gle test summary sidebar
+    - `:Neotest output`: test output
+    - `:Neotest run`:  tests
+    - `:Neotest stop`: running tests  
 
 - **plenary.lua**: dependency for other plugins (like telescope, neotest, etc.)
 
 - **snippets.lua**: snippet engine system that (automatically expands predefined code templates)
-       
-        - <Ctrl+s>e             -> Expand snippet (only in insert mode)
-        - <Ctrl+s>;             -> jump forward
-        - <Ctrl+s>,             -> jump backwards
-        - <Ctrl+E>              -> change choice (cycle through options when choices available)
+    - `<Ctrl+s>e`: expand snippet (only in insert mode)
+    - `<Ctrl+s>;`: jump forward
+    - `<Ctrl+s>,`: jump backwards
+    - `<Ctrl+E>`: change choice (cycle through options when choices available)
 
 - **tj.lua**: enhanced PHP support (better syntax for .php files) 
         
 - **trouble.lua**: diagnostic viewer (shows errors, warnings, issues in a floating window + enables quick navigation between problems
-        
-        - <leader>tt            -> to toggle the trouble window
-        - [t                    -> to go to previous issue
-        - ]t                    -> to go to next issue
-        - :Trouble diagnostics  -> show workspace diagnostics
-        - :Trouble quickfix     -> show quickfix list
-        - :Trouble loclist -    -> show location list
-        - :Trouble symbols      -> show document symbols
-        - :Trouble lsp          -> show LSP references/definitions
+    - `<leader>tt`: to toggle the trouble window
+    - `[t`: to go to previous issue
+    - `]t`: to go to next issue
+    - `:Trouble diagnostics`: show workspace diagnostics
+    - `:Trouble quickfix`: show quickfix list
+    - `:Trouble loclist`: show location list
+    - `:Trouble symbols`: show document symbols
+    - `:Trouble lsp`: show LSP references/definitions
 
 - **zenmode.lua**: creates two focus modes
-        
-        - <leader>zz            -> for focused mode with numbers (press again to toggle off)
-        - <leader>zZ            -> for minimal distraction mode (press again to toggle off)
+    - `<leader>zz`: for focused mode with numbers (press again to toggle off)
+    - `<leader>zZ`: for minimal distraction mode (press again to toggle off)
 
 ***not installed yet (deliberately):***
 
 - **avante**:
 
 - **cursor-ai**: 
-
-        - <leader>ca opens panel
+    - `<leader>ca`: opens panel
 
 - **cloak.lua**: hiding sensitive data (API, passwords, etc)
-        
-        - :CloakDisable
-        - :CloakEnable
-        - :CloakToggle
-        - :CloakPreviewLine (temporarily reveals masked content)
+    - `:CloakDisable`
+    - `:CloakEnable`
+    - `:CloakToggle`
+    - `:CloakPreviewLine`: temporarily reveals masked content
 
 - **cockpit**: system administration tool for Linux servers (testing interface for code)
-
-        - <leader>ct: Execute tests
-        - <leader>cr: Refresh test results
+    - `<leader>ct`: execute tests
+    - `<leader>cr:` refresh test results
 
 - **golf.lua**: code golf counter (shows character/stroke statistics for code challenges)
-
-        - : f followed by any character: searches forward 
-        - : F followed by any character: searches backward
-        - : ; to repeat the search
-        - : , to repeat backward
-        - : t followed by any character: searches until before target
-        - : T followed by any character: searches backward until
+    - `: f`: followed by any character: searches forward 
+    - `: F`: followed by any character: searches backward
+    - `: ;`: to repeat the search
+    - `: ,`: to repeat backward
+    - `: t`: followed by any character: searches until before target
+    - `: T`: followed by any character: searches backward until
 
 - **jai.lua**: code interpreter for .jai files (only relevant for C++)
 
 - **peek.lua**: markdown preview plugin (already markdown-preview installed)
-        
-        - :PeekOpen - Opens the preview window
-        - :PeekClose - Closes the preview window
-        - ;use navigation keys to toggle arround (classical vim nav)
+    - `:PeekOpen`: Opens the preview window
+    - `:PeekClose`: Closes the preview window
+    - `;`: use navigation keys to toggle around (classical vim nav)
 
 - **supermaven.lua**: AI completion tool
+    - `:SupermavenToggle`: Enable/disable Supermaven
+    - `:SupermavenStart`: Start Supermaven
+    - `:SupermavenStop`: Stop Supermaven
+    - `:SupermavenStatus`: Check if it's running
+    - `:SupermavenLogout`: Logout from your account
+    - `:SupermavenShowLog`: View logs
 
-        - :SupermavenToggle         -> Enable/disable Supermaven
-        - :SupermavenStart          -> Start Supermaven
-        - :SupermavenStop           -> Stop Supermaven
-        - :SupermavenStatus         -> Check if it's running
-        - :SupermavenLogout         -> Logout from your account
-        - :SupermavenShowLog        -> View logs
+### <a id="nvim-key-maps"></a>Key Maps 🔑
 
-### Key Maps 🔑 
+- `<Space>`: leader key
+- `<leader>pv`: Open file explorer (netrw)
+- `J` (in visual): Move selected lines down
+- `K` (in visual): Move selected lines up
 
-    - <Space>                       -> leader key
-    - <leader>pv                    -> Open file explorer (netrw)
-    - J (in visual)                 -> Move selected lines down
-    - K (in visual)                 -> Move selected lines up
+- `<Ctrl+d>`: scroll half-page down (centered)
+- `<Ctrl+u>`: scroll half-page up (centered)
+- `n`: next search result (centered)
+- `N`: previous search result (centered)
 
-    - <Ctrl+d>                      -> Scroll half-page down (centered)
-    - <Ctrl+u>                      -> Scroll half-page up (centered)
-    - n                             -> Next search result (centered)
-    - N                             -> Previous search result (centered)
+- `<leader>p` (in visual): paste without overwriting register
+- `<leader>y` (normal/visual): yank to system clipboard
+- `<leader>Y` (normal): yank line to system clipboard
+- `<leader>d`: delete without yanking
 
-    - <leader>p (in visual)         -> Paste without overwriting register
-    - <leader>y (normal/visual)     -> Yank to system clipboard
-    - <leader>Y (normal)            -> Yank line to system clipboard
-    - <leader>d                     -> Delete without yanking
+- `<leader>s`: search/replace word under cursor
+- `<leader>x`: make file executable
 
-    - <leader>s                     -> Search/replace word under cursor
-    - <leader>x                     -> Make file executable
+- `<Ctrl+k>`: next quickfix item (centered)
+- `<Ctrl+j>`: previous quickfix item (centered)
+- `<leader>k`: next location list item (centered)
+- `<leader>j`: previous location list item (centered)
 
-    - <Ctrl+k>                      -> Next quickfix item (centered)
-    - <Ctrl+j>                      -> Previous quickfix item (centered)
-    - <leader>k                     -> Next location list item (centered)
-    - <leader>j                     -> Previous location list item (centered)
+- `<Ctrl+f>`: open tmux sessionizer (needs tmux)
 
-    - <Ctrl+f>                      -> Open tmux sessionizer (needs tmux)
-
-    - =ap                           -> Format paragraph (restore cursor)
+- `=ap`: Format paragraph (restore cursor)
 
 **Key Maps 2**: commented out (not actively using currently)
 
-    - <leader>tf                    -> Run Plenary test file
-    - J (normal)                    -> Join lines (keep cursor position)
+- `<leader>tf`: run Plenary test file
+- `J (normal)`: join lines (keep cursor position)
+- `<leader>zig`: restart LSP server
+- `<Ctrl+c>`: alternative Escape
+- `<Alt+h>`: Tmux sessionizer vsplit
+- `<Alt+H>`: Tmux sessionizer new window
+- `<leader>ee`: insert "if err != nil { return err }"
+- `<leader>ea`: insert error assertion
+- `<leader>ef`: insert error with log.Fatalf
+- `<leader>el`: insert error with logger
+- `<leader>ca`: cellular automaton animation
+- `<leader><leader>`: source/reload current file
 
-    - <leader>zig                   -> Restart LSP server
-    - <Ctrl+c>                      -> Alternative Escape
+**Key Maps (basic-vim)**:
 
-    - <Alt+h>                       -> Tmux sessionizer vsplit
-    - <Alt+H>                       -> Tmux sessionizer new window
+***0. NORMAL MODE*** (basic motion/navigation)
 
-    - <leader>ee                    -> Insert "if err != nil { return err }"
-    - <leader>ea                    -> Insert error assertion
-    - <leader>ef                    -> Insert error with log.Fatalf
-    - <leader>el                    -> Insert error with logger
+*Home-row movement*:
+- `h`: <- move left  
+- `l`: → move right  
+- `j`: ↓ move down  
+- `k`: ↑ move up
+*Word & Line Movement*:
+- `w / W`: next word (punctuation considered words)/ WORD (paces separate words)  
+- `b / B`: previous word / WORD  
+- `e / E`: end of word / WORD  
+- `0`: start of line  
+- `^`: first non-blank character of line  
+- `$`: end of line
+*File Movement*:
+- `gg`: go to top of file  
+- `G`: go to bottom of file  
+- `{n}G`: go to line number n  
+- `H`: top of screen  
+- `M`: middle of screen  
+- `L`: bottom of screen  
+- `Ctrl + u`: scroll up half a screen  
+- `Ctrl + d`: scroll down half a screen  
+- `Ctrl + b`: page up  
+- `Ctrl + f`: page down  
+- `zz`: center current line in window  
+- `zt`: move current line to top  
+- `zb`: move current line to bottom
+- `f{char}`: forward to character  
+- `F{char}`: backward to character  
+- `t{char}`: forward until character  
+- `T{char}`: backward until character  
+- `; / ,`: repeat / reverse last f/F/t/T  
+- `%`: jump to matching bracket/brace/parenthesis
+--> all motions can be combined with a numerical (e.g. 5j, 100g, 2j)
 
-    - <leader>ca                    -> Cellular automaton animation
+***1. OPERATORS + TEXT OBJECTS***:
+*Basic Operators*:
+- `d`: delete  
+    - `dd`: delete line  
+    - `dw`: delete to next word  
+    - `d$` or `D`: delete to end of line  
+    - `d2w`: delete two words  
+- `c`: change (delete + insert)  
+    - `cc`: change (replace) line  
+    - `cw`: change to next word  
+    - `c$`: change to end of line  
+    - `ciw`: change inner word  
+- `y`: yank (copy)  
+    - `yy`: yank line  
+    - `y$`: yank to end of line  
+    - `yiw`: yank inner word  
+    - `"+y`: yank to system clipboard  
+    - `"+yy`: yank line to system clipboard  
+    - `:%y+`: yank whole file to system clipboard  
+    - `:reg`: show registers
+- `v / V`: visual mode (char / line)  
+- ~~`Ctrl + v`: visual block mode~~  
+- `u`: undo  
+- `Ctrl + r`: redo  
+- `.`: repeat last command  
+- `p`: paste after cursor  
+    - `P`: paste before cursor  
+    - `"0p`: paste last yanked text  
+    - `"1p`: paste most recent deleted text
+*Text Objects*: (with d, y, c, etc.)
+- `aw` / `iw`: a word / inner word  
+- `aW` / `iW`: a WORD / inner WORD  
+- `ap` / `ip`: a paragraph / inner paragraph  
+- `a(` / `i(`: around / inside parentheses  
+- `a"` / `i"`: around / inside quotes  
+- `at` / `it`: around / inside HTML/XML tags
 
-    - <leader><leader>              -> Source/reload current file
+***2. ⌨️ INSERT MODE***
+*Enter Insert Mode*:
+- `i`: insert before cursor  
+- `I`: insert at beginning of line  
+- `a`: append after cursor  
+- `A`: append at end of line  
+- `o`: new line below + insert  
+- `O`: new line above + insert
+- `Esc` or `Ctrl + [` : exit insert mode  
+- `Ctrl + c`: safer exit (recommended)  
 
-### Components Installed 🛠️
+***3. 🎨 VISUAL MODE***
+*Visual Selection Modes*:
+- `v`: start character-wise selection  
+- `V`: start line-wise selection  
+- ~~`Ctrl + v`: start block/column selection~~
+*Actions in Visual Mode*:
+- `y`: yank selection  
+- `d`: delete selection  
+- `p`: paste (replaces selection)  
+- `u`: lowercase selection  
+- `U`: uppercase selection  
+- `~`: toggle case (switch lower/upper cases)  
+- `:sort`: sort selected lines
+*Visual Block Mode Power Moves*:
+- ~~`Ctrl + v`: select block  
+- `Shift + I`: insert before selection  
+- `Shift + A`: append after selection  
+- `Esc`: apply changes
 
-Plugins: see above
+***4. COMMAND-LINE MODE (:)***
+*File Commands*:
+- `:w`: write/save  
+- `:q`: quit  
+- `:q!`: quit without saving  
+- `:wq` / `:x`: write and quit  
+- `:e {file}`: open file  
+- `:!{cmd}`: run shell command  
+- `:term`: open terminal (in Neovim)
+*Search & Replace*:
+- `/pattern`: search forward  
+- `?pattern`: search backward  
+- `n` / `N`: next / previous match  
+- `:noh`: clear search highlight  
+- `:%s/old/new/g`: replace in whole file  
+- `:s/old/new/g`: replace in current line
+*Line Numbers*:
+- `:set nu`: show absolute line numbers  
+- `:set rnu`: show relative numbers  
+- `:set nonu`: hide line numbers  
+- `:set norelativenumber`: hide relative numbers
+*Formatting & Settings*:
+- `gg=G`: auto-indent whole file  
+- `:set paste`: disable autoindent (good for paste)  
+- `:set wrap`: wrap long lines  
+- `:set nowrap`: disable line wrap  
+- `:set list`: show invisible characters  
+- `:set nolist`: hide invisible characters  
+- `:set syntax=python`: set filetype manually  
+- `:syntax on/off`: toggle syntax highlighting
+***5. MACROS & MAPPINGS***:
+- `qa`: start recording into register a  
+- `q`: stop recording  
+- `@a`: run macro in register a  
+- `@@`: repeat last macro
+- `:map`: show normal mode mappings  
+- `:nmap`: map in normal mode  
+- `:vmap`: map in visual mode  
+- `:imap`: map in insert mode  
+- `:unmap`: remove mapping
 
-Add-Ons:
+### <a id="nvim-usage"></a>Usage 🚀
 
-earlier approach: 
-- ~~**Microsoft Visual Studio Code** - Extensions:~~ 
+- operating on linux OS: .config folder already as default
+- operating on windows OS: iniate symlink from directory: `C:\Users\<username>\AppData\Local\nvim` to directory: `C:\Users\<username>\.config\nvim` by `mklink /D C:\Users\<username>\AppData\Local\nvim C:\Users\<username>\.config\nvim`
+```
+┌────────────────────────────────────────────────────────────────────────────┐
+│ 📁 NeoVim Configuration Directory Structure (.config/nvim)                 │
+└───────────────────────────────────────────────────────────────────────┬────┘
+├── 📁  lua/
+│          └── 📁 samolb/
+│                       ├── 📄 init.lua
+│                       ├── 📄 lazy_init.lua
+│                       ├── 📄 remap.lua
+│                       └── 📁 lazy/
+│                                   ├── 📄 colors.lua
+│                                   ├── 📄 conform.lua
+│                                   ├── 📄 dap.lua
+│                                   ├── 📄 fugitive.lua
+│                                   ├── 📄 golf.lua
+│                                   ├── 📄 jai.lua
+│                                   ├── 📄 local.lua
+│                                   ├── 📄 lsp.lua
+│                                   ├── 📄 minipairs.lua
+│                                   ├── 📄 neotest.lua
+│                                   ├── 📄 plenary.lua
+│                                   ├── 📄 peek.lua
+│                                   ├── 📄 snippets.lua
+│                                   ├── 📄 telescope.lua
+│                                   ├── 📄 tj.lua
+│                                   ├── 📄 treesitter.lua
+│                                   ├── 📄 trouble.lua
+│                                   ├── 📄 undotree.lua
+│                                   └── 📄 zenmode.lua
+├── 📄 init.lua
+└── 📄 lazy-lock.json
+```
+
+- Save those Files as described above
+- Next try to adjust respectively tweak the appearance of your terminal/powershell and install all necessary packages.
+- prerequisite: scoop install ripgrep (in order to make telescope plugin work)
+- Directory: `C:\Users\<username>\.config\nvim`
+- Check plugins and enable respectively disable features you like or dislike (check :Lazy).
+
+After finishing this process you can open a new powershell instance and enjoy the enhanced neovim experience! 🎉
+
+### <a id="nvim-alternative"></a>Alternative 🛠️
+
+For historical context, here’s earlier approaches which previously was used.
+
+~~**Microsoft Visual Studio Code**~~
+*Extensions*: 
 - gitlens
 - typescript
 - code runner
@@ -1227,10 +1364,10 @@ earlier approach:
 - code spell checker
 - git
 - todo tree
-- npm suppoert?
-- extensopn authoring
+- npm support?
+- extension authoring
 - better comments
-- json langauage features
+- json language features
 - emmet
 - gitbase
 - github
@@ -1270,64 +1407,16 @@ earlier approach:
 - preferences.sublime-settings
 ```
 {	"ignored_packages":
-	[	"LSP-copilot",
-		"LSP-pyright",
-		"RemoteSubl",
-		"Terminus",
-		"Vintage",],
-	"color_scheme": "Packages/Materialize/schemes/Material Dracula.tmTheme",
-	"font_size": 13,
-	"index_files": false,
-	"auto_complete": true,}
+[	"LSP-copilot",
+"LSP-pyright",
+"RemoteSubl",
+"Terminus",
+"Vintage",],
+"color_scheme": "Packages/Materialize/schemes/Material Dracula.tmTheme",
+"font_size": 13,
+"index_files": false,
+"auto_complete": true,}
 ```
-
-### Installation 📁
-
-- opearting on linux OS: .config folder already as default
-- operating on windows OS: iniate symlink from directory: C:\Users\<username>\AppData\Local\nvim to directory: C:\Users\<username>\.config\nvim
-```
-┌────────────────────────────────────────────────────────────────────────────┐
-│ 📁 NeoVim Configuration Directory Structure (.config/nvim)                 │
-└───────────────────────────────────────────────────────────────────────┬────┘
-├── 📁  lua/
-│          └── 📁 samolb/
-│                       ├── 📄 init.lua
-│                       ├── 📄 lazy_init.lua
-│                       ├── 📄 remap.lua
-│                       └── 📁 lazy/
-│                                   ├── 📄 colors.lua
-│                                   ├── 📄 conform.lua
-│                                   ├── 📄 dap.lua
-│                                   ├── 📄 fugitive.lua
-│                                   ├── 📄 golf.lua
-│                                   ├── 📄 jai.lua
-│                                   ├── 📄 local.lua
-│                                   ├── 📄 lsp.lua
-│                                   ├── 📄 minipairs.lua
-│                                   ├── 📄 neotest.lua
-│                                   ├── 📄 plenary.lua
-│                                   ├── 📄 peek.lua
-│                                   ├── 📄 snippets.lua
-│                                   ├── 📄 telescope.lua
-│                                   ├── 📄 tj.lua
-│                                   ├── 📄 treesitter.lua
-│                                   ├── 📄 trouble.lua
-│                                   ├── 📄 undotree.lua
-│                                   └── 📄 zenmode.lua
-├── 📄 init.lua
-├── 📄 init.lua
-└── 📄 lazy-lock.json
-```
-
-### Usage 🚀
-
-- Save those Files as described in Configuration
-- Next try to adjust respectively tweak the appearance of your terminal/powershell and install all necessary packages.
-- prerequisite: scoop install ripgrep (in order to make telescope plugin work)
-- Directory: `C:\Users\<username>\.config\nvim`
-- Check plugins and enable respectively disable features you like or dislike (check :Lazy).
-
-After finishing this process you can open a new powershell instance and enjoy the enhanced neovim experience! 🎉
 
 ---
 
@@ -1336,25 +1425,50 @@ After finishing this process you can open a new powershell instance and enjoy th
 ---
 ---
 
-## Repository Information) 🌊
+## <a id="repository-info"></a>Repository Information 🌊
 
-### Personalization 🎨
+### <a id="personalization"></a>Personalization 🎨
 
+- The bootstrap file `bootstrap_samo_l_b.ps1` could work as a starting point but review it and ensure everything presented is being included.
+    - Replace YOUR_USERNAME/YOUR_DOTFILES_REPO with your actual GitHub path.
+    - Optionally make it interactive with flags (e.g. -Minimal, -WithWSL, etc.)
+    - Consider turning this into a .ps1 script + GitHub Actions workflow
+    - Execute `Set-ExecutionPolicy Bypass -Scope Process -Force` and `.\bootstrap.ps1`
 - Customize the scripts according to personal preferences or specific system requirements.
 - To insert your own OhMyPosh config, just fork the repo and change the URL in the main file to your own.
-- If youu finished to personalize, don't be a bitch and say thank you and spread the love if you liked it!
+- If you finished to personalize, don't be a bitch and say thank you and spread the love if you liked it!
 - These videos helped me to deepen my skills regarding the setting up of my config files (https://www.youtube.com/watch?v=5-aK2_WwrmM AND https://christitus.com/pretty-powershell/)
 
 ![thanksbitch](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExb3IzY2ZtNmZmM2h0anlmYjh5Y3poZzJ6aG9heDloMzVrM2dnbzZtNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/uWlpPGquhGZNFzY90z/giphy.gif)
 
-### Contributing 🤝
+### <a id="contributing"></a>Contributing 🤝
 
 - Feel free to fork, modify, and contribute improvements or additional features.
 - For any issues, questions, or help, please create an issue in the repository. 💬
 
 ![ape_together_strong](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMXVmZzF6d2dnb2F2bmw4bmU1MGowYXh2dnQxNzVwb2Q3ZWZoazJqYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/WO63HWNzRFo20yuDBq/giphy.gif)
 
-### License 📜
+### <a id="future-improvements"></a>Future Improvements 🔨
+
+🔧 Infrastructure
+
+- Bootstrap install script (or dotfile manager)
+- Git-aware tmux config with session persistence
+
+🧠 Editor IQ
+
+- Mason + cmp + luasnip + conform + lint pipeline
+- Full DAP integration with UI toggles
+- Testing → coverage → notifications
+
+🚀 DX & DevOps
+
+- Task runners like overseer or just Git CLI tools (lazygit, delta, gh-dash)
+- Real-time LSP progress (fidget)
+- Better motion (leap, flash)
+- Beautiful prompt (starship)
+
+### <a id="license"></a>License 📜
 
 This project is licensed under the LAX licence. README was initialized 2022 and recently updated 10/2025. DO NOT FUCK WITH THE LAX!
 
