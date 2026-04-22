@@ -939,6 +939,7 @@ Additionally, the most important commands of each plugin are listed. It's mandat
     - `:Lazy debug`: Show debug information
     - `:Lazy instal`: Install plugin(s)
     - ~~`:Lazy search [q]`: Search for plugins (deactivated currently)~~
+    - `<leader>fr`: recent files lazyvim menue 
 
 - **telescope.lua**: powerful fuzzy finder (finds files & content within files)
     - `<leader>pf`: Find files (through all project files)
@@ -1037,6 +1038,9 @@ Additionally, the most important commands of each plugin are listed. It's mandat
     - `:DapTerminate`: Stop debugging
 
 - **mini-pairs.lua**: automatically inserts a matching closing character ", [, or ( 
+
+- **nvim-filetree**: file.tree
+    - `<leader>e`: open & toggle    
 
 - **neotest.lua**: powerful test runner framework
     - `<leader>tr`: run nearest test (execute test under cursor)
@@ -1323,6 +1327,20 @@ Additionally, the most important commands of each plugin are listed. It's mandat
 - `:imap`: map in insert mode  
 - `:unmap`: remove mapping
 
+*more commands*:
+- `Ctrl+a`: select all
+- `te`: tabedits
+- `<tab>`: tabnext/return
+- `<s-tab>`: tavprevious/return
+- `ss`: split window horizontally
+- `sv`: split window vertically
+- `sh` and `sk` and `sj` and `sl` move windows
+- `<Ctrl+W>+<left/right/up/down>`: resize window left/right/up/down
+- `Ctrl+j`: jump to next LSP error
+
+- `<leader>ttt`: background on/off
+
+
 ### <a id="nvim-usage"></a>Usage 🚀
 
 - operating on linux OS: .config folder already as default
@@ -1334,7 +1352,7 @@ Additionally, the most important commands of each plugin are listed. It's mandat
 ├── 📁  lua/
 │          └── 📁 samolb/
 │                       ├── 📄 init.lua
-│                       ├── 📄 lazy_init.lua
+│                       ├── 📄 lazy_init.lua        
 │                       ├── 📄 remap.lua
 │                       └── 📁 lazy/
 │                                   ├── 📄 colors.lua
@@ -1367,6 +1385,12 @@ Additionally, the most important commands of each plugin are listed. It's mandat
 - Check plugins and enable respectively disable features you like or dislike (check :Lazy).
 
 After finishing this process you can open a new powershell instance and enjoy the enhanced neovim experience! 🎉
+
+**Python**: 
+1. install python: `scoop install python`
+2. create directory for project: `mkdir C:\Users\<username>\Documents\GitHub\project-xxx\.venv\`
+3. install debugpy: `C:\Users\leon\Documents\GitHub\project-LAI\.venv\Scripts\python.exe -m pip install debugpy`
+4. install packages: `C:\Users\leon\Documents\GitHub\project-LAI\.venv\Scripts\python.exe -m pip install pandas`
 
 ### <a id="nvim-alternative"></a>Alternative 🛠️
 

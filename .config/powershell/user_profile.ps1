@@ -280,7 +280,7 @@ function gpt {param([string]$q)
 	    Write-Host "Query copied to clipboard: $q" -ForegroundColor Cyan
 	    Write-Host "Paste it into ChatGPT (Ctrl+V)" -ForegroundColor Yellow}
 	Start-Process "https://chatgpt.com"}
-function claude {
+function claude-ai {
     param([string]$q)
     if ($q) {$q | Set-Clipboard
         Write-Host "Query copied to clipboard: $q" -ForegroundColor Cyan
@@ -496,7 +496,7 @@ BROWSER SHORTCUTS
 AI/LLMs
   gemini "query"       Gemini search (paste query from clipboard)
   gpt "query"          ChatGPT search (paste query from clipboard)
-  claude "query"       Claude search (paste query from clipboard)
+  claude-ai "query"       Claude search (paste query from clipboard)
   grok "query"         Grok search (paste query from clipboard)
   perplexity "query"   Perplexity search (paste query from clipboard)
   deepseek "query"     Deepseek search (paste query from clipboard)

@@ -1,5 +1,6 @@
 ## PowerShell Profile LAX dipshit modifications - version 1.01 (updated 11/2025)
 
+
 # indiviudal greeting
 Write-Host "こんにちは bitches - 躾" -ForegroundColor Yellow
 Write-Host "olá beleza!`ngreat to see ur lazy ass! checking for PS-updates..." -ForegroundColor Cyan
@@ -228,7 +229,7 @@ function gpt {param([string]$q)
 	    Write-Host "Query copied to clipboard: $q" -ForegroundColor Cyan
 	    Write-Host "Paste it into ChatGPT (Ctrl+V)" -ForegroundColor Yellow}
 	Start-Process "https://chatgpt.com"}
-function claude {
+function claude-ai {
     param([string]$q)
     if ($q) {$q | Set-Clipboard
         Write-Host "Query copied to clipboard: $q" -ForegroundColor Cyan
@@ -355,6 +356,20 @@ if (-not (Test-Path (Split-Path $historyPath))) {
     New-Item -ItemType Directory -Path (Split-Path $historyPath) -Force | Out-Null}
 $env:POWERSHELL_HISTORY_PATH = $historyPath
 
+function newproject {
+    param([string]$name)
+
+    mkdir $name
+    cd $name
+    git init
+    New-Item README.md
+    New-Item .gitignore
+}
+
+function j {
+    param([string]$name)
+    Get-ChildItem -Recurse -Directory | Where-Object { $_.Name -like "*$name*" } | Select-Object -First 1 | Set-Location
+}
 
 # Help Function
 function quick-help {$helpText = @"
