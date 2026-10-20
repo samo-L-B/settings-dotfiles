@@ -1,0 +1,325 @@
+NEOVIM NAVIGATION CHEATSHEET 
+
+
+1. BASIC MOVEMENT (You must master these first)
+    h → left
+    j → down
+    k → up
+    l → right
+
+    w → next word
+    W → next WORD (ignores punctuation)
+    b → previous word
+    B → previous WORD
+    e → end of word
+    ge → end of previous word
+
+    0 → beginning of line
+    ^ → first non-blank character
+    $ → end of line
+# ─────────────────────────────────────────────────────────────────────────
+2. VERTICAL & SCREEN MOVEMENT
+
+    gg → top of file
+    G → bottom of file
+    {number}G → go to line (e.g. 42G)
+
+    Ctrl + d → half-page down
+    Ctrl + u → half-page up
+    Ctrl + f → full page down
+    Ctrl + b → full page up
+
+    zz → center line
+    zt → line at top
+    zb → line at bottom
+# ─────────────────────────────────────────────────────────────────────────
+3. SEARCH & JUMPING
+
+    /pattern → search forward
+    ?pattern → search backward
+
+    n → next result
+    N → previous result
+
+    f<char> → jump to next char in line
+    F<char> → jump backward
+    t<char> → jump *before* char
+    T<char> → jump backward before char
+
+    ; → repeat
+    , → repeat reverse
+# ─────────────────────────────────────────────────────────────────────────
+4. WORD-LEVEL POWER MOVES
+
+    operators with motions:
+
+    d + motion → delete
+    c + motion → change
+    y + motion → yank
+
+    Examples:
+        dw → delete word
+        ciw → change inside word
+        di( → delete inside parentheses
+        da" → delete around quotes
+# ─────────────────────────────────────────────────────────────────────────
+5. TEXT OBJECTSw 
+
+    iw → inner word
+    aw → a word
+    i( → inside ()
+    a( → around ()
+    i{ → inside {}
+    i" → inside quotes
+    ip → inner paragraph
+
+    Examples:
+        ci" → replace text inside quotes
+        di{ → delete inside braces
+        yap → copy paragraph
+# ─────────────────────────────────────────────────────────────────────────
+6. MARKS & RETURNING 
+    ma → set mark "a"
+    'a → jump to line of mark
+    `a → jump to exact position
+    Ctrl + o → jump back
+    Ctrl + i → jump forward
+# ─────────────────────────────────────────────────────────────────────────
+7. FILE & BUFFER NAVIGATION
+
+    :e file → open file
+    :bn → next buffer
+    :bp → previous buffer
+    :bd → delete buffer
+    Quick switching
+    Ctrl + ^ → alternate file
+# ─────────────────────────────────────────────────────────────────────────
+8. WINDOW & SPLIT NAVIGATION
+
+    :split → horizontal
+    :vsplit → vertical
+        Move between splits
+        Ctrl + w + h/j/k/l
+        Resize
+        Ctrl + w + + / -
+        Ctrl + w + > / <
+# ─────────────────────────────────────────────────────────────────────────
+🔹 9. ADVANCED JUMPS (HIGH IMPACT)
+    Matching pairs
+    % → jump between (), {}, []
+    Jump by paragraph/block
+    { → previous paragraph
+    } → next paragraph
+    Jump by sentence
+    ( → previous sentence
+    ) → next sentence
+# ─────────────────────────────────────────────────────────────────────────
+🔹 10. MACRO-LEVEL NAVIGATION (EXPERT)
+    Repeat last action
+    . → repeat last change
+    Record macro
+    qa → record into register a
+    q → stop
+    @a → run macro
+# ─────────────────────────────────────────────────────────────────────────
+🔹 11. QUICK FIX NAVIGATION (for errors, LSP, etc.)
+    :cnext → next error
+    :cprev → previous error
+    :lopen → location list
+# ─────────────────────────────────────────────────────────────────────────
+🔹 12. SEARCH + EDIT COMBOS (REAL PRODUCTIVITY)
+    ciw → change word
+    c$ → change to end of line
+    d/search → delete until pattern
+# ─────────────────────────────────────────────────────────────────────────
+🔹 13. MULTI-FILE / CODEBASE NAVIGATION (CRITICAL)
+    Grep
+    :vimgrep /pattern/g **/*
+    :copen
+    Navigate results
+    :cnext
+    :cprev
+# ─────────────────────────────────────────────────────────────────────────
+🔹 14. SPEED BOOSTERS 
+
+    ciw, diw, yiw
+    f<char> + ;
+    zz constantly
+    Ctrl-o / Ctrl-i
+    % for brackets
+    marks (ma, 'a)
+        Examples:
+        delete inside quotes → di"
+        change around paragraph → cap
+        yank inside function → yi{
+# ─────────────────────────────────────────────────────────────────────────
+ASIC (MUST KNOW)
+        o → new line below (enter insert mode)
+        O → new line above (enter insert mode)
+        5o → insert 5 lines below
+        3O → insert 3 lines above
+
+        o<Esc> → insert line below, stay in normal mode
+        O<Esc> → insert line above, stay in normal mode
+
+    INSERT + POSITIONING
+        A<Enter> → go to end of line, insert new line below
+        I<Enter><Esc> → insert line above from beginning
+
+    INSERT BLANK LINES VIA COMMAND MODE
+        :put _  → insert blank line below
+        :put! _ → insert blank line above
+    
+    DUPLICATE LINES (COMMON USE CASE)
+        yy → copy line
+        p  → paste below
+        P  → paste above
+        With counts:
+        3yy → copy 3 lines
+        p   → paste them below
+
+    VISUAL MODE (MULTI-LINE INSERT)
+    Insert at beginning of multiple lines
+        Shift + v → select lines
+        Itext<Esc>
+
+    Append to multiple lines
+        Shift + v → select lines
+        Atext<Esc>
+        yy + p → duplicate line
+        5o     → create space fast
+
+
+
+CREATE SPACE + STAY IN CONTEXT: o<Esc>k
+
+INSERT LINES WITHOUT MOVING YOUR CURSOR (HUGE)
+    :call append(line('.'), '')
+
+    → insert line below without entering insert mode and keep cursor position
+
+    :call append(line('.')-1, '')
+
+    → insert line above without moving
+
+INSERT LINES ANYWHERE (NOT JUST CURRENT LINE)
+    :10put _
+
+    → insert blank line after line 10
+
+    :0put _
+
+    → insert at top of file
+
+    :$put _
+
+    → insert at end of file
+
+CREATE SPACING AROUND CODE (REAL-WORLD USE)
+    Add blank line above & below current line
+    O<Esc>o<Esc>
+    Add spacing around a block
+    vip
+    O<Esc>
+    o<Esc>
+INSERT LINES WITH CONTENT (NO INSERT MODE)
+
+    :put =repeat('foo\n', 3)
+
+    → inserts:
+
+    foo
+    foo
+    foo
+SMART DUPLICATION (BETTER THAN yy+p)
+    Duplicate line and stay in place
+    :t.
+    Duplicate line above
+    :t-1
+    Duplicate to end of file
+    :t$
+    :t = “copy to”
+INSERT LINE AND CONTINUE WRITING FAST
+    o
+
+    type…
+
+    Ctrl + c
+
+    → exits insert mode faster than <Esc>
+
+BREAK LINE WITHOUT ENTERING INSERT MODE
+    r<Enter>
+
+    → replaces character under cursor with newline
+
+SPLIT LINE AT CURSOR
+    i<Enter><Esc>
+
+    OR faster:
+
+    a<Enter><Esc>
+JOIN + RE-SPLIT (ADVANCED EDITING FLOW)
+    J
+
+    → join lines
+
+    Then:
+
+    f<char> r<Enter>
+
+    → re-break exactly where you want
+
+INSERT LINES IN VISUAL BLOCK MODE (ELITE)
+    Column-based insertion:
+    Ctrl + v → select column
+    Shift + I → type text
+    <Esc>
+
+    → inserts text on multiple lines at same column
+
+ADD TRAILING TEXT TO MANY LINES
+    Ctrl + v
+    select column
+    Atext<Esc>
+CONDITIONAL LINE INSERTION (SEARCH + INSERT)
+    :g/pattern/put _
+
+    → inserts blank line after every match
+
+INSERT BEFORE EVERY MATCH
+    :g/pattern/put! _
+CLEAN FILE FORMATTING TRICK
+    Add spacing between functions quickly:
+    :g/^function/put! _
+
+MICRO-OPTIMIZATIONS (THIS IS WHAT PROS DO)
+    ❌ o → type → <Esc>
+    ✅ o<Esc> → then operate
+
+    ❌ yy + p (moves cursor)
+    ✅ :t. (clean + stable)
+
+    ❌ manual navigation + insert
+    ✅ :g/pattern/put _
+
+Think in layers:
+
+    WHERE → line / pattern / block
+    WHAT → blank / duplicate / content
+    HOW → o / :put / :t / visual
+
+important shortcuts:
+    f_ d$
+    Breakdown:
+    f_ → jump to _
+    d$ → delete from there to end of line
+
+    f_ dW
+    f_ → go to _
+    dW → delete until next WORD boundary
+
+    f_ df_
+    What happens:
+    first f_ → jump to _
+    df_ → delete from _ up to next _
